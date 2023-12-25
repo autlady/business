@@ -1,0 +1,28 @@
+header.header-top.none
+   .container 
+      nav.nav
+         .nav__logo
+            img(src="./img/logo.webp", alt="logo")
+     
+         ul.nav__menu 
+            li
+               a(href="#!") О кондитере
+            li
+               a(href="#!") Преимущества
+            li 
+               a(href="#!") Продукция
+            li 
+               a(href="#!") Отзывы
+            li 
+               a(href="#!") Контакты
+            
+         .nav__social
+            +social([
+               { link: "#!", className: "vk" },
+               { link: "#!", className: "tg" },
+               { link: "#!", className: "wa" },
+            ])
+
+         .nav__tel 
+            a(href="tel:+79008885533") 8-900-888-55-33
+   

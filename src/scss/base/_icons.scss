@@ -1,0 +1,22 @@
+.svg-vk {
+    width: 25px;
+}
+
+.svg-tg {
+    width: 22px;
+}
+
+.svg-wa {
+    width: 20px;
+}
+
+.svg-vk, .svg-tg, .svg-wa {
+    height: 25px;
+    transition: .3s;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+
