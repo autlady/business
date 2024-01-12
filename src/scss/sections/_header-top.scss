@@ -26,12 +26,13 @@
         color: #000;
     }
 
-    a:hover, a.active {
-        color: var(--accent);
+    a:hover,
+    a.active {
+        color: var(--accent-green);
     }
 }
 
-   
+
 .nav__social {
     flex-shrink: 0;
 }
@@ -43,10 +44,11 @@
     a {
         font-size: 14px;
         color: #000;
-        white-space: nowrap;  
+        white-space: nowrap;
     }
 
-    a:hover, a.active {
-        color: var(--accent);
+    a:hover,
+    a.active {
+        color: var(--accent-green);
     }
-} 
+}

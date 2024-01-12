@@ -1,6 +1,0 @@
-mixin social(icons)
-    .social-icons
-        each item in icons
-            a(href="" +item.link).social-icons__item
-                svg(class="svg-" + item.className)
-                    use(href="./img/spriteSvg.svg#svg-" + item.className)

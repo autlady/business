@@ -1,11 +1,16 @@
 :root {
-	--container-width: 1106px;
-	--container-padding: 15px;
+	--container-width: 1700px;
 
-	--font-main: "Calibri", sans-serif;
+	--font-main: "Manrope", sans-serif;
 
-	--btn-color: #DD5514;
-	--gradient: linear-gradient(180deg, #00B09B 0%, #96C93D 100%);
-	--accent: #96C93D;
+	--accent-color: #FF0032;
+	--btn-hover-color: #C90027;
+	--btn-focus-color: #FF2D56;
+	--bg-header-color: #989898;
+	--bg-footer-color: #1B286A;
+	--bg-gradient: linear-gradient(180deg, #E84B3E 0%, #2C2762 100%);
+	--title-color: #2C2762;
+	--title-smooth-color: #EBEFF8;
+	--btn-text-blue-color: #346CFF;
 
 }

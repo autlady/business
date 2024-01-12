@@ -1,0 +1,8 @@
+mixin program(title, text)
+    .program-card
+        h3.program-card__title #{title}
+        p.program-card__text #{text}
+        a(href="#!").program-card__link
+            span Подробнее
+            svg.svg-arrow-right
+                use(href="./img/spriteSvg.svg#svg-arrow-right")

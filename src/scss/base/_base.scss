@@ -1,49 +1,41 @@
 @font-face {
-  font-family: 'Calibri';
-  src: local('Calibri Light Italic'), local('Calibri-LightItalic'),
-    url('../fonts/Calibri-LightItalic.woff2') format('woff2');
-  font-weight: 300;
-  font-style: italic;
+    font-family: 'Manrope';
+    src: local('Manrope Bold'), local('Manrope-Bold'),
+        url('../fonts/Manrope-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Calibri';
-  src: local('Calibri Bold'), local('Calibri-Bold'),
-    url('../fonts/Calibri-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
+    font-family: 'Manrope';
+    src: local('Manrope Semibold'), local('Manrope-Semibold'),
+        url('../fonts/Manrope-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Calibri';
-  src: local('Calibri'),
-    url('../fonts/Calibri.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Manrope';
+    src: local('Manrope Regular'), local('Manrope-Regular'),
+        url('../fonts/Manrope-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: local('Montserrat Regular'), local('Montserrat-Regular'),
-    url('../fonts/Montserrat-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Manrope';
+    src: local('Manrope Medium'), local('Manrope-Medium'),
+        url('../fonts/Manrope-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: local('Montserrat Bold'), local('Montserrat-Bold'),
-    url('../fonts/Montserrat-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: local('Inter Regular'), local('Inter-Regular'),
-    url('../fonts/Inter-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Manrope';
+    src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
+        url('../fonts/Manrope-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
 }
 
 * {
@@ -57,9 +49,6 @@
 html {
   scroll-behavior: smooth;
 }
-
-// font-family: 'Inter', sans-serif;
-// font-family: 'Montserrat', sans-serif;
 
 html,
 body {
@@ -82,6 +71,7 @@ body {
 a,
 a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
@@ -145,21 +135,61 @@ select:-webkit-autofill:focus {
 }
 
 .container {
-  width: var(--container-width);
+  max-width: var(--container-width);
   margin: 0 auto;
+  padding: 0 20px;
 }
 
-.h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+.headline {
+  font-size: 120px;
   font-weight: 700;
-  line-height: normal;
+  line-height: 1.2;
 }
 
-.h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+.title-group {
+  position: relative;
+  padding-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+.back-title {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  z-index: 1;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 1.36;
+  color: var(--title-smooth-color);
+}
+
+.section-title {
+  position: relative;
+  z-index: 2;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 66px;
+  color: var(--title-color);
+}
+
+.section-title-xl {
+  position: relative;
+  z-index: 2;
+  font-size: 61.5px;
   font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
+  line-height: 1.12; 
+  letter-spacing: -0.613px;
+  color: var(--title-color);
+}
+
+.title-group--center {
+  text-align: center;
+}
+
+.title-group--center .back-title {
+  left: 50%;
+  transform: translateX(-50%);
 }

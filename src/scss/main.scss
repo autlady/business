@@ -2,15 +2,29 @@
 @import "./base/_base";
 @import "./base/_icons";
 
-//blocks
+// blocks
 
-@import "./blocks/social";
-@import "./blocks/btn-calc";
-@import "./blocks/btn-more";
+@import "./blocks/btn";
+@import "./blocks/btn-icon";
+@import "./blocks/program-card";
+@import "./blocks/pagination";
+// @import "./blocks/menu-burger";
+// @import "./blocks/btn-more";
+// @import "./blocks/btn-gradient";
+// @import "./blocks/benefits-item";
+// @import "./blocks/products-slider";
+// @import "./blocks/product-card";
+// @import "./blocks/review-card";
 
 //sections
 
  @import "./sections/header-top";
- @import "./sections/header-content";
- @import "./sections/about";
+ @import "./sections/programs";
+//  @import "./sections/header-content";
+//  @import "./sections/about";
+//  @import "./sections/benefits";
+//  @import "./sections/products";
+//  @import "./sections/reviews";
+//  @import "./sections/contacts";
+//  @import "./sections/footer";
 
