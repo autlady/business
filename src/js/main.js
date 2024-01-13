@@ -1,4 +1,4 @@
-// const toggleMenu = document.querySelector('menu-toggle');
+// const toggleMenu = document.querySelector('menu-burger');
 
 // if (toggleMenu){
 //     toggleMenu.addEventListener('click', function(){
@@ -12,20 +12,37 @@
 // }
 
 
-
-const swiper = new Swiper('#products-slider', {
-
-  slidesPerView: 3,
-  spaceBetween: 32,
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  slidesPerView: 4,
+  spaceBetween: 20,
   loop: true,
 
+  // If we need pagination
   pagination: {
-    el: '#products-slider-pagination',
+    el: '.swiper-pagination',
+    type: 'fraction',
   },
 
+  // Navigation arrows
   navigation: {
-    nextEl: '#btn-next',
-    prevEl: '#btn-prev',
+    nextEl: '.program-slider-prev',
+    prevEl: '.program-slider-next',
+  },
+
+  breakpoints: {
+    350: {
+      slidesPerView: 2,
+    },
+    580: {
+      slidesPerView: 3,
+    },
+    900: {
+      slidesPerView: 4,
+    },
+    // 1200: {
+    //   slidesPerView: 4,
+    // },
   },
 });
 

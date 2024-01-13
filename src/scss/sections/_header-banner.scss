@@ -1,0 +1,42 @@
+.header-banner {
+    padding-top: 154px;
+    padding-bottom: 160px;
+    background-color: #989898;
+
+    @include mediaTablet {
+        padding-top: 108px;
+        padding-bottom: 140px;
+    }
+}
+
+.header-banner-content {
+    max-width: 1240px;
+}
+
+.header-banner__title {
+    margin-bottom: 47px;
+
+    @include mediaMobile {
+        margin-bottom: 36px;
+    }
+}
+
+.header-banner__text p {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+
+    @include mediaTablet {
+        font-size: 22px;
+    }
+
+    @include mediaMobile {
+        font-size: 14px;
+    }
+}
+
+.header-banner__text p + p {
+    margin-top: 30px;
+}

@@ -1,60 +1,64 @@
-.pagination {
-    display: flex;
-    align-items: center;
-    padding: 40px 0 80px;
-}
+// .pagination-wrapper {
+//     display: flex;
+//     align-items: center;
+//     padding: 40px 0 80px;
+// }
 
-.pagination__divider {
-    margin-right: 24px;
-    width: 272px;
-    height: 2px;
-    flex-shrink: 0;
-    background-color: var(--title-color);
-}
 
-a.pagination__icon-link .svg-prev,
-a.pagination__icon-link .svg-next {
-    width: 10px;
-    height: 19px;
-    fill: #2C2762;
 
-    &:hover {
-        fill: #FF0032;
-    }
-}
+// .pagination {
+//     display: flex;
+//     align-items: center;
+//     font-size: 18px;
+//     font-weight: 600;
+//     line-height: 1.5;
+//     color: var(--title-color);
+// }
 
-.pagination__prev {
-    margin-right: 17px;
-    margin-left: 17px;
-}
+// a.pagination__link {
+//     color: var(--title-color);
 
-.pagination__next {
-    margin-left: 17px;
-}
+//      &:hover {
+//         color: var(--accent-color);
+//     }
+// }
 
-.pagination__current {
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.5;
-    color: var(--title-color);
-}
+// .pagination__link-active {
+//     color: var(--accent-color);
+// }
 
-.pagination__current-ellipsis {
-    margin-right: 5px;
-    margin-left: 5px;
-}
+// a.pagination__link .svg-prev,
+// a.pagination__link .svg-next {
+//     width: 10px;
+//     height: 19px;
+//     fill: #2C2762;
 
-.pagination__current-active {
-    margin-right: 17px;
-    color: var(--accent-color);
-}
+//     &:hover {
+//         fill: #FF0032;
+//     }
+// }
 
-a.pagination__current-link {
-    color: var(--title-color);
+// .pagination-prev, .pagination-next {
+//     display: flex;
+//     align-items: center;
+// }
 
-    &:hover {
-        color: var(--accent-color);
-    }
-}
+// .pagination-prev {
+//     margin-right: 17px;
+// }
+
+// .pagination-next {
+//     margin-left: 17px;
+// }
+
+// .pagination__link-active {
+//     margin-right: 17px;
+// }
+
+// .pagination__ellipsis {
+//     margin: 0 5px;
+// }
+
+   
+
+

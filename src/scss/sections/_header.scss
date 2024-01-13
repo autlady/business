@@ -1,0 +1,217 @@
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    flex-shrink: 0;
+}
+
+.logo-img img {
+    width: 90px;
+    object-fit: contain;
+
+    @media(max-width: 1240px) {
+        width: 34px;
+    }
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    @media(max-width: 1240px) {
+        display: none;
+    }
+}
+
+a.logo-text {
+    position: relative;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 7px;
+    background-color: #FFF;
+
+    color: var(--btn-text-blue-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+
+    @media(max-width: 1240px) {
+        display: none;
+    }
+}
+
+a.logo-text::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: 8px;
+    background: linear-gradient(
+        180deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(248deg 100% 93%) 10%,
+        hsl(245deg 100% 86%) 20%,
+        hsl(241deg 100% 80%) 30%,
+        hsl(235deg 100% 72%) 40%,
+        hsl(222deg 100% 55%) 50%,
+        hsl(276deg 75% 56%) 60%,
+        hsl(308deg 100% 42%) 70%,
+        hsl(325deg 100% 48%) 80%,
+        hsl(337deg 100% 50%) 90%,
+        hsl(348deg 100% 50%) 100%
+      );
+}
+
+.social-icons {
+    display: inline-flex;
+    padding: 5px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    border-radius: 7px;
+    background-color: #FFF;
+
+    position: relative;
+}
+
+.social-icons::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: 8px;
+    background: linear-gradient(
+        180deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(248deg 100% 93%) 10%,
+        hsl(245deg 100% 86%) 20%,
+        hsl(241deg 100% 80%) 30%,
+        hsl(235deg 100% 72%) 40%,
+        hsl(222deg 100% 55%) 50%,
+        hsl(276deg 75% 56%) 60%,
+        hsl(308deg 100% 42%) 70%,
+        hsl(325deg 100% 48%) 80%,
+        hsl(337deg 100% 50%) 90%,
+        hsl(348deg 100% 50%) 100%
+      );
+}
+
+a.contact-phone {
+    position: relative;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 7px;
+    background-color: #FFF;
+
+    color: var(--btn-text-blue-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+
+    white-space: nowrap;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+a.contact-phone::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: 8px;
+    background: linear-gradient(
+        180deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(248deg 100% 93%) 10%,
+        hsl(245deg 100% 86%) 20%,
+        hsl(241deg 100% 80%) 30%,
+        hsl(235deg 100% 72%) 40%,
+        hsl(222deg 100% 55%) 50%,
+        hsl(276deg 75% 56%) 60%,
+        hsl(308deg 100% 42%) 70%,
+        hsl(325deg 100% 48%) 80%,
+        hsl(337deg 100% 50%) 90%,
+        hsl(348deg 100% 50%) 100%
+      );
+}
+
+.menu-burger.active {
+    
+}
+
+.nav__list {
+    display: none;
+}
+
+.mob-info {
+    display: none;
+
+    @media(max-width: 1240px) {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+}
+
+.social-icons-mob {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-icons-mob img {
+    width: 24px;
+    object-fit: contain;
+}
+
+a.social-icons-mob__item.icon-divider {
+    position: relative;
+}
+
+a.social-icons-mob__item.icon-divider::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    left: -7px;
+    background-color: var(--btn-text-blue-color);
+}
+

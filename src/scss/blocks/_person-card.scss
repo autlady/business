@@ -1,0 +1,38 @@
+.person-card {
+    max-width: 400px;
+}
+
+.person-card__img {
+    margin-bottom: 16px;
+    width: 400px;
+    height: 464px;
+    background-color: #D0D0D0;
+}
+
+.person-card__label {
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(98, 108, 119, 0.16);
+
+    color: #1D2023;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.person-card__name {
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: var(--title-color);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+.person-card__position {
+    color: #5C5E61;
+    font-size: 18px;
+    line-height: 1.5;
+}

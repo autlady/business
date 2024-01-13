@@ -1,13 +1,18 @@
+@import "./base/mixins";
 @import "./base/_var";
 @import "./base/_base";
 @import "./base/_icons";
+
 
 // blocks
 
 @import "./blocks/btn";
 @import "./blocks/btn-icon";
+@import "./blocks/btn-icon-mob";
+@import "./blocks/programs-slider";
 @import "./blocks/program-card";
 @import "./blocks/pagination";
+@import "./blocks/person-card";
 // @import "./blocks/menu-burger";
 // @import "./blocks/btn-more";
 // @import "./blocks/btn-gradient";
@@ -18,8 +23,14 @@
 
 //sections
 
- @import "./sections/header-top";
+ @import "./sections/header";
+ @import "./sections/header-banner";
  @import "./sections/programs";
+ @import "./sections/cta";
+ @import "./sections/team";
+ @import "./sections/partners";
+ @import "./sections/footer";
+ @import "./sections/ui";
 //  @import "./sections/header-content";
 //  @import "./sections/about";
 //  @import "./sections/benefits";

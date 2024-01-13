@@ -136,14 +136,31 @@ select:-webkit-autofill:focus {
 
 .container {
   max-width: var(--container-width);
+  width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .headline {
   font-size: 120px;
   font-weight: 700;
   line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;
+
+  @include mediaLaptop {
+    font-size: 70px;
+  }
+
+  @include mediaTablet {
+    font-size: 50px;
+  }
+
+  @include mediaMobile {
+    font-size: 38px;
+    line-height: 1; 
+    text-transform: none;
+  }
 }
 
 .title-group {
@@ -153,6 +170,18 @@ select:-webkit-autofill:focus {
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 32px;
+
+  @media (max-width: 1260px) {
+    padding-top: 40px;
+  }
+
+  @include mediaMobile {
+    padding-top: 20px;
+  }
+
+  @media (max-width: 390px) {
+    padding-top: 50px;
+  }
 }
 
 .back-title {
@@ -164,6 +193,21 @@ select:-webkit-autofill:focus {
   font-weight: 800;
   line-height: 1.36;
   color: var(--title-smooth-color);
+
+  @media (max-width: 1260px) {
+    left: 50px;
+    font-size: 70px;
+  }
+
+  @include mediaMobile {
+    left: 30px;
+    font-size: 40px;
+    line-height: 0.8;
+  }
+
+  @media (max-width: 460px) {
+    left: 0px;
+  }
 }
 
 .section-title {
@@ -173,6 +217,15 @@ select:-webkit-autofill:focus {
   font-weight: 800;
   line-height: 66px;
   color: var(--title-color);
+
+  @include mediaMobile {
+    font-size: 26px;
+    line-height: 1;
+  }
+}
+
+.section-title span {
+  color: var(--accent-color);
 }
 
 .section-title-xl {
@@ -186,6 +239,7 @@ select:-webkit-autofill:focus {
 }
 
 .title-group--center {
+  justify-content: center;
   text-align: center;
 }
 

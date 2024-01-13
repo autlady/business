@@ -1,14 +1,5 @@
-<svg width="105" height="54" viewBox="0 0 105 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="105" height="54" rx="8" fill="white"/>
-<rect x="0.5" y="0.5" width="104" height="53" rx="7.5" stroke="url(#paint0_linear_3_5058)" stroke-opacity="0.7"/>
-<path d="M23 15H81" stroke="#185CFF" stroke-width="3"/>
-<path d="M23 27H81" stroke="#185CFF" stroke-width="3"/>
-<path d="M42 39L81 39" stroke="#FF002D" stroke-width="3"/>
-<defs>
-<linearGradient id="paint0_linear_3_5058" x1="52.5" y1="0" x2="52.5" y2="54" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="0.520833" stop-color="#185CFF"/>
-<stop offset="1" stop-color="#FF0032"/>
-</linearGradient>
-</defs>
+<svg width="35" height="24" viewBox="0 0 35 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.18164 5H31.818" stroke="#185CFF" stroke-width="2"/>
+<path d="M3.18164 12H31.818" stroke="#185CFF" stroke-width="2"/>
+<path d="M11.1367 19L31.8185 19" stroke="#FF0032" stroke-width="2"/>
 </svg>

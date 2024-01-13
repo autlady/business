@@ -1,0 +1,11 @@
+.partners-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.partners-content img {
+    filter: grayscale(0.5); /* W3C */  
+}
+
