@@ -12,7 +12,7 @@
 // }
 
 
-const swiper = new Swiper('.programs-slider', {
+const swiperPrograms = new Swiper('.programs-slider', {
   // Optional parameters
   slidesPerView: 4,
   spaceBetween: 20,

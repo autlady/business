@@ -4,9 +4,15 @@
 
 .person-card__img {
     margin-bottom: 16px;
-    width: 400px;
     height: 464px;
     background-color: #D0D0D0;
+}
+
+.person-card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
 }
 
 .person-card__label {
