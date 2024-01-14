@@ -16,7 +16,7 @@ const swiperPrograms = new Swiper('.programs-slider', {
   // Optional parameters
   slidesPerView: 4,
   spaceBetween: 20,
-  loop: true,
+  // loop: true,
 
   // If we need pagination
   pagination: {
@@ -26,8 +26,8 @@ const swiperPrograms = new Swiper('.programs-slider', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.program-slider-prev',
-    prevEl: '.program-slider-next',
+    nextEl: '.program-slider-next',
+    prevEl: '.program-slider-prev',
   },
 
   breakpoints: {
@@ -50,7 +50,7 @@ const swiperPersons = new Swiper('.persons-slider', {
   // Optional parameters
   slidesPerView: 4,
   spaceBetween: 20,
-  loop: true,
+  // loop: true,
 
   // If we need pagination
   pagination: {
@@ -60,8 +60,8 @@ const swiperPersons = new Swiper('.persons-slider', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.program-slider-prev',
-    prevEl: '.program-slider-next',
+    nextEl: '.program-slider-next',
+    prevEl: '.program-slider-prev',
   },
 
   breakpoints: {
