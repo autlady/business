@@ -3,8 +3,8 @@
 }
 
 .news-card__img {
-    margin-bottom: 16px;
-    height: 464px;
+    margin-bottom: 12px;
+    height: 224px;
     background-color: #D0D0D0;
 
     @media (max-width: 1200px) {
@@ -30,28 +30,25 @@
 }
 
 .news-card__title {
-    margin-top: 12px;
     margin-bottom: 16px;
-    color: var(--title-color);
-    font-size: 30px;
+    color: #212122;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 1.28;
+    line-height: 1.5;
 
     @media (max-width: 998px) {
-        margin-top: 10px;
         margin-bottom: 12px;
         font-size: 20px;
     }
 
     @media (max-width: 480px) {
-        margin-top: 8px;
         margin-bottom: 8px;
     }
 }
 
 .person-card__info p {
-    color: #5C5E61;
-    font-size: 18px;
+    color: #727272;
+    font-size: 14px;
     line-height: 1.5;
 
     @media (max-width: 998px) {
