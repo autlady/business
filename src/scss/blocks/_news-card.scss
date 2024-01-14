@@ -1,4 +1,7 @@
 .news-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 400px;
 }
 
@@ -6,6 +9,7 @@
     margin-bottom: 12px;
     height: 224px;
     background-color: #D0D0D0;
+    flex-shrink: 0;
 
     @media (max-width: 998px) {
         margin-bottom: 8px;
@@ -25,14 +29,17 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 1.5;
+    flex-grow: 1;
 
     @media (max-width: 998px) {
         margin-bottom: 12px;
     }
 }
 
-.person-card__info p {
+.news-card__info {
     color: #727272;
     font-size: 14px;
     line-height: 1.5;
+    flex-shrink: 0;
 }
+
