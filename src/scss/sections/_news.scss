@@ -1,4 +1,4 @@
-.team {
+.news {
     position: relative;
     padding-top: 100px;
     padding-bottom: 150px;
@@ -9,13 +9,13 @@
       }
 }
 
-.team .btn-icon {
+.news .btn-icon {
     @media (max-width: 1388px) {
         display: none;
 }
 }
 
-.team .btn-icon-mob {
+.news .btn-icon-mob {
     display: none;
 
     @media (max-width: 1388px) {

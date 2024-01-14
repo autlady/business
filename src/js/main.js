@@ -11,6 +11,7 @@
 //     })
 // }
 
+  // Programs slider
 
 const swiperPrograms = new Swiper('.programs-slider', {
   // Optional parameters
@@ -46,6 +47,7 @@ const swiperPrograms = new Swiper('.programs-slider', {
   },
 });
 
+  // Persons slider
 const swiperPersons = new Swiper('.persons-slider', {
   // Optional parameters
   slidesPerView: 4,
@@ -66,6 +68,9 @@ const swiperPersons = new Swiper('.persons-slider', {
 
   breakpoints: {
     350: {
+      slidesPerView: 1,
+    },
+    480: {
       slidesPerView: 2,
     },
     580: {

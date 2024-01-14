@@ -6,6 +6,20 @@
     margin-bottom: 16px;
     height: 464px;
     background-color: #D0D0D0;
+
+    @media (max-width: 1200px) {
+        height: 320px;
+    }
+
+    @media (max-width: 998px) {
+        height: 280px;
+    }
+
+    @media (max-width: 480px) {
+        margin-bottom: 12px;
+        width: 320px;
+        height: 370px;
+    }
 }
 
 .person-card__img img {
@@ -26,6 +40,12 @@
     color: #1D2023;
     font-size: 16px;
     line-height: 34px;
+
+    @media (max-width: 998px) {
+        font-size: 14px;
+        height: 24px;
+        line-height: 22px;
+    }
 }
 
 .person-card__name {
@@ -35,10 +55,29 @@
     font-size: 30px;
     font-weight: 600;
     line-height: 1.28;
+
+    @media (max-width: 998px) {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+
+    @media (max-width: 480px) {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
 }
 
 .person-card__position {
     color: #5C5E61;
     font-size: 18px;
     line-height: 1.5;
+
+    @media (max-width: 998px) {
+        font-size: 16px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 14px;
+    }
 }
