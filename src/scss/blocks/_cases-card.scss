@@ -1,0 +1,79 @@
+.cases-card {
+    padding-top: 54px;
+    padding-bottom: 75px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    gap: 20px;
+    background-color: #F8F8FF;
+
+}
+
+.cases-card::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    width: 8px;
+    background: var(--accent-color);
+    border-radius: 0 8px 8px 0;
+
+    @media(max-width: 390px) {
+        width: 0;
+    }
+}
+
+.cases-card__video {
+    position: relative;
+    width: 362px;
+    height: 204px;
+    background-color: #D9D9D9;
+    flex-shrink: 0;
+}
+
+.cases-card-desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.cases-card__title {
+    padding-right: 150px;
+    color: #353F4B;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.cases-card__text p {
+    color: #4D4D4D;
+    font-size: 18px;
+    line-height: 1.5; 
+}
+
+.cases-card__text p + p {
+    margin-top: 15px;
+}
+
+.start-video__btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+}
+
+.svg-play {
+    height: 40px;
+    width: 40px;
+}

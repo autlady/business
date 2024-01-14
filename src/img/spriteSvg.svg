@@ -21,6 +21,13 @@
 		</g>
 	</symbol>
 
+	 <!-- play -->
+	<symbol id="svg-play" viewBox="0 0 40 40">
+		<g>
+		    <path d="M28.625 20.3123L16.1565 27.511L16.1565 13.1136L28.625 20.3123Z" fill="#FF0032"/>
+		</g>
+	</symbol>
+
 	<!-- telegram -->
 	<symbol id="svg-tg" viewBox="0 0 47 45">
 		<g>

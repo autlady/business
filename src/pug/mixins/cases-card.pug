@@ -1,6 +1,9 @@
 mixin case(title, text)
     .cases-card
         .cases-card__video
+            button.start-video__btn
+                svg.svg-play
+                    use(href="./img/spriteSvg.svg#svg-play")
         .cases-card-desc
             h3.cases-card__title #{title} 
             .cases-card__text 
