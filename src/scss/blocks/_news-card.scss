@@ -7,18 +7,8 @@
     height: 224px;
     background-color: #D0D0D0;
 
-    @media (max-width: 1200px) {
-        height: 320px;
-    }
-
     @media (max-width: 998px) {
-        height: 280px;
-    }
-
-    @media (max-width: 480px) {
-        margin-bottom: 12px;
-        width: 320px;
-        height: 370px;
+        margin-bottom: 8px;
     }
 }
 
@@ -38,11 +28,6 @@
 
     @media (max-width: 998px) {
         margin-bottom: 12px;
-        font-size: 20px;
-    }
-
-    @media (max-width: 480px) {
-        margin-bottom: 8px;
     }
 }
 
@@ -50,12 +35,4 @@
     color: #727272;
     font-size: 14px;
     line-height: 1.5;
-
-    @media (max-width: 998px) {
-        font-size: 16px;
-    }
-
-    @media (max-width: 480px) {
-        font-size: 14px;
-    }
 }
