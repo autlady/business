@@ -54,20 +54,8 @@
     bottom: 0;
     left: 0;
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 3px;
     background-color: var(--accent-color);
     z-index: -1;
 }
-
-// .list-group-item {
-//     color: #969696;
-//     font-size: 20px;
-//     font-weight: 600;
-//     line-height: 40px;
-//     letter-spacing: -0.2px;
-
-//     &:focus, &:active {
-//         color: #292D33;
-//     }
-// }
