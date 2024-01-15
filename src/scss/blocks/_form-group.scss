@@ -1,4 +1,12 @@
-.select {
+.form-group-title {
+    color: #989FA7;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+}
+
+.select-services {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -14,4 +22,12 @@
 
 .select::-ms-expand {
     display: none;
+}
+
+.select-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
 }

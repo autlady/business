@@ -6,10 +6,11 @@ section.services
         .services-content 
             .form-group-title Для кого:
             .form-group
-                select(name="select-category" id="").select
-                    option(value="1") Заметки путешественника
-                    option(value="2") Конспекты
-                    option(value="3") Фотоальбом
-                    option(value="4") Дневник
+                .select-wrapper
+                    select(name="select-category" id="").select-services
+                        option(value="1") Заметки путешественника
+                        option(value="2") Конспекты
+                        option(value="3") Фотоальбом
+                        option(value="4") Дневник
                     
         //- include ../blocks/persons-slider.pug
