@@ -53,36 +53,6 @@
   swips.init();
 })();
 
-// const swiperPrograms = new Swiper('.programs-slider', {
-
-//   slidesPerView: 4,
-//   spaceBetween: 20,
-
-
-  
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
-
-
-//   navigation: {
-//     nextEl: '.program-slider-next',
-//     prevEl: '.program-slider-prev',
-//   },
-
-//   breakpoints: {
-//     320: {
-//       slidesPerView: 2,
-//     },
-//     580: {
-//       slidesPerView: 3,
-//     },
-//     900: {
-//       slidesPerView: 4,
-//     },
-//   },
-// });
-
   // Persons slider
 const swiperPersons = new Swiper('.persons-slider', {
   // Optional parameters
