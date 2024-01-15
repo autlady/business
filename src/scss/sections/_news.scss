@@ -6,13 +6,13 @@
     @include mediaTablet {
         padding-top: 40px;
         padding-bottom: 60px;
-      }
+    }
 }
 
 .news .btn-icon {
     @media (max-width: 1388px) {
         display: none;
-}
+    }
 }
 
 .news .btn-icon-mob {
@@ -21,6 +21,17 @@
     @media (max-width: 1388px) {
         display: inline-flex;
         margin-top: 35px;
-}
+    }
 }
 
+.news .list-group {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 40px;
+
+    color: #292D33;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+}
