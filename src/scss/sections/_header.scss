@@ -69,20 +69,18 @@ a.logo-text::after {
     z-index: -1;
     margin: -1px;
     border-radius: 8px;
-    background: linear-gradient(
-        180deg,
-        hsl(0deg 0% 100%) 0%,
-        hsl(248deg 100% 93%) 10%,
-        hsl(245deg 100% 86%) 20%,
-        hsl(241deg 100% 80%) 30%,
-        hsl(235deg 100% 72%) 40%,
-        hsl(222deg 100% 55%) 50%,
-        hsl(276deg 75% 56%) 60%,
-        hsl(308deg 100% 42%) 70%,
-        hsl(325deg 100% 48%) 80%,
-        hsl(337deg 100% 50%) 90%,
-        hsl(348deg 100% 50%) 100%
-      );
+    background: linear-gradient(180deg,
+            hsl(0deg 0% 100%) 0%,
+            hsl(248deg 100% 93%) 10%,
+            hsl(245deg 100% 86%) 20%,
+            hsl(241deg 100% 80%) 30%,
+            hsl(235deg 100% 72%) 40%,
+            hsl(222deg 100% 55%) 50%,
+            hsl(276deg 75% 56%) 60%,
+            hsl(308deg 100% 42%) 70%,
+            hsl(325deg 100% 48%) 80%,
+            hsl(337deg 100% 50%) 90%,
+            hsl(348deg 100% 50%) 100%);
 }
 
 .social-icons {
@@ -108,20 +106,18 @@ a.logo-text::after {
     z-index: -1;
     margin: -1px;
     border-radius: 8px;
-    background: linear-gradient(
-        180deg,
-        hsl(0deg 0% 100%) 0%,
-        hsl(248deg 100% 93%) 10%,
-        hsl(245deg 100% 86%) 20%,
-        hsl(241deg 100% 80%) 30%,
-        hsl(235deg 100% 72%) 40%,
-        hsl(222deg 100% 55%) 50%,
-        hsl(276deg 75% 56%) 60%,
-        hsl(308deg 100% 42%) 70%,
-        hsl(325deg 100% 48%) 80%,
-        hsl(337deg 100% 50%) 90%,
-        hsl(348deg 100% 50%) 100%
-      );
+    background: linear-gradient(180deg,
+            hsl(0deg 0% 100%) 0%,
+            hsl(248deg 100% 93%) 10%,
+            hsl(245deg 100% 86%) 20%,
+            hsl(241deg 100% 80%) 30%,
+            hsl(235deg 100% 72%) 40%,
+            hsl(222deg 100% 55%) 50%,
+            hsl(276deg 75% 56%) 60%,
+            hsl(308deg 100% 42%) 70%,
+            hsl(325deg 100% 48%) 80%,
+            hsl(337deg 100% 50%) 90%,
+            hsl(348deg 100% 50%) 100%);
 }
 
 a.contact-phone {
@@ -156,28 +152,31 @@ a.contact-phone::after {
     z-index: -1;
     margin: -1px;
     border-radius: 8px;
-    background: linear-gradient(
-        180deg,
-        hsl(0deg 0% 100%) 0%,
-        hsl(248deg 100% 93%) 10%,
-        hsl(245deg 100% 86%) 20%,
-        hsl(241deg 100% 80%) 30%,
-        hsl(235deg 100% 72%) 40%,
-        hsl(222deg 100% 55%) 50%,
-        hsl(276deg 75% 56%) 60%,
-        hsl(308deg 100% 42%) 70%,
-        hsl(325deg 100% 48%) 80%,
-        hsl(337deg 100% 50%) 90%,
-        hsl(348deg 100% 50%) 100%
-      );
+    background: linear-gradient(180deg,
+            hsl(0deg 0% 100%) 0%,
+            hsl(248deg 100% 93%) 10%,
+            hsl(245deg 100% 86%) 20%,
+            hsl(241deg 100% 80%) 30%,
+            hsl(235deg 100% 72%) 40%,
+            hsl(222deg 100% 55%) 50%,
+            hsl(276deg 75% 56%) 60%,
+            hsl(308deg 100% 42%) 70%,
+            hsl(325deg 100% 48%) 80%,
+            hsl(337deg 100% 50%) 90%,
+            hsl(348deg 100% 50%) 100%);
 }
 
-.menu-burger.active {
-    
+.menu-burger.active {}
+
+.nav__list a {
+    color: #353F4B;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.28;
 }
 
-.nav__list {
-    display: none;
+.nav__list li:not(:last-child) {
+    margin-top: 32px;
 }
 
 .mob-info {
@@ -214,4 +213,3 @@ a.social-icons-mob__item.icon-divider::before {
     left: -7px;
     background-color: var(--btn-text-blue-color);
 }
-
