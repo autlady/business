@@ -4,21 +4,22 @@ section.news
             p.back-title События
             h2.section-title Новости
             +btn-icon("Все новости")
-        ul.list-group.list-group-horizontal-xl.mb-3
+        ul.list-group
             li.list-group-item(data-tab="tab-1") Лента
             li.list-group-item(data-tab="tab-2") Новости
             li.list-group-item(data-tab="tab-3") СМИ
             li.list-group-item(data-tab="tab-4") Мероприятия
             li.list-group-item(data-tab="tab-5") Видео
-        div(class="card p-3 hidden" data-tab-content id="tab-1")
-            h1 таб1
-        div(class="card p-3 hidden" data-tab-content id="tab-2")
+        div(class="card hidden" data-tab-content id="tab-1")
+            h1 Таб 1
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus fugit corrupti culpa libero quam mollitia magni pariatur, quos soluta commodi porro voluptatem! Voluptate nobis veniam voluptatum, quisquam et obcaecati?
+        div(class="card hidden" data-tab-content id="tab-2")
             h1 таб2
-        div(class="card p-3 hidden" data-tab-content id="tab-3")
+        div(class="card hidden" data-tab-content id="tab-3")
             h1 таб3
-        div(class="card p-3 hidden" data-tab-content id="tab-4")
+        div(class="card hidden" data-tab-content id="tab-4")
             h1 таб4
-        div(class="card p-3 hidden" data-tab-content id="tab-5")
+        div(class="card hidden" data-tab-content id="tab-5")
             h1 таб5
         include ../blocks/news-slider.pug
         +btn-icon-mob("Все новости")
