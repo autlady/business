@@ -9,6 +9,10 @@
     gap: 20px;
     background-color: #F8F8FF;
 
+    @media (max-width: 797px) {
+        flex-direction: column;
+    }
+
 }
 
 .cases-card::before {
@@ -32,12 +36,21 @@
     height: 204px;
     background-color: #D9D9D9;
     flex-shrink: 0;
+
+    @media (max-width: 480px) {
+        width: 100%;
+    }
 }
 
 .cases-card-desc {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+
+
+    @media (max-width: 797px) {
+        row-gap: 12px;
+    }
 }
 
 .cases-card__title {
@@ -46,12 +59,25 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 1.1;
+
+    @media (max-width: 1200px) {
+        padding-right: 0;
+        font-size: 28px;
+    }
+
+    @media (max-width: 998px) {
+        font-size: 18px;
+    }
 }
 
 .cases-card__text p {
     color: #4D4D4D;
     font-size: 18px;
     line-height: 1.5; 
+
+    @media (max-width: 998px) {
+        font-size: 14px;
+    }
 }
 
 .cases-card__text p + p {

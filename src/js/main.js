@@ -128,19 +128,4 @@ const swiperCases = new Swiper('.cases-slider', {
     nextEl: '.program-slider-next',
     prevEl: '.program-slider-prev',
   },
-
-  // breakpoints: {
-  //   350: {
-  //     slidesPerView: 1,
-  //   },
-  //   480: {
-  //     slidesPerView: 1,
-  //   },
-  //   580: {
-  //     slidesPerView: 1,
-  //   },
-  //   900: {
-  //     slidesPerView: 1,
-  //   },
-  // },
 });
