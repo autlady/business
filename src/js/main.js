@@ -138,9 +138,15 @@ const swiperPartners = new Swiper('.partners-slider', {
   spaceBetween: 20,
   // loop: true,
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.program-slider-next',
-    prevEl: '.program-slider-prev',
+  breakpoints: {
+    320: {
+      slidesPerView: 3,
+    },
+    580: {
+      slidesPerView: 4,
+    },
+    900: {
+      slidesPerView: 5,
+    },
   },
 });
