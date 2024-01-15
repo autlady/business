@@ -129,3 +129,18 @@ const swiperCases = new Swiper('.cases-slider', {
     prevEl: '.program-slider-prev',
   },
 });
+
+// Cases slider
+
+const swiperPartners = new Swiper('.partners-slider', {
+  // Optional parameters
+  slidesPerView: 5,
+  spaceBetween: 20,
+  // loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.program-slider-next',
+    prevEl: '.program-slider-prev',
+  },
+});
