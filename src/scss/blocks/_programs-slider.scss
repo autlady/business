@@ -94,3 +94,20 @@
     border-radius: 1px;
     background: var(--accent-color);
 }
+
+.programs-slider .swiper-slide {
+    @media (min-width: 1200px) {
+        width: 270px;
+    }
+
+    @media (min-width: 1400px) {
+        width: 300px;
+    }
+}
+
+.programs-slider .swiper-wrapper {
+    @media (min-width: 1200px) {
+        column-gap: 20px;
+    }
+   
+}

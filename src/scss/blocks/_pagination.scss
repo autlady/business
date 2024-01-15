@@ -1,4 +1,9 @@
+.programs-slider {
+   
+}
+
 .pagination-wrapper {
+    position: relative;
     display: flex;
     align-items: center;
     padding: 40px 0 80px;
@@ -8,7 +13,11 @@
     }
 }
 
-
+.programs-slider .swiper-pagination {
+position: absolute;
+bottom: 10px;
+z-index: 2;
+}
 
 .pagination {
     display: flex;
