@@ -88,13 +88,6 @@
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    type: 'fraction',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.program-slider-next',
-    prevEl: '.program-slider-prev',
   },
 
   breakpoints: {
@@ -112,6 +105,35 @@
     },
   },
   });
+
+  swips.addSwiper(".news-slider", "min-width:1200px", {
+    // Optional parameters
+  // Optional parameters
+  slidesPerView: 4,
+  spaceBetween: 20,
+  // loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    580: {
+      slidesPerView: 3,
+    },
+    900: {
+      slidesPerView: 4,
+    },
+  },
+  });
+
 
   swips.init();
 })();
@@ -154,39 +176,39 @@
 
 // News slider
 
-const swiperNews = new Swiper('.news-slider', {
-  // Optional parameters
-  slidesPerView: 4,
-  spaceBetween: 20,
-  // loop: true,
+// const swiperNews = new Swiper('.news-slider', {
+//   // Optional parameters
+//   slidesPerView: 4,
+//   spaceBetween: 20,
+//   // loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'fraction',
-  },
+//   // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//     type: 'fraction',
+//   },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.program-slider-next',
-    prevEl: '.program-slider-prev',
-  },
+//   // Navigation arrows
+//   navigation: {
+//     nextEl: '.program-slider-next',
+//     prevEl: '.program-slider-prev',
+//   },
 
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    480: {
-      slidesPerView: 2,
-    },
-    580: {
-      slidesPerView: 3,
-    },
-    900: {
-      slidesPerView: 4,
-    },
-  },
-});
+//   breakpoints: {
+//     320: {
+//       slidesPerView: 1,
+//     },
+//     480: {
+//       slidesPerView: 2,
+//     },
+//     580: {
+//       slidesPerView: 3,
+//     },
+//     900: {
+//       slidesPerView: 4,
+//     },
+//   },
+// });
 
 // Cases slider
 
