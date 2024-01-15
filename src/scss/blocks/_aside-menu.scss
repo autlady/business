@@ -1,7 +1,46 @@
-.aside-menu-logo {
+.aside-menu {
+    padding: 20px;
+    width: 440px;
+    background-color: yellow;
+}
+
+.aside-menu-top {
+    border-bottom: 1px solid #C7C7C7;
+    padding-bottom: 50px;
+}
+
+.aside-menu__logo {
     display: flex;
     gap: 40px;
     align-items: center;
+    margin-bottom: 60px;
+}
+
+.aside-menu__social {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 33px;
+}
+
+.aside-menu__social-item {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+a.aside-menu__social-item {
+    color: #353F4B;
+    font-size: 20px;
+    line-height: 1.75;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+.nav__list {
+    margin-top: 50px;
 }
 
 .nav__list a {

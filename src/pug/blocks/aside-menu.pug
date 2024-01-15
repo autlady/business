@@ -1,10 +1,17 @@
 .aside-menu
-    .aside-menu-logo 
-        a(href="#!").menu-logo-img
-            img(src="./img/logo.webp", alt="logo")
-        a(href="#!").menu-logo-text АНО Центр защиты бизнеса  
-    .aside-menu-social 
-    a(href="tel:89998889090").aside-menu-tel +7 999 888 90 09   
+    .aside-menu-top
+        .aside-menu__logo 
+            a(href="#!").menu-logo-img
+                img(src="./img/logo.webp", alt="logo")
+            a(href="#!").menu-logo-text АНО Центр защиты бизнеса  
+        .aside-menu__social
+            a(href="#!").aside-menu__social-item
+                img(src="./img/socials/whatsapp.svg")
+                span WhatsApp
+            a(href="#!").aside-menu__social-item
+                img(src="./img/socials/tg.svg")
+                span Telegram
+        a(href="tel:89998889090").aside-menu-tel +7 999 888 90 09   
     ul.nav__list
         li
             a(href="#!") Главная
