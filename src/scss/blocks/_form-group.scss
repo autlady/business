@@ -1,0 +1,17 @@
+.select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    border: 2px solid #DEE1E7;
+    outline: none;
+    background-color: #fff;
+
+    padding: 16px 197px 16px 24px;
+    cursor: pointer;
+
+}
+
+.select::-ms-expand {
+    display: none;
+}
