@@ -123,30 +123,24 @@ const swiperCases = new Swiper('.cases-slider', {
   spaceBetween: 20,
   // loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'fraction',
-  },
-
   // Navigation arrows
   navigation: {
     nextEl: '.program-slider-next',
     prevEl: '.program-slider-prev',
   },
 
-  breakpoints: {
-    350: {
-      slidesPerView: 1,
-    },
-    480: {
-      slidesPerView: 1,
-    },
-    580: {
-      slidesPerView: 1,
-    },
-    900: {
-      slidesPerView: 1,
-    },
-  },
+  // breakpoints: {
+  //   350: {
+  //     slidesPerView: 1,
+  //   },
+  //   480: {
+  //     slidesPerView: 1,
+  //   },
+  //   580: {
+  //     slidesPerView: 1,
+  //   },
+  //   900: {
+  //     slidesPerView: 1,
+  //   },
+  // },
 });
