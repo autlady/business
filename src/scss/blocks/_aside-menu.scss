@@ -1,6 +1,7 @@
 .aside-menu-logo {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .nav__list a {
@@ -16,4 +17,29 @@
 
 .nav__list li:not(:last-child) {
     margin-bottom: 32px;
+}
+
+.menu-logo-img img {
+    width: 60px;
+    object-fit: contain;
+
+    @media(max-width: 1240px) {
+        width: 46px;
+    }
+}
+
+a.menu-logo-text {
+    color: #346CFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a.aside-menu-tel {
+    color: #353F4B;
+    font-size: 20px;
+    line-height: 35px;
+
+    &:hover {
+        color: var(--accent-color);
+    }
 }
