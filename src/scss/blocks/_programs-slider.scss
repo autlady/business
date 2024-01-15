@@ -70,6 +70,13 @@
 }
 
 .program-slider-prev.prevXl .svg-prev, .svg-next {
+    width: 46px;
     height: 46px;
     fill: var(--accent-color);
+}
+
+.program-slider-controls.cases-controls {
+    gap: 80px;
+    // left: 50%;
+    // transform: translateX(-50%);
 }
