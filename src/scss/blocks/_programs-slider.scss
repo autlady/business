@@ -80,3 +80,17 @@
     // left: 50%;
     // transform: translateX(-50%);
 }
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 5px;
+    border-radius: 1px;
+    background: #D0D0D0;
+}
+
+.swiper-pagination-bullet-active {
+    width: 42px;
+    height: 5px;
+    border-radius: 1px;
+    background: var(--accent-color);
+}

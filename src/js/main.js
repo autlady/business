@@ -22,7 +22,7 @@ const swiperPrograms = new Swiper('.programs-slider', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    type: 'fraction',
+    // type: 'fraction',
   },
 
   // Navigation arrows
