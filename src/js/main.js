@@ -32,7 +32,7 @@ const swiperPrograms = new Swiper('.programs-slider', {
   },
 
   breakpoints: {
-    350: {
+    320: {
       slidesPerView: 2,
     },
     580: {
@@ -64,7 +64,42 @@ const swiperPersons = new Swiper('.persons-slider', {
   },
 
   breakpoints: {
-    350: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    580: {
+      slidesPerView: 3,
+    },
+    900: {
+      slidesPerView: 4,
+    },
+  },
+});
+
+// Board slider
+const swiperBoard = new Swiper('.board-slider', {
+  // Optional parameters
+  slidesPerView: 4,
+  spaceBetween: 20,
+  // loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.program-slider-next',
+    prevEl: '.program-slider-prev',
+  },
+
+  breakpoints: {
+    320: {
       slidesPerView: 1,
     },
     480: {
@@ -100,7 +135,7 @@ const swiperNews = new Swiper('.news-slider', {
   },
 
   breakpoints: {
-    350: {
+    320: {
       slidesPerView: 1,
     },
     480: {
@@ -130,7 +165,7 @@ const swiperCases = new Swiper('.cases-slider', {
   },
 });
 
-// Cases slider
+// Partners slider
 
 const swiperPartners = new Swiper('.partners-slider', {
   // Optional parameters
