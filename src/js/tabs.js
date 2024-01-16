@@ -3,10 +3,14 @@ const tabHeaders = document.querySelectorAll('[data-tab]');
 // Нашли все контент боксы
 const contentBoxes = document.querySelectorAll('[data-tab-content]');
 
-tabHeaders.forEach(function (item) {
-    item.addEventListener('click', function () {
+for (item of tabHeaders) {
+    item.addEventListener('click', function(e) {
+        for (el of tabHeaders) {
+            el.classList.remove('active');
+        }
+        e.target.classList.add('active');
 
-        // 1. Скрыть все content box
+                // 1. Скрыть все content box
         contentBoxes.forEach(function (item) {
             item.classList.add('hidden');
         });
@@ -14,6 +18,7 @@ tabHeaders.forEach(function (item) {
         // 2. Выбрать нужный content box и показать его
         const contentBox = document.querySelector('#' + this.dataset.tab);
         contentBox.classList.remove('hidden');
-
     })
-})
+}
+
+
