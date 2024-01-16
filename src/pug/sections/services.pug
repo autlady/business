@@ -16,10 +16,11 @@ section.services
                             option(value="4") item4
                 include ../blocks/services-slider.pug
             +btn-icon-mob("Все сервисы")
-            .form-group 
-                button.dropdown_button Не выбран
-                ul.dropdown__list 
-                    li.dropdown__list-item(data-value="item1") item1
-                    li.dropdown__list-item(data-value="item2") item2
-                    li.dropdown__list-item(data-value="item3") item3
-                    li.dropdown__list-item(data-value="item4") item4
+            .form-group
+                .dropdown
+                    button.dropdown__button Не выбран
+                    ul.dropdown__list 
+                        li.dropdown__list-item(data-value="item1") item1
+                        li.dropdown__list-item(data-value="item2") item2
+                        li.dropdown__list-item(data-value="item3") item3
+                        li.dropdown__list-item(data-value="item4") item4
