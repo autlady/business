@@ -1,8 +1,8 @@
-const toggleMenu = document.querySelector('.menu-toggle');
+const toggleMenu = document.querySelectorAll('.menu-toggle');
 const asideMenu = document.querySelector('.aside-menu-wrapper');
 
-if (toggleMenu){
-    toggleMenu.addEventListener('click', function(){
+for (let item of toggleMenu) {
+    item.addEventListener('click', function(){
 
         console.log("click!!!")
         
@@ -15,3 +15,4 @@ if (toggleMenu){
         }
     })
 };
+
