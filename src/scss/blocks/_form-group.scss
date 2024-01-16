@@ -7,7 +7,7 @@
 }
 
 .select-services {
-    width: 100%;
+    width: 400px;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -22,7 +22,7 @@
     line-height: 24px;
     letter-spacing: -0.3px;
 
-    padding: 16px 197px 16px 24px;
+    padding: 16px 80px 16px 24px;
     cursor: pointer;
 
 }
@@ -46,6 +46,5 @@
     width: 20px;
     height: 20px;
     background-image: url(./../img/icons/down.svg);
-    // background-color: red;
     pointer-events: none;
 }
