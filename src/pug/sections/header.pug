@@ -12,10 +12,7 @@ header.header
                     a(href="#!").social-icons__item
                         img(src="./img/socials/bluewhatsapp.svg", alt="whatsapp")
                 a(href="tel:89994442211").contact-phone +7 (999) 444 22 11
-                //- button.menu-burger
-                //-     img(src="./img/icons/menu-burger-gradient.svg", alt="menu")
-                button.menu-toggle#menu-toggle
-                    span
+                include ../blocks/menu-toggle.pug
             .mob-info
                 .social-icons-mob
                     a(href="#!").social-icons-mob__item
@@ -24,7 +21,5 @@ header.header
                         img(src="./img/socials/bluewhatsapp.svg", alt="whatsapp") 
                     a(href="#!").social-icons-mob__item
                         img(src="./img/socials/bluetelegram.svg", alt="telegram")
-                button.menu-burger 
-                    img(src="./img/icons/menu-burger.svg", alt="menu")
-
+                include ../blocks/menu-toggle.pug
         include ../blocks/aside-menu.pug
