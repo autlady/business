@@ -1,5 +1,5 @@
-const toggleMenu = document.querySelectorAll('.menu-toggle');
-const asideMenu = document.querySelector('.aside-menu');
+const toggleMenu = document.querySelector('.menu-toggle');
+const asideMenu = document.querySelector('.aside-menu-wrapper');
 
 if (toggleMenu){
     toggleMenu.addEventListener('click', function(){
