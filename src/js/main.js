@@ -65,6 +65,34 @@
   },
   });
 
+  swips.addSwiper(".services-slider", "min-width:1200px", {
+    // Optional parameters
+  // Optional parameters
+  slidesPerView: 4,
+  spaceBetween: 20,
+  // loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    580: {
+      slidesPerView: 3,
+    },
+    900: {
+      slidesPerView: 4,
+    },
+  },
+  });
+
   swips.addSwiper(".board-slider", "min-width:1200px", {
     // Optional parameters
   // Optional parameters
