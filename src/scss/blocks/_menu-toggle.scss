@@ -123,19 +123,19 @@
       bottom: -7px;
     }
   }
-  
-  .menu-toggle-block.active .menu-toggle span {
-    background-color: transparent !important;
+
+  .menu-toggle.active span {
+    background-color: transparent!important;
   }
   
-  .menu-toggle-block.active .menu-toggle span:after {
+  .menu-toggle.active span:after {
     top: 0px;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
   
-  .menu-toggle-block.active .menu-toggle span:before {
+  .menu-toggle.active span:before {
     bottom: 0px;
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);

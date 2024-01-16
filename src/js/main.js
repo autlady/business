@@ -1,17 +1,4 @@
-// const toggleMenu = document.querySelector('menu-burger');
 
-// if (toggleMenu){
-//     toggleMenu.addEventListener('click', function(){
-        
-//         if(this.classList.contains('active')){
-//             this.classList.remove('active');
-//         }else{
-//             this.classList.add('active');
-//         }
-//     })
-// }
-
-  // Programs slider
 
 /*=========== SWIPER CLASS ========== */
 (function () {
