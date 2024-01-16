@@ -95,9 +95,22 @@
     overflow: hidden;
     border-radius: 6px;
     width: 400px;
+    z-index: 1;
 
 }
 
 .dropdown__list-item {
+    border: 1px solid #DEE1E7;
+    border-bottom: 0;
+    padding: 13px 20px;
+    cursor: pointer;
+}
 
+.dropdown__list-item:first-child {
+    border-radius: 6px 6px 0 0;
+}
+
+.dropdown__list-item:last-child {
+    border-radius: 0 0 6px 6px;
+    border-bottom: 1px solid #DEE1E7;
 }
