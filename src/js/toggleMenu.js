@@ -1,4 +1,4 @@
-const toggleMenu = document.querySelector('.menu-toggle');
+const toggleMenu = document.querySelectorAll('.menu-toggle');
 const asideMenu = document.querySelector('.aside-menu');
 
 if (toggleMenu){
