@@ -1,0 +1,11 @@
+.news-slider .swiper-slide {
+    @media (min-width: 1200px) {
+        width: 380px;
+    }
+}
+
+.news-slider .swiper-wrapper {
+    @media (min-width: 1200px) {
+        column-gap: 10px;
+    }
+}
