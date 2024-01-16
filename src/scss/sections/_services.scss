@@ -1,4 +1,17 @@
 .form-wrapper {
     display: flex;
     gap: 18px;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+    }  
+}
+
+.services .btn-icon-mob {
+    display: none;
+
+    @media (max-width: 1388px) {
+        display: inline-flex;
+        margin-top: 35px;
+}
 }
