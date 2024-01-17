@@ -1,0 +1,11 @@
+.btn-show-more {
+    color: #185CFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}

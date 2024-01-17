@@ -59,8 +59,10 @@ section.articles
                         input(type="checkbox" name="filter2").real-checkbox
                         span.custom-checkbox 
                         p Фильтр
-                button(class="btn btn--reset" type="reset") Cбросить фильтры
+                button(class="btn btn--reset" type="reset") Cбросить фильтры  
             .articles-list
+                button(class="btn-show-filters" type="button") Фильтры
+                    img(src="./img/icons/filter.svg" alt="Фильтры")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
@@ -69,4 +71,4 @@ section.articles
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
-                button(class="btn--show-more" type="button") Показать еще
+                button(class="btn-show-more" type="button") Показать еще
