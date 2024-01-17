@@ -1,3 +1,9 @@
+const dropDownBtn = document.querySelector('.dropdown__button');
+const dropDownList = document.querySelector('.dropdown__list');
+const dropDownListItems = dropDownList.querySelectorAll('.dropdown__list-item');
+
+
+
 // клик по кнопке. Открыть/закрыть select
 document.querySelector('.dropdown__button').addEventListener('click', function () {
     document.querySelector('.dropdown__list').classList.toggle('dropdown__list--visible');
@@ -24,6 +30,7 @@ document.addEventListener('click', function (e){
     }
 })
 
+// нажатие на Tab или Escape. Закрыть дропдаун
 document.addEventListener('keydown', function (e) {
     if ( e.key === 'Tab' || e.key === 'Escape') {
         document.querySelector('.dropdown__button').classList.remove('dropdown__button--active');
