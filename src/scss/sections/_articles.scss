@@ -12,3 +12,7 @@
     padding-left: 35px;
     border-left: 1px solid #DEE1E7;
 }
+
+.articles-list .article-card:not(:last-child) {
+    margin-bottom: 32px;
+}
