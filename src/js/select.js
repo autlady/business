@@ -6,10 +6,16 @@ document.querySelector('.dropdown__button').addEventListener('click', function (
 
 // выбор элемента списка. Запомнить выбранное значение. Закрыть дропдаун
 document.querySelectorAll('.dropdown__list-item').forEach(function(listItem){
-    listItem.addEventListener('click', function (){
+    listItem.addEventListener('click', function (e){
+        e.stopPropagation();
         document.querySelector('.dropdown__button').innerText = this.innerText;
         document.querySelector('.dropdown__button').focus();
         document.querySelector('.dropdown__input-hidden').value = this.dataset.value;
         document.querySelector('.dropdown__list').classList.remove('dropdown__list--visible');
     })
+})
+
+// клик снаружи дропдауна. Закрыть дропдаун
+document.addEventListener('click', function (){
+    console.log('doc click');
 })
