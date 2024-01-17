@@ -102,9 +102,10 @@
 }
 
 .custom-checkbox {
+    position: relative;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: red;
     border-radius: 2px;
     border: 1px solid rgba(0, 0, 0, 0.20);
@@ -114,9 +115,15 @@
 .custom-checkbox::before {
     content: '';
     display: inline-block;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 11px;
     background-image: url("./../img/icons/check.svg");
     background-size: contain;
     background-repeat: no-repeat;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1px;
 }
