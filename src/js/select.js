@@ -16,6 +16,11 @@ document.querySelectorAll('.dropdown__list-item').forEach(function(listItem){
 })
 
 // клик снаружи дропдауна. Закрыть дропдаун
-document.addEventListener('click', function (){
-    console.log('doc click');
+document.addEventListener('click', function (e){
+    if (e.target !== document.querySelector('.dropdown__button')) {
+        document.querySelector('.dropdown__button').classList.remove('dropdown__button--active');
+        document.querySelector('.dropdown__list').classList.remove('dropdown__list--visible');
+
+    }
+
 })
