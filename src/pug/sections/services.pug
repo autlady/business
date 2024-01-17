@@ -7,12 +7,13 @@ section.services
             .form-group-title Для кого
             .form-wrapper
                 .form-group
-                    .select-wrapper
-                        select(name="select-category" id="").select-services
-                            option(value="default" selected="selected") Не выбран
-                            option(value="1") item1
-                            option(value="2") item2
-                            option(value="3") item3
-                            option(value="4") item4
+                    .dropdown
+                        button.dropdown__button Не выбран
+                        ul.dropdown__list 
+                            li.dropdown__list-item(data-value="item1") item1
+                            li.dropdown__list-item(data-value="item2") item2
+                            li.dropdown__list-item(data-value="item3") item3
+                            li.dropdown__list-item(data-value="item4") item4
+                        input(type="text" name="selet-category" value="" class="dropdown__input-hidden")
                 include ../blocks/services-slider.pug
             +btn-icon-mob("Все сервисы")
