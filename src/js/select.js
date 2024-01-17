@@ -61,5 +61,17 @@ document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
     });
 }
 
+    const formMob = document.querySelector('#custom-form-mob');
+    if (form) {
+        const customBtn = document.querySelector('.btn--reset-mob');
+        const customSelects = document.querySelectorAll('#dropdown-btn-mob');
+
+        customBtn.addEventListener('click', function() {
+            for (item of customSelects) {
+                item.textContent = "Не выбран";
+        }
+    });
+}
+
 });
 
