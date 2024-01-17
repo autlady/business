@@ -1,3 +1,9 @@
+.article-card {
+    @media (max-width: 390px) {
+        padding-bottom: 12px;
+		border-bottom: 1px solid #F2F3F7;
+    }
+}
 
 .article-card__title {
     margin-bottom: 16px;
@@ -6,6 +12,10 @@
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.36px;
+
+    @media (max-width: 899px) {
+		font-size: 20px;
+    }
 }
 
 .article-card__label {

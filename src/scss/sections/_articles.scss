@@ -24,6 +24,10 @@
 
 .articles-list .article-card:not(:last-child) {
     margin-bottom: 32px;
+
+    @media (max-width: 390px) {
+       margin-bottom: 9px;
+    }
 }
 
 .articles .btn-icon-mob {
