@@ -98,7 +98,15 @@
 /*========CHECKBOX======*/
 
 .real-checkbox {
-    
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.real-checkbox:focus + .custom-checkbox {
+    background-color: #eee;
 }
 
 .custom-checkbox {
@@ -106,7 +114,7 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: #fff;
     border-radius: 2px;
     border: 1px solid rgba(0, 0, 0, 0.20);
     margin-right: 5px;
@@ -133,4 +141,8 @@
 // активация декоративного чекбокса
 .real-checkbox:checked + .custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);
+}
+
+.real-checkbox:checked + .custom-checkbox {
+    background-color: red;
 }
