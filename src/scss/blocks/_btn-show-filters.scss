@@ -1,5 +1,5 @@
 .btn-show-filters {
-    display: inline-flex;
+    display: none;
    
     padding: 0 14px;
     height: 32px;
@@ -25,6 +25,10 @@
 
     &:focus {
         background-color: var(--btn-focus-color);
+    }
+
+    @media (max-width: 899px) {
+		display: inline-flex;
     }
 
 }

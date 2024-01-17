@@ -6,6 +6,10 @@
 .articles-form {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 899px) {
+		display: none;
+    }
 }
 
 .articles-list {
