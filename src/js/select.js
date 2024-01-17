@@ -1,12 +1,12 @@
 // Полифилл для метода forEach для NodeList
-// if (window.NodeList && !NodeList.prototype.forEach) {
-//     NodeList.prototype.forEach = function (callback, thisArg) {
-//         thisArg = thisArg || window;
-//         for (var i = 0; i < this.length; i++) {
-//             callback.call(thisArg, this[i], i, this);
-//         }
-//     };
-// }
+if (window.NodeList && !NodeList.prototype.forEach) {
+    NodeList.prototype.forEach = function (callback, thisArg) {
+        thisArg = thisArg || window;
+        for (var i = 0; i < this.length; i++) {
+            callback.call(thisArg, this[i], i, this);
+        }
+    };
+}
 
 document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
     const dropDownBtn = dropDownWrapper.querySelector('.dropdown__button');
@@ -15,7 +15,8 @@ document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
     const dropDownInput = dropDownWrapper.querySelector('.dropdown__input-hidden')
 
     // клик по кнопке. Открыть/закрыть select
-    dropDownBtn.addEventListener('click', function () {
+    dropDownBtn.addEventListener('click', function (e) {
+        e.preventDefault();
         dropDownList.classList.toggle('dropdown__list--visible');
         this.classList.add('dropdown__button--active');
     });
@@ -47,6 +48,18 @@ document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
             dropDownList.classList.remove('dropdown__list--visible');
         }
     })
+
+    const form = document.querySelector('#custom-form');
+    if (form) {
+        const customBtn = document.querySelector('.btn--reset');
+        const customSelects = document.querySelectorAll('.dropdown__button');
+
+        customBtn.addEventListener('click', function() {
+            for (item of customSelects) {
+                item.textContent = "Не выбран";
+        }
+    });
+}
 
 });
 

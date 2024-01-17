@@ -4,12 +4,12 @@ section.articles
             p.back-title Научная литература
             h2.section-title Статьи
         .articles-content 
-            .articles-form
+            form.articles-form#custom-form
                 .form-group-title Cтатус
                 .form-group
                     .dropdown
-                        button.dropdown__button Не выбран
-                        ul.dropdown__list 
+                        button(class="dropdown__button" type="button") Не выбран
+                        ul.dropdown__list
                             li.dropdown__list-item(data-value="item1") item1
                             li.dropdown__list-item(data-value="item2") item2
                             li.dropdown__list-item(data-value="item3") item3
@@ -18,7 +18,7 @@ section.articles
                 .form-group-title Отрасль науки
                 .form-group
                     .dropdown
-                        button.dropdown__button Не выбран
+                        button(class="dropdown__button" type="button") Не выбран
                         ul.dropdown__list 
                             li.dropdown__list-item(data-value="item1") item1
                             li.dropdown__list-item(data-value="item2") item2
@@ -28,7 +28,7 @@ section.articles
                 .form-group-title Группа специальностей
                 .form-group
                     .dropdown
-                        button.dropdown__button Не выбран
+                        button(class="dropdown__button" type="button") Не выбран
                         ul.dropdown__list 
                             li.dropdown__list-item(data-value="item1") item1
                             li.dropdown__list-item(data-value="item2") item2
@@ -38,7 +38,7 @@ section.articles
                 .form-group-title Фильтр
                 .form-group
                     .dropdown
-                        button.dropdown__button Не выбран
+                        button(class="dropdown__button" type="button") Не выбран
                         ul.dropdown__list 
                             li.dropdown__list-item(data-value="item1") item1
                             li.dropdown__list-item(data-value="item2") item2
@@ -48,10 +48,15 @@ section.articles
                 .form-group 
                     label
                         input(type="checkbox" name="coding-notes").real-checkbox 
-                        span.custom-checkbox Заметки
+                        span.custom-checkbox 
+                        p Заметки
                 .form-group 
                     label
                         input(type="checkbox" name="travel-notes").real-checkbox
-                        span.custom-checkbox Тревел
-                button.btn.btn--reset Cбросить фильтры
-            .articles-list Статьи
+                        span.custom-checkbox 
+                        p Тревел
+                button(class="btn btn--reset" type="reset") Cбросить фильтры
+            .articles-list
+                .article-card 
+                    .article-card__title
+                    .article-card__label
