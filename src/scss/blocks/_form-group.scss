@@ -11,6 +11,7 @@
     margin-bottom: 18px;
 }
 
+/*========DROPDOWN======*/
 .dropdown {
     position: relative;
 }
@@ -49,7 +50,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url(./../img/icons/down.svg);
+    background-image: url("./../img/icons/down.svg");
     pointer-events: none;
 }
 
@@ -92,4 +93,30 @@
 
 .dropdown__input-hidden {
     display: none;
+}
+
+/*========CHECKBOX======*/
+
+.real-checkbox {
+    
+}
+
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    margin-right: 5px;
+}
+
+.custom-checkbox::before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url("./../img/icons/check.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
