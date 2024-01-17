@@ -91,6 +91,7 @@
 }
 
 .dropdown__list {
+    display: none;
     position: absolute;
     left: 0;
     top: 65px;
@@ -120,4 +121,8 @@
 
 .dropdown__list-item:hover {
     background: rgba(176, 198, 225, 0.6);
+}
+
+.dropdown__input-hidden {
+    // display: none;
 }
