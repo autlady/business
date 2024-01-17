@@ -4,6 +4,8 @@ mixin case(title, text)
             button.start-video__btn
                 svg.svg-play
                     use(href="./img/spriteSvg.svg#svg-play")
+                svg.svg-play-border 
+                    circle(cx="25" cy="25" r="22" fill="transparent")
         .cases-card-desc
             h3.cases-card__title #{title} 
             .cases-card__text 

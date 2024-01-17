@@ -103,3 +103,33 @@
     height: 40px;
     width: 40px;
 }
+
+.svg-play-border {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.svg-play-border circle {
+  stroke: var(--accent-color);
+  stroke-width: 3px;
+  stroke-dasharray: 484;
+  stroke-dashoffset: 484px;
+}
+
+.start-video__btn:hover .svg-play-border circle{
+  animation: animate 3s forwards;
+}
+
+@keyframes animate{
+  0% {
+    stroke-dashoffset: 484px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
