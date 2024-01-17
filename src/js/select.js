@@ -22,5 +22,11 @@ document.addEventListener('click', function (e){
         document.querySelector('.dropdown__list').classList.remove('dropdown__list--visible');
 
     }
+})
 
+document.addEventListener('keydown', function (e) {
+    if ( e.key === 'Tab' || e.key === 'Escape') {
+        document.querySelector('.dropdown__button').classList.remove('dropdown__button--active');
+        document.querySelector('.dropdown__list').classList.remove('dropdown__list--visible');
+    }
 })
