@@ -1,0 +1,28 @@
+.article-card__title {
+    margin-bottom: 16px;
+    color: #2C2762;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+}
+
+.article-card__label {
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(98, 108, 119, 0.16);
+
+    color: #1D2023;
+    font-size: 16px;
+    line-height: 34px;
+
+    @media (max-width: 998px) {
+        font-size: 14px;
+        height: 24px;
+        line-height: 22px;
+    }
+}
+
