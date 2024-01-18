@@ -2,8 +2,6 @@
         display: flex;
        
         padding: 16px 16px 16px 28px;
-    
-        // justify-content: center;
         align-items: center;
     
         border-radius: 4px;
@@ -17,10 +15,23 @@
         
     
     @media (max-width: 1199px) {
+        padding: 16px 0;
         box-shadow: none;
+        // border-bottom: 1px solid #F2F3F7;
+        font-size: 16px;
+    }
+}
+
+.swiper-slide .service-card:not(:last-child) {
+    @media (max-width: 1199px) {
+        border-bottom: 1px solid #F2F3F7;
     }
 }
 
 .service-card + .service-card {
     margin-top: 20px;
+
+    @media (max-width: 1199px) {
+        margin-top: 0;
+    }
 }
