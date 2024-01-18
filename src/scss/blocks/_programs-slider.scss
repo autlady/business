@@ -70,25 +70,11 @@
     height: 19px;
 }
 
-.program-slider-prev.prevXl .svg-prev, .svg-next {
-    width: 46px;
-    height: 46px;
-    fill: var(--accent-color);
-}
-
-.program-slider-controls.cases-controls {
-    gap: 80px;
-}
-
 .swiper-pagination-bullet {
     width: 10px;
     height: 5px;
     border-radius: 1px;
     background: #D0D0D0;
-}
-
-.program-slider-group.center {
-    justify-content: center;
 }
 
 .swiper-pagination-bullet-active {

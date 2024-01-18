@@ -1,0 +1,25 @@
+.program-slider-prev.prevXl .svg-prev, .svg-next {
+    width: 46px;
+    height: 46px;
+    fill: var(--accent-color);
+}
+
+.program-slider-controls.cases-controls {
+    gap: 80px;
+
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.program-slider-group.center {
+    justify-content: center;
+}
+
+.cases-slider .swiper-pagination {
+    display: none;
+
+    @media (max-width: 1199px) {
+        display: block;
+    }
+}
