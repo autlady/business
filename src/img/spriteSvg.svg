@@ -28,6 +28,14 @@
 		</g>
 	</symbol>
 
+	<!-- close -->
+	<symbol id="svg-close" viewBox="0 0 32 32">
+		<g>
+            <path d="M4 28L28 4" stroke="currentcolor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M4 4L28 28" stroke="currentcolor" stroke-width="2" stroke-linecap="round"/>
+		</g>
+	</symbol>
+
 	<!-- telegram -->
 	<symbol id="svg-tg" viewBox="0 0 47 45">
 		<g>
