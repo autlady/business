@@ -46,9 +46,19 @@
             hsl(325deg 100% 48%) 80%,
             hsl(337deg 100% 50%) 90%,
             hsl(348deg 100% 50%) 100%);
-    // @media(max-width: 1240px) {
-    //   display: none;
-    // }
+}
+
+.menu-toggle::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  margin: 0px;
+  border-radius: 8px;
+  background: #FFF;
 }
   
   .menu-toggle span {
@@ -57,6 +67,7 @@
     width: 58px;
     border-radius: 5px;
     background-color: #185CFF;
+    z-index: 1;
     // -webkit-transition: 0.2s;
     // transition: 0.2s;
 
