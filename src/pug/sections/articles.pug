@@ -3,6 +3,11 @@ section.articles
         .title-group
             p.back-title Научная литература
             h2.section-title Статьи
+        .articles-list-top
+            div
+            button(class="btn-show-filters" type="button" data-modal-button="modal-filters") 
+                span Фильтры
+                img(src="./img/icons/filter.svg" alt="Фильтры")
         .articles-content 
             form.articles-form#custom-form
                 .form-group-title Cтатус
@@ -61,11 +66,11 @@ section.articles
                         p Фильтр
                 button(class="btn btn--reset" type="reset") Cбросить фильтры  
             .articles-list
-                .articles-list-top
-                    div
-                    button(class="btn-show-filters" type="button" data-modal-button="modal-filters") 
-                        span Фильтры
-                        img(src="./img/icons/filter.svg" alt="Фильтры")
+                //- .articles-list-top
+                //-     div
+                //-     button(class="btn-show-filters" type="button" data-modal-button="modal-filters") 
+                //-         span Фильтры
+                //-         img(src="./img/icons/filter.svg" alt="Фильтры")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
