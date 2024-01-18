@@ -12,6 +12,11 @@
     }
 }
 
+.articles-list-top {
+    display: flex;
+    justify-content: space-between;
+}
+
 .articles-list {
     padding-left: 35px;
     border-left: 1px solid #DEE1E7;
