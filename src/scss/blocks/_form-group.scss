@@ -39,6 +39,10 @@
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.3px;
+
+    @media (max-width: 450px) {
+        width: 100%;
+    }
 }
 
 .dropdown__button:focus,
