@@ -63,7 +63,7 @@ section.articles
             .articles-list
                 .articles-list-top
                     div
-                    button(class="btn-show-filters" type="button") 
+                    button(class="btn-show-filters" type="button" data-modal-button="modal-filters") 
                         span Фильтры
                         img(src="./img/icons/filter.svg" alt="Фильтры")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
@@ -76,6 +76,6 @@ section.articles
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 button(class="btn-show-more" type="button") Показать еще
         +btn-icon-mob("Все кейсы")
-        .filters-fade-block
+        div(class="fade-block hidden" data-modal id="modal-filters")
             .modal-window
                 include ../blocks/filters-mob.pug

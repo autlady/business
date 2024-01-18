@@ -67,6 +67,21 @@ body {
   height: 100vh;
 }
 
+.fade-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(27, 40, 106, 0.50);
+}
+
+.modal-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 a,
 a:hover {
