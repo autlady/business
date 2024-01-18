@@ -68,7 +68,7 @@
   swips.addSwiper(".services-slider", "min-width:1200px", {
 
   // Optional parameters
-  slidesPerView: 4,
+  slidesPerView: 3,
   spaceBetween: 20,
 
   // If we need pagination
@@ -86,9 +86,9 @@
     580: {
       slidesPerView: 3,
     },
-    900: {
-      slidesPerView: 4,
-    },
+    // 900: {
+    //   slidesPerView: 3,
+    // },
   },
   });
 
