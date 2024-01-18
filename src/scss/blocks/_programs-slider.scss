@@ -78,8 +78,6 @@
 
 .program-slider-controls.cases-controls {
     gap: 80px;
-    // left: 50%;
-    // transform: translateX(-50%);
 }
 
 .swiper-pagination-bullet {
@@ -87,6 +85,10 @@
     height: 5px;
     border-radius: 1px;
     background: #D0D0D0;
+}
+
+.program-slider-group.center {
+    justify-content: center;
 }
 
 .swiper-pagination-bullet-active {
