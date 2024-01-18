@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: darkgray;
+    background-color: rgba(27, 40, 106, 0.50);
 }
 
 .modal-window {
@@ -39,7 +39,7 @@
     margin-top: 30px;
 }
 
-.svg-close {
+.close-btn#btn-close-filters .svg-close {
     width: 24px;
     height: 24px;
     color: #2C2762;
