@@ -4,6 +4,14 @@
     background-color: var(--bg-footer-color);
     color: #fff;
     font-size: 20px;
+
+    @include mediaTablet {
+        font-size: 18px;
+    }
+
+    @include mediaMobile {
+        font-size: 13px;
+    }
 }
 
 .footer a {
@@ -20,6 +28,13 @@
 }
 
 .footer__logo p {
+
+    @include mediaMobile {
+        font-size: 16px;
+    }
+}
+
+.footer__logo p {
     font-size: 24px;
     font-weight: 700;
     line-height: 1.4;
@@ -29,34 +44,120 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
+
+    @include mediaMobileS {
+        gap: 27px;
+    }
 }
 
 .footer__contacts {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
+}
+
+.footer__contacts > * + *{
+    @include mediaMobile {
+        margin-top: 4px;
+    }
+}
+
+.footer__contacts-tel {
+    white-space: nowrap;
 }
 
 .footer__contacts-mail {
-    margin-bottom: 18px;
+    // margin-bottom: 18px;
+    white-space: nowrap;
 }
 
 .footer__contacts-copyright p {
     color: #757DA7;
     font-size: 14px;
     line-height: 1.3;
+
+    @media (max-width: 1084px) {
+        display: none;
+    }
 }
 
 .footer__widgets {
     display: flex;
     gap: 160px;
+
+    @include mediaLaptop {
+        gap: 100px;
+    }
+
+    @media (max-width: 1170px) {
+        gap: 60px;
+    }
+
+    @media (max-width: 928px) {
+        gap: 100px;
+    }
+
+    @media (max-width: 500px)  {
+        justify-content: space-between;
+        width: 100%;
+        gap: 40px;
+    }
+}
+
+.footer__social {
+   
 }
 
 .footer__social-text {
     margin-bottom: 24px;
+
+    @media (max-width: 1084px) {
+        margin-bottom: 0;
+    }
+
+    @include mediaMobile {
+        margin-bottom: 12px;
+    }
 }
 
 .footer__social-icons {
     display: flex;
     gap: 16px;
+}
+
+.footer__social-item img {
+    @include mediaMobile {
+        width: 24px;
+        height: 24px;
+    }
+
+}
+
+.footer__contacts-copyright-mob {
+    display: none;
+    color: #757DA7;
+    font-size: 14px;
+    line-height: 1.3;
+
+    @media (max-width: 1084px) {
+        display: block;
+        margin-top: 25px;
+    }
+
+    @include mediaMobile {
+        font-size: 12px;
+    }
+
+    @media (max-width: 500px) {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.footer-widget li:not(:last-child) {
+    @include mediaMobile {
+        margin-bottom: 11px;
+    }
 }
