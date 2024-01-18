@@ -1,5 +1,9 @@
 .articles {
     padding-top: 134px;
+
+    @include mediaTablet {
+        padding-top: 60px;
+    }
 }
 
 .articles-content {

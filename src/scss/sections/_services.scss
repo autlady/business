@@ -1,5 +1,9 @@
 .services {
     padding-top: 107px;
+
+    @include mediaTablet {
+        padding-top: 60px;
+    }
 }
 
 .form-wrapper {

@@ -1,6 +1,11 @@
 .partners {
     padding-top: 109px;
     padding-bottom: 100px;
+
+    @include mediaTablet {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
 }
 
 .partners-content {
