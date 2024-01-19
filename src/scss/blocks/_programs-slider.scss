@@ -86,11 +86,7 @@
 
 .programs-slider .swiper-slide {
     @media (min-width: 1200px) {
-        width: 270px;
-    }
-
-    @media (min-width: 1400px) {
-        width: 300px;
+        width: calc((100% - 60px) / 4);
     }
 }
 
