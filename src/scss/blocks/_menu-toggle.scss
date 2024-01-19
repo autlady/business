@@ -59,6 +59,10 @@
   margin: 0px;
   border-radius: 8px;
   background: #FFF;
+
+  @media (max-width: 1240px) {
+    margin: -2px;
+  }
 }
   
   .menu-toggle span {

@@ -1,6 +1,12 @@
 .header {
     padding-top: 12px;
     padding-bottom: 12px;
+    background-color: var(--bg-header-color);
+
+    @media(max-width: 1240px) {
+        background-color: #FFF;
+    }
+
 }
 
 .header-content {
