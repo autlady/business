@@ -7,3 +7,41 @@
     font-size: 14px;
     line-height: 18px;
 }
+
+.title-group--center {
+    margin-bottom: 15px;
+}
+
+.title-desc {
+    max-width: 730px;
+    margin-bottom: 42px;
+}
+
+.title-desc p {
+    text-align: center;
+    color: #9497A1;
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+.title-desc p + p {
+    margin-top: 20px;
+}
+
+.about__img {
+    width: 100%;
+    margin-bottom: 111px;
+    height: 590px;
+    background-color: #D0D0D0;
+}
+
+.about__content p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.28; 
+}
+
+.about__content p + p {
+    margin-top: 20px;
+}
