@@ -25,6 +25,10 @@
         max-width: 600px;
         width: 100%;
     }
+
+    @media (max-width: 1240px) {
+        padding-top: 70px;
+    }
 }
 
 
