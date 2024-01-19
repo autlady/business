@@ -140,6 +140,10 @@
 
   }
 
+  .menu-toggle.active::before {
+    margin: -1px;
+  }
+
   .menu-toggle.active span {
     background-color: transparent!important;
   }
