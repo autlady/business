@@ -12,9 +12,15 @@
     margin-bottom: 15px;
 }
 
-.title-desc {
-    max-width: 730px;
+.title-desc-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 42px;
+}
+
+.title-desc {
+    max-width: 800px;
 }
 
 .title-desc p {
