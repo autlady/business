@@ -14,6 +14,12 @@
     }
 }
 
+.section-title.cases {
+    @include mediaMobile {
+        padding-left: 15px;
+    }
+}
+
 .cases .btn-icon {
     @media (max-width: 1388px) {
         display: none;
