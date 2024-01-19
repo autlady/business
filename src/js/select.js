@@ -29,6 +29,7 @@ document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
             dropDownBtn.focus();
             dropDownInput.value = this.dataset.value;
             dropDownList.classList.remove('dropdown__list--visible');
+            dropDownBtn.classList.remove('dropdown__button--active');
         })
     })
 
