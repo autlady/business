@@ -35,6 +35,11 @@
     background-color: #D0D0D0;
 }
 
+.about__content {
+    position: relative;
+    padding-left: 66px;
+}
+
 .about__content p {
     color: #000;
     font-size: 30px;
@@ -44,4 +49,19 @@
 
 .about__content p + p {
     margin-top: 20px;
+}
+
+.about__content::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 8px;
+    background: var(--accent-color);
+    border-radius: 0 8px 8px 0;
+
+    @media(max-width: 797px) {
+        width: 0;
+    }
 }
