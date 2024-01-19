@@ -7,6 +7,13 @@
       }
 }
 
+.container.container-cases {
+    @include mediaMobile {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 .cases .btn-icon {
     @media (max-width: 1388px) {
         display: none;
