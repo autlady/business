@@ -19,12 +19,29 @@
 }
 
 .container-cases .btn-icon-mob {
+
     @include mediaMobile {
         margin-left: 15px;
+    }
+
+    @media (max-width: 498px) {
+        margin-left: 15px;
         margin-right: -15px;
-        // width: 100%;
+        width: calc(100% - 30px);
         // width: 350px;
     }
+}
+
+.container-cases .title-group {
+    @include mediaMobile {
+        padding-left: 15px;
+    }
+}
+
+.container-cases .back-title {
+    @include mediaMobile {
+        left: 40px;
+}
 }
 
 // .section-title.cases {
