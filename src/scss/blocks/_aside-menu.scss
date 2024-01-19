@@ -12,6 +12,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: flex-end;
+    z-index: 10;
 
 }
 
@@ -19,6 +20,11 @@
     background-color: #fff;
     max-width: 440px;
     padding: 100px 30px 30px 30px;
+
+    @media (min-width: 1900px) {
+        max-width: 600px;
+        width: 100%;
+    }
 }
 
 
