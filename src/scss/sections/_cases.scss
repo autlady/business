@@ -5,6 +5,10 @@
     @include mediaTablet {
         padding-top: 40px;
       }
+
+    @include mediaMobile {
+        padding-top: 8px;
+    }
 }
 
 .container.container-cases {
@@ -18,6 +22,18 @@
     @include mediaMobile {
         padding-left: 15px;
     }
+}
+
+.title-group.cases {
+    @include mediaMobile {
+        padding-top: 8px;
+    }
+}
+
+.back-title.cases {
+    @media (max-width: 460px) {
+        padding-left: 20px;
+      }
 }
 
 .cases .btn-icon {

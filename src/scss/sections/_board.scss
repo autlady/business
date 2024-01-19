@@ -5,6 +5,10 @@
     @include mediaTablet {
         padding-top: 40px;
       }
+
+      @include mediaTablet {
+        padding-bottom: 30px;
+      }
 }
 
 .board .btn-icon {
