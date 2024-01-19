@@ -50,21 +50,15 @@
 .about__img {
     width: 100%;
     margin-bottom: 111px;
-    height: 590px;
+    aspect-ratio: 166/59;
     background-color: #D0D0D0;
 
     @include mediaTablet {
         margin-bottom: 42px;
-        height: 450px;
     }
 
     @include mediaMobile {
         margin-bottom: 32px;
-        height: 300px;
-    }
-
-    @include mediaMobileS {
-        height: 125px;
     }
 }
 
