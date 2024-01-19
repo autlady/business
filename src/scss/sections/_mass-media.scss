@@ -1,0 +1,23 @@
+.mass-media {
+    position: relative;
+    padding-top: 87px;
+
+    @include mediaTablet {
+        padding-top: 60px;
+    }
+}
+
+.mass-media .btn-icon {
+    @media (max-width: 1388px) {
+        display: none;
+    }
+}
+
+.mass-media .btn-icon-mob {
+    display: none;
+
+    @media (max-width: 1388px) {
+        display: inline-flex;
+        margin-top: 35px;
+    }
+}
