@@ -1,6 +1,6 @@
 .filters-mob {
     width: 390px;
-    padding: 20px 15px 40px 15px;
+    padding: 10px 15px 40px 15px;
 }
 
 .filters-mob-top {
@@ -22,6 +22,9 @@
     @media (max-width: 899px) {
 		display: flex;
         flex-direction: column;
+        height: 500px;
+        overflow: hidden;
+        overflow-y: auto;
     }
 }
 
