@@ -9,6 +9,8 @@
 
 .form-group {
     margin-bottom: 18px;
+    position: relative;
+    z-index: 5;
 }
 
 .form-group label {
