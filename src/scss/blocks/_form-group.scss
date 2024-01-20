@@ -52,6 +52,10 @@
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
 }
 
+.dropdown__button span {
+    pointer-events: none;
+}
+
 span.text-black {
     color: #353F4B;
 }

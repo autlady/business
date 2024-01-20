@@ -21,9 +21,9 @@
 }
 
 
-.articles-form#custom-form .dropdown__list {
-    position: relative;
-    z-index: 7;
+.articles-form#custom-form .form-group {
+    position: static;
+    z-index: unset;
 }
 
 .articles-list-top {
