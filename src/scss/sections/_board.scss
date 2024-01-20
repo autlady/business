@@ -9,6 +9,10 @@
       @include mediaTablet {
         padding-bottom: 30px;
       }
+
+      @media(max-width: 481px) {
+        overflow: hidden;
+      }
 }
 
 .board .btn-icon {

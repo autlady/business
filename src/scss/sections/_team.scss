@@ -5,6 +5,10 @@
     @include mediaTablet {
         padding-top: 60px;
       }
+
+    @media(max-width: 481px) {
+        overflow: hidden;
+      }
 }
 
 .team .btn-icon {

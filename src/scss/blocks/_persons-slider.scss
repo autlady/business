@@ -9,3 +9,9 @@
         column-gap: 20px;
     }
 }
+
+.persons-slider {
+    @media(max-width: 481px) { 
+        width: calc(50vw + 50%);
+    }
+}
