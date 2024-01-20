@@ -1,0 +1,46 @@
+.educ-experts {
+    padding-top: 217px;
+}
+
+.educ-experts .section-title {
+    color: #2C2762;
+    font-size: 61.5px;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -0.613px;
+}
+
+.educ-experts .back-title {
+    left: 110px;
+    top: -20px;
+}
+
+
+.educ-experts-row {
+    display: flex;
+    gap: 58px;
+}
+
+.educ-experts-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.educ-experts__text p {
+    color: #565656;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.educ-experts__img {
+    margin-top: 53px;
+    width: 642px;
+    background-color: #D0D0D0;
+    flex-shrink: 0;
+}
+
+.educ-experts__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
