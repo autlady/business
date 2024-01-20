@@ -17,3 +17,21 @@
         margin-top: 35px;
     }
 }
+
+// .programs-wrapper {
+//     display: grid;
+//     grid-gap: 20px;
+//     grid-template-columns: repeat(4, 1fr);
+
+//     @include mediaTablet {
+//         grid-template-columns: repeat(3, 1fr);
+//     }
+
+//     @include mediaMobile {
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+
+//     @include mediaMobileXS {
+//         grid-template-columns: 1fr;
+//     }
+// }

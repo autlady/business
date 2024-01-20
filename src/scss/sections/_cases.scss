@@ -36,31 +36,21 @@
     @include mediaMobile {
         padding-left: 15px;
     }
+
+    @media (max-width: 432px) {
+        padding-top: 58px;
+    }
 }
 
 .container-cases .back-title {
     @include mediaMobile {
         left: 40px;
 }
+
+@media (max-width: 432px) {
+    left: 15px;
 }
-
-// .section-title.cases {
-//     @include mediaMobile {
-//         padding-left: 15px;
-//     }
-// }
-
-// .title-group.cases {
-//     @include mediaMobile {
-//         padding-top: 8px;
-//     }
-// }
-
-// .back-title.cases {
-//     @include mediaMobile {
-//         left: 20px;
-//       }
-// }
+}
 
 .cases .btn-icon {
     @media (max-width: 1388px) {

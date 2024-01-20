@@ -23,3 +23,9 @@
         margin-top: 35px;
 }
 }
+
+.services .title-group {
+    @media (max-width: 432px) {
+        padding-top: 58px;
+    }
+}

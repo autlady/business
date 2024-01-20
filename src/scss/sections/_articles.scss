@@ -58,3 +58,9 @@
         margin-top: 35px;
 }
 }
+
+.articles .title-group {
+    @media (max-width: 432px) {
+        padding-top: 58px;
+    }
+}
