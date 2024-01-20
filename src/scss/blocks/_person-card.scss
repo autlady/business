@@ -49,10 +49,9 @@
     flex-shrink: 0;
 
     @media (max-width: 1023px) {
-        width: 120px;
         font-size: 14px;
-        height: 24px;
         line-height: 22px;
+        padding: 3px 16px;
     }
 }
 
