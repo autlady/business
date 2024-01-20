@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 400px;
+    min-height: 310px;
 }
 
 .news-card__img {
@@ -24,12 +25,18 @@
 }
 
 .news-card__title {
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
     color: #212122;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.5;
-    flex-grow: 1;
+  
+    min-height: 53px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    overflow: hidden;
 
     @media (max-width: 998px) {
         margin-bottom: 12px;
