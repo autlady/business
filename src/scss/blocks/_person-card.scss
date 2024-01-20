@@ -1,18 +1,17 @@
 .person-card {
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .person-card__img {
     margin-bottom: 16px;
     background-color: #D0D0D0;
     aspect-ratio: 25/29;
+    flex-shrink: 0;
 
     @media (max-width: 480px) {
         margin-bottom: 12px;
-    }
-
-    @media (max-width: 390px) {
-        // width: 100%;
     }
 }
 
@@ -27,13 +26,16 @@
     display: inline-flex;
     align-items: center;
     height: 36px;
-    padding: 0 16px;
+    padding: 0px 16px;
     border-radius: 8px;
     border: 1px solid rgba(98, 108, 119, 0.16);
+    justify-content: center;
 
+    width: 120px;
     color: #1D2023;
     font-size: 16px;
     line-height: 34px;
+    flex-shrink: 0;
 
     @media (max-width: 998px) {
         font-size: 14px;
@@ -50,13 +52,18 @@
     font-weight: 600;
     line-height: 1.28;
 
-    @media (max-width: 998px) {
+    @media (max-width: 1364px) {
         margin-top: 10px;
-        margin-bottom: 12px;
         font-size: 20px;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 998px) {
+        // margin-top: 10px;
+        font-size: 16px;
+    }
+
+    @media (max-width: 580px) {
+        font-size: 20px;
         margin-top: 8px;
         margin-bottom: 8px;
     }
@@ -67,11 +74,15 @@
     font-size: 18px;
     line-height: 1.5;
 
-    @media (max-width: 998px) {
+    @media (max-width: 1364px) {
         font-size: 16px;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 998px) {
         font-size: 14px;
     }
+
+    // @media (max-width: 480px) {
+    //     font-size: 14px;
+    // }
 }
