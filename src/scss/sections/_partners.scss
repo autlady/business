@@ -23,3 +23,9 @@
     filter: grayscale(0.5); /* W3C */  
 }
 
+.partners .title-group {
+    @media (max-width: 432px) {
+        padding-top: 58px;
+    }
+}
+

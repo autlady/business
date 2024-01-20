@@ -1,5 +1,9 @@
 .educ-experts {
     padding-top: 217px;
+
+    @include mediaMobile {
+        padding-top: 72px;
+    }
 }
 
 .educ-experts .section-title {
@@ -8,17 +12,50 @@
     font-weight: 700;
     line-height: 1.12;
     letter-spacing: -0.613px;
+
+    @include mediaTablet {
+        font-size: 30px;
+        line-height: 1;
+      }
+    
+      @include mediaMobileS {
+        font-size: 26px;
+      }
 }
 
 .educ-experts .back-title {
     left: 110px;
     top: -20px;
+
+    @media (max-width: 1260px) {
+        left: 50px;
+        font-size: 50px;
+      }
+    
+      @include mediaTablet {
+        left: 20px;
+        font-size: 40px;
+        line-height: 0.8;
+      }
+    
+      @media (max-width: 460px) {
+        left: 0px;
+      }
 }
 
 
 .educ-experts-row {
     display: flex;
     gap: 58px;
+    margin-bottom: 150px;
+
+    @include mediaMobile {
+        margin-bottom: 64px;
+    }
+}
+
+.educ-experts-row:last-child {
+    margin-bottom: 0;
 }
 
 .educ-experts-row:nth-child(even) {
@@ -29,6 +66,10 @@
     color: #565656;
     font-size: 24px;
     line-height: 1.5;
+
+    @include mediaMobile {
+        font-size: 14px;
+    }
 }
 
 .educ-experts__img {
@@ -36,6 +77,10 @@
     width: 642px;
     background-color: #D0D0D0;
     flex-shrink: 0;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
 }
 
 .educ-experts__img img {
