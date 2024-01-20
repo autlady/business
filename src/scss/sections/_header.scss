@@ -118,6 +118,7 @@ a.logo-text::before {
     background-color: #FFF;
 
     position: relative;
+    z-index: 3;
 }
 
 .social-icons::after {
@@ -127,7 +128,7 @@ a.logo-text::before {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -1;
+    z-index: -4;
     margin: -1px;
     border-radius: 8px;
     background: linear-gradient(180deg,
@@ -143,6 +144,23 @@ a.logo-text::before {
             hsl(337deg 100% 50%) 90%,
             hsl(348deg 100% 50%) 100%);
 }
+
+.social-icons::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0px;
+    border-radius: 8px;
+    background: #FFF;
+  
+    @media (max-width: 1240px) {
+      margin: -2px;
+    }
+  }
 
 a.contact-phone {
     position: relative;
@@ -159,6 +177,8 @@ a.contact-phone {
     font-weight: 600;
     line-height: 30px;
 
+    z-index: 3;
+
     white-space: nowrap;
 
     &:hover {
@@ -173,7 +193,7 @@ a.contact-phone::after {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -1;
+    z-index: -4;
     margin: -1px;
     border-radius: 8px;
     background: linear-gradient(180deg,
@@ -189,6 +209,24 @@ a.contact-phone::after {
             hsl(337deg 100% 50%) 90%,
             hsl(348deg 100% 50%) 100%);
 }
+
+a.contact-phone::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0px;
+    border-radius: 8px;
+    background: #FFF;
+  
+    @media (max-width: 1240px) {
+      margin: -2px;
+    }
+  }
+
 
 .mob-info {
     display: none;
