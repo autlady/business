@@ -6,6 +6,13 @@
     }
 }
 
+.educ-experts .title-group {
+    @include mediaMobile {
+        padding-top: 7px;
+        margin-bottom: 12px;
+    }
+}
+
 .educ-experts .section-title {
     color: #2C2762;
     font-size: 61.5px;
