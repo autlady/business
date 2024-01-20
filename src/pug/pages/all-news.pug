@@ -1,0 +1,10 @@
+extends ../layouts/layout.pug
+
+block variables
+	-var title = "Новости";
+
+block content
+	include ../sections/header-inner.pug
+	main
+		include ../sections/news-inner.pug
+	include ../sections/footer.pug

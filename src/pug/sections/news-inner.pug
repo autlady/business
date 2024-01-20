@@ -1,0 +1,24 @@
+section.news-inner 
+    .container 
+        p.about__info Главная /
+            span  Новости
+        .title-group
+            p.back-title События
+            h2.section-title Все новости
+        ul.list-group
+            li.list-group-item.active(data-tab="tab-1") Лента
+            li.list-group-item(data-tab="tab-2") Новости
+            li.list-group-item(data-tab="tab-3") СМИ
+            li.list-group-item(data-tab="tab-4") Мероприятия
+            li.list-group-item(data-tab="tab-5") Видео
+        div(class="card" data-tab-content id="tab-1")
+            +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+            include ../blocks/pagination.pug
+        div(class="card hidden" data-tab-content id="tab-2")
+            +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+        div(class="card hidden" data-tab-content id="tab-3")
+            +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+        div(class="card hidden" data-tab-content id="tab-4")
+            +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+        div(class="card hidden" data-tab-content id="tab-5")
+            +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")

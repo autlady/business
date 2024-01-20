@@ -20,6 +20,12 @@
     }
 }
 
+
+.articles-form#custom-form .dropdown__list {
+    position: relative;
+    z-index: 7;
+}
+
 .articles-list-top {
     display: flex;
     justify-content: space-between;
