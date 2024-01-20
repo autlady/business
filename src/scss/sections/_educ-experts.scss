@@ -11,8 +11,11 @@
 }
 
 .educ-experts .title-group {
-    @include mediaMobile {
+    @include mediaTablet {
         padding-top: 7px;
+    }
+
+    @include mediaMobile {
         margin-bottom: 12px;
     }
 }
