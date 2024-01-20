@@ -22,16 +22,27 @@
     background-size: cover;
 }
 
+.person-card-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+    @include mediaMobileS {
+        gap: 6px;
+    }
+}
+
 .person-card__label {
     display: inline-flex;
+    justify-content: center;
     align-items: center;
-    height: 36px;
-    padding: 0px 16px;
+    padding: 8px 16px;
+
     border-radius: 8px;
     border: 1px solid rgba(98, 108, 119, 0.16);
-    justify-content: center;
 
-    width: 140px;
     color: #1D2023;
     font-size: 16px;
     line-height: 34px;
