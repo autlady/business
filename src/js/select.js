@@ -78,12 +78,13 @@ if (dropdowns.length > 0){
 
         const formMob = document.querySelector('#custom-form-mob');
         if (form) {
-            const customBtn = document.querySelector('.btn-reset-mob');
-            const customSelects = document.querySelector('#dropdown-btn-mob');
+            const customBtnMob = document.querySelector('.btn-reset-mob');
+            const customSelectsMob = document.querySelectorAll('#dropdown-btn-mob span');
 
-            customBtn.addEventListener('click', function() {
-                for (item of customSelects) {
+            customBtnMob.addEventListener('click', function() {
+                for (item of customSelectsMob) {
                     item.textContent = "Не выбран";
+                    item.classList.remove('text-black');
             }
         });
     }
