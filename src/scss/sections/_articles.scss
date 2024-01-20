@@ -60,7 +60,24 @@
 }
 
 .articles .title-group {
+    @media (max-width: 483px) {
+        display: none;
+    }
     @media (max-width: 432px) {
         padding-top: 58px;
+    }
+}
+
+.articles .title-group-mob {
+    display: none;
+    position: relative;
+    padding-top: 75px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    padding-top: 22px;
+
+    @media (max-width: 483px) {
+        display: flex;
     }
 }

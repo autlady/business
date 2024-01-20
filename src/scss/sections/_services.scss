@@ -25,7 +25,24 @@
 }
 
 .services .title-group {
+    @media (max-width: 435px) {
+        display: none;
+    }
     @media (max-width: 432px) {
         padding-top: 58px;
+    }
+}
+
+.services .title-group-mob {
+    display: none;
+    position: relative;
+    padding-top: 75px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    padding-top: 22px;
+
+    @media (max-width: 435px) {
+        display: flex;
     }
 }
