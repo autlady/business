@@ -1,6 +1,10 @@
 .educ-experts {
     padding-top: 217px;
 
+    @include mediaLaptop {
+        padding-top: 130px;
+    }
+
     @include mediaTablet {
         padding-top: 100px;
     }
@@ -11,6 +15,11 @@
 }
 
 .educ-experts .title-group {
+
+    @media (max-width: 1200px) {
+        padding-top: 20px;
+    }
+
     @include mediaTablet {
         padding-top: 7px;
     }
@@ -26,6 +35,10 @@
     font-weight: 700;
     line-height: 1.12;
     letter-spacing: -0.613px;
+
+    @media (max-width: 1200px) {
+        font-size: 48px;
+    }
 
     @include mediaTablet {
         font-size: 30px;
@@ -62,6 +75,10 @@
     display: flex;
     gap: 58px;
     margin-bottom: 150px;
+
+    @include mediaLaptop {
+        margin-bottom: 130px;
+    }
 
     @include mediaTablet {
         margin-bottom: 80px;
