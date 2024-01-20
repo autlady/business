@@ -12,7 +12,20 @@ section.news-inner
             li.list-group-item(data-tab="tab-4") Мероприятия
             li.list-group-item(data-tab="tab-5") Видео
         div(class="card" data-tab-content id="tab-1")
-            +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+            .news-wrapper 
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
+            +btn-icon-mob("Показать еще")
             include ../blocks/pagination.pug
         div(class="card hidden" data-tab-content id="tab-2")
             +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
