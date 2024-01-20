@@ -1,5 +1,7 @@
 .aside-menu-wrapper {
-    display: none;
+    position: fixed;
+    transform: translateX(100%);
+    opacity: 0;
 }
 
 .aside-menu-wrapper.active {
@@ -13,6 +15,10 @@
     display: flex;
     justify-content: flex-end;
     z-index: 10;
+
+    transform: translateX(0%);
+    opacity: 1;
+    transition: .3s;
 
 }
 
