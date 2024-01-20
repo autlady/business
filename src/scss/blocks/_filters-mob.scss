@@ -28,6 +28,11 @@
     }
 }
 
+.articles-form#custom-form-mob .form-group {
+    position: static;
+    z-index: unset;
+}
+
 .filters-mob .btn {
     margin-top: 30px;
 }
