@@ -6,7 +6,7 @@
     }
 }
 
-.about__info {
+.block__info {
     color: #8E8E8E;
     font-size: 14px;
     line-height: 18px;
@@ -47,7 +47,7 @@
     }
 }
 
-.title-desc p + p {
+.title-desc p+p {
     margin-top: 20px;
 
     @include mediaMobile {
@@ -91,7 +91,7 @@
     color: #000;
     font-size: 30px;
     font-weight: 600;
-    line-height: 1.28; 
+    line-height: 1.28;
 
     @include mediaTablet {
         font-size: 22px;
@@ -104,7 +104,7 @@
     }
 }
 
-.about__content p + p {
+.about__content p+p {
     margin-top: 20px;
 
     @include mediaMobile {
