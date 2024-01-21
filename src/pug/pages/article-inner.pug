@@ -1,0 +1,11 @@
+extends ../layouts/layout.pug
+
+block variables
+	-var title = "Cтатья";
+
+block content
+	include ../sections/header-inner.pug
+	main
+		include ../sections/article-top.pug
+		include ../sections/article.pug
+	include ../sections/footer.pug
