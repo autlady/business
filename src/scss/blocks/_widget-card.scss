@@ -3,9 +3,13 @@
     gap: 16px;
 }
 
+.widget-card:not(:last-child) {
+    margin-bottom: 16px;
+}
+
 .widget-card__img {
-    width: 50%;
-    height: 123px;
+    width: 222px;
+    // height: 123px;
     background-color: #D0D0D0;
     flex-shrink: 0;
     // aspect-ratio: 25/14;
@@ -23,7 +27,7 @@
 }
 
 .widget-card__info {
-    width: 50%;
+    width: 275px;
 
 }
 

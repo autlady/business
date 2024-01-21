@@ -1,0 +1,10 @@
+mixin widget-item(date, title)
+    .widget-card 
+        .widget-card__img 
+        .widget-card__info
+            .widget-card__date #{date}
+            h4.widget-card__title #{title}
+            a(href="#!").widget-card__link
+                span Читать далее
+                svg.svg-arrow-right-long
+                    use(href="./img/spriteSvg.svg#svg-arrow-right-long")
