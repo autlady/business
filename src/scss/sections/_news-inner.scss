@@ -43,3 +43,20 @@
         display: none;
     }
 }
+
+.news-inner .list-group {
+    @media (max-width: 589px) {
+        display: none;
+    }
+}
+
+.form-wrapper-inner {
+
+    display: none;
+
+    @media (max-width: 589px) {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+}
