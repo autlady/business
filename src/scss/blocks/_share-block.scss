@@ -4,6 +4,11 @@
     align-items: center;
     color: #727272;
     gap: 13px;
+
+    @media (max-width: 1200px) {
+        gap: 12px;
+        color: #9497A1;
+    }
 }
 
 .share-block-item {
@@ -21,14 +26,24 @@ a.share-block-item {
     &:hover {
         color: var(--btn-text-blue-color);
     }
+
+    @media (max-width: 1200px) {
+
+        color: #9497A1;
+    }
 }
 
 .share-block-item span {
     font-size: 24px;
     line-height: 140%;
+
+    @media (max-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.3; 
+    }
 }
 
-.share-block .svg-share,
+.share-block
 .svg-google,
 .svg-youtube,
 .svg-linkedin,
@@ -36,4 +51,20 @@ a.share-block-item {
     width: 32px;
     height: 32px;
     flex-shrink: 0;
+ 
+    @media (max-width: 1200px) {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.share-block .svg-share {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+
+    @media (max-width: 1200px) {
+        width: 16px;
+        height: 16px;
+    }
 }

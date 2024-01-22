@@ -4,10 +4,12 @@
 
     @media (max-width: 1200px) {
         padding-top: 40px;
+        padding-bottom: 30px;
     }
 
     @include mediaMobileS {
         padding-top: 24px;
+        padding-bottom: 16px;
     }
 }
 
@@ -15,6 +17,10 @@
     display: flex;
     gap: 20px;
     margin-top: 40px;
+
+    @media (max-width: 1200px) {
+        margin-top: 12px;
+    }
 }
 
 .article__img {
