@@ -46,7 +46,7 @@
 
 .person-experience {
     margin-bottom: 66px;
-    
+
     display: flex;
     flex-direction: column;
     padding: 0px 15px 15px;
@@ -77,4 +77,12 @@
 .exp-row span {
     font-size: 22.4px;
     line-height: 32px;
+}
+
+.person-list-title {
+    margin-bottom: 16px;
+    color: #353F4B;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
 }
