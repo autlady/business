@@ -1,3 +1,20 @@
+.board-inner {
+    padding-top: 60px;
+
+    @include mediaMobile {
+        padding-top: 32px;
+    }
+}
+
+.board-inner .title-group {
+    margin-top: 94px;
+
+    @include mediaLaptop {
+        margin-top: 0;
+    }
+}
+
+
 .board-wrapper {
     display: grid;
     grid-column-gap: 20px;
