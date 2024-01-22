@@ -1,5 +1,9 @@
 .article-widget {
     width: 513px;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+    }
 }
 
 .article-widget__title {
@@ -8,4 +12,9 @@
     font-size: 24px;
     font-weight: 800;
     line-height: 1.28;
+
+    @media (max-width: 1200px) {
+        color: #292D33;
+    }
+
 }
