@@ -1,5 +1,6 @@
 .person-inner {
     padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 .person-content {
@@ -88,6 +89,9 @@
 
 .person-list {
     padding-left: 27px;
+}
+
+.person-list:not(:last-child) {
     margin-bottom: 50px;
 }
 
