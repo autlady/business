@@ -14,6 +14,10 @@
     padding-top: 39px;
 
     @media (max-width: 1200px) {
+        padding-top: 24px;
+    }
+
+    @media (max-width: 1023px) {
         padding-top: 0;
     }
 }
@@ -76,13 +80,12 @@
     }
 }
 
-
-
 .person-experience-mob {
     display: none;
 
     @media (max-width: 1200px) {
         display: inline-block;
+        margin-bottom: 16px;
     }
 }
 
@@ -100,11 +103,35 @@
     line-height: normal;
 }
 
-// .person-data p {
-//     color: #696969;
-//     font-size: 22px;
-//     line-height: 30.4px;
-// }
+.person-activity {
+    @media (max-width: 1200px) {
+        margin-bottom: 32px;
+    }
+}
+
+.person-activity p {
+    color: #696969;
+    font-size: 22px;
+    line-height: 30.4px;
+
+    @media (max-width: 1200px) {
+        font-size: 14px;
+        line-height: normal;
+    }
+}
+
+.person-activity span {
+    color: #353F4B;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.4px;
+
+    @media (max-width: 1200px) {
+        color: #353F4B;
+        font-size: 14px;
+        line-height: normal;
+    }
+}
 
 .person-experience {
     margin-top: 60px;
@@ -165,6 +192,10 @@
 
 .person-list:not(:last-child) {
     margin-bottom: 50px;
+
+    @media (max-width: 1200px) {
+        margin-bottom: 32px;
+    }
 }
 
 .person-list li p {
