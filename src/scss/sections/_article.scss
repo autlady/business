@@ -1,9 +1,9 @@
 .article {
     padding-bottom: 108px;
 
-    // @media (max-width: 1200px) {
-    //     padding-bottom: 60px;
-    // }
+    @media (max-width: 1200px) {
+        padding-bottom: 60px;
+    }
 }
 
 .single-article h2 {
@@ -74,6 +74,7 @@
     display: none; 
 
     @media (max-width: 1200px) {
+        margin-top: 60px;
         display: flex;
     }
 }
