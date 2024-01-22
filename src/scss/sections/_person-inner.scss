@@ -49,7 +49,7 @@
     
     display: flex;
     flex-direction: column;
-    padding: 10px 15px 15px;
+    padding: 0px 15px 15px;
     width: 446px;
     height: 217px;
     gap: 45px;
@@ -66,7 +66,9 @@
     line-height: normal;
 }
 
-.num sap {
+.num sup {
+    position: relative;
+    top: -5px;
     color: #353F4B;
     font-size: 36.9px;
     line-height: 75.2px;
