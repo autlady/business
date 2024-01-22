@@ -1,0 +1,19 @@
+.block-date {
+    margin-right: 25px;
+    display: inline-flex;
+    gap: 12px;
+    align-items: center;
+    color: #727272;
+}
+
+.block-date span {
+    font-size: 23.8px;
+    line-height: 1.714;
+    letter-spacing: -0.357px;
+}
+
+.block-date .svg-calendar {
+    width: 27px;
+    height: 27px;
+    flex-shrink: 0;
+}
