@@ -1,30 +1,11 @@
-.board-inner {
-    padding-top: 60px;
-
-    @include mediaMobile {
-        padding-top: 32px;
-    }
-}
-
-.board-inner .title-group {
-    margin-top: 94px;
-
-    @include mediaLaptop {
-        margin-top: 0;
-    }
-}
-
-
-.board-wrapper {
+.experts-wrapper {
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 40px;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 152px;
 
     @include mediaTablet {
         grid-template-columns: repeat(3, 1fr);
-        margin-bottom: 50px;
     }
 
     @include mediaMobile {
@@ -32,7 +13,7 @@
     }
 }
 
-.board-wrapper .person-card .person-card__name {
+.experts-wrapper .person-card .person-card__name {
 
     @include mediaTablet {
         font-size: 20px;
@@ -49,7 +30,7 @@
     }
 }
 
-.board-wrapper .person-card .person-card__position {
+.experts-wrapper .person-card .person-card__position {
     @include mediaMobile {
         color: #5C5E61;
         font-size: 12px;
@@ -57,7 +38,7 @@
     }
 }
 
-.board-wrapper .person-card .person-card__label {
+.experts-wrapper .person-card .person-card__label {
     @media (max-width: 1023px) {
         font-size: 10px;
         line-height: 17px;
