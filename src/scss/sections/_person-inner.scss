@@ -37,14 +37,13 @@
 }
 
 .person-data p {
-    margin-bottom: 60px;
-
     color: #696969;
     font-size: 22px;
     line-height: 30.4px;
 }
 
 .person-experience {
+    margin-top: 60px;
     margin-bottom: 66px;
 
     display: flex;
@@ -85,4 +84,15 @@
     font-size: 36px;
     line-height: 50px;
     font-weight: 400;
+}
+
+.person-list {
+    padding-left: 27px;
+    margin-bottom: 50px;
+}
+
+.person-list li p {
+    color: #353F4B;
+    font-size: 20px;
+    line-height: 32px; 
 }
