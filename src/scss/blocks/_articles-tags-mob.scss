@@ -1,0 +1,20 @@
+.articles-tags-mob {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.mob-tag {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+
+    border-radius: 18.5px;
+    border: 0.661px solid #C4C4C4;
+
+    color: #C4C4C4;
+    font-size: 12px;
+    line-height: 1.6;
+    flex-shrink: 0;
+}

@@ -1,5 +1,9 @@
 .article {
     padding-bottom: 108px;
+
+    // @media (max-width: 1200px) {
+    //     padding-bottom: 60px;
+    // }
 }
 
 .single-article h2 {
@@ -39,16 +43,29 @@
     }
 }
 
-.article-tags-mob {
+.bottom-tags-mob {
     display: none;
 
     @media (max-width: 1200px) {
         display: flex;
+        margin-top: 8px;
     }
 }
 
-.article-tags-mob .block-tags {
+.bottom-tags-mob .block-tags {
+
     @media (max-width: 1200px) {
         display: inline-flex;
     }
+}
+
+.bottom-tags-mob .block-tags span {
+    color: #9497A1;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.bottom-tags-mob .block-tags .svg-tag {
+    width: 16px;
+    height: 16px;
 }
