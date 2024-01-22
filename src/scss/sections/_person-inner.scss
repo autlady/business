@@ -188,6 +188,10 @@
 
 .person-list {
     padding-left: 27px;
+
+    @include mediaMobileS {
+        padding-left: 0;
+    }
 }
 
 .person-list:not(:last-child) {
