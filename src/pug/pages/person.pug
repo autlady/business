@@ -1,0 +1,10 @@
+extends ../layouts/layout.pug
+
+block variables
+	-var title = "Персональная страница";
+
+block content
+	include ../sections/header-inner.pug
+	main
+		include ../sections/person-inner.pug
+	include ../sections/footer.pug
