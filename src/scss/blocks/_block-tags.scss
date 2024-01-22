@@ -1,0 +1,18 @@
+.block-tags {
+    margin-right: 12px;
+    display: inline-flex;
+    gap: 12px;
+    align-items: center;
+    color: #727272;
+}
+
+.block-tags span {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.block-tags .svg-tag {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
