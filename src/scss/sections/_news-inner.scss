@@ -11,6 +11,27 @@
     }
 }
 
+.news-inner .title-group {
+
+    @include mediaMobileS {
+        display: none;
+    }
+}
+
+.news-inner .title-group-mob {
+    display: none;
+    position: relative;
+    padding-top: 75px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    padding-top: 22px;
+
+    @include mediaMobileS {
+        display: flex;
+    }
+}
+
 .news-inner .btn-icon-mob {
     display: none;
 
