@@ -1,0 +1,39 @@
+.board-wrapper {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+
+    @include mediaTablet {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mediaMobile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.board-wrapper .person-card .person-card__name {
+
+    @include mediaTablet {
+        font-size: 20px;
+    }
+
+    @include mediaMobile {
+        color: #2C2762;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.28;
+        min-height: 40px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+.board-wrapper .person-card .person-card__position {
+    @include mediaMobile {
+        color: #5C5E61;
+        font-size: 12px;
+        line-height: 1.3;
+    }
+}

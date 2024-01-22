@@ -1,0 +1,11 @@
+extends ../layouts/layout.pug
+
+block variables
+	-var title = "Команда";
+
+block content
+	include ../sections/header-inner.pug
+	main
+		include ../sections/board-inner.pug
+		include ../sections/experts.pug
+	include ../sections/footer.pug
