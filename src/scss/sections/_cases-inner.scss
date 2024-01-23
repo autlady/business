@@ -4,6 +4,7 @@
 }
 
 .label-wrapper {
+    margin-bottom: 45px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -11,5 +12,16 @@
 }
 
 .cases-label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
     
+    border-radius: 5px;
+    border: 1.25px solid rgba(98, 108, 119, 0.16);
+
+    color: #4D4D4D;
+    font-size: 16px;
+    line-height: 25px;
+    flex-shrink: 0;
 }
