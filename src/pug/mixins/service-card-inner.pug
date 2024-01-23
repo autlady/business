@@ -1,0 +1,8 @@
+mixin service-inner(title, text)
+    .service-card-inner
+        h3.service-card-inner__title #{title}
+        p.service-card-inner__text #{text}
+        a(href="#!").service-card-inner__link
+            span Подробнее
+            svg.svg-arrow-right-long
+                use(href="./img/spriteSvg.svg#svg-arrow-right-long")

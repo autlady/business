@@ -1,0 +1,100 @@
+.service-card-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 32px;
+    max-width: 400px;
+    min-height: 350px;
+    border: 0.976px solid #E7E7E7;
+    box-shadow: 0px 4px 4px 0px #EDEDED inset, 0px -4px 4px 0px #EDEDED inset, 4px 0px 4px 0px #EDEDED inset, -4px 0px 4px 0px #EDEDED inset;
+    background-color: #FFF;
+
+    @media (max-width: 1364px) {
+        padding: 30px 24px;
+        min-height: unset;
+    }
+
+    @media (max-width: 998px) {
+        padding: 20px 16px;
+    }
+}
+
+.service-card-inner__title {
+    margin-bottom: 12px;
+    color: var(--title-color);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.26;
+    flex-shrink: 0;
+    min-height: 62px;
+
+    @media (max-width: 1023px) {
+        margin-bottom: 12px;
+        font-size: 18px;
+        min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+        margin-bottom: 8px;
+        font-size: 14px;
+        min-height: 40px;
+    }
+}
+
+.service-card-inner__text {
+    margin-bottom: 12px;
+    color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 108px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+
+    overflow: hidden;
+
+    @media (max-width: 1023px) {
+        font-size: 12px;
+        min-height: 70px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 8px;
+        min-height: 60px;
+    }
+}
+
+.service-card-inner__link {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: auto;
+    flex-shrink: 0;
+
+    @media (max-width: 480px) {
+        column-gap: 5px;
+    }
+}
+
+.service-card-inner__link span {
+    color: var(--title-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+
+    @media (max-width: 998px) {
+        font-size: 10px;
+    }
+}
+
+.service-card-inner__link .svg-arrow-right-long {
+    width: 13px;
+    height: 11px;
+    fill: #2C2762;
+
+    @media (max-width: 480px) {
+        width: 8px;
+        height: 8px;
+    }
+}
