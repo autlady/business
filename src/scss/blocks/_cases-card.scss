@@ -158,4 +158,10 @@
 .cases-card-tags .cases-label {
     padding: 6px 20px;
     line-height: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.cases-card-tags .cases-label:not(:first-child) {
+    margin-left: -10px;
 }
