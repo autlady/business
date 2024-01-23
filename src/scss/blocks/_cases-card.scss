@@ -169,3 +169,15 @@
 .cases-card-tags .cases-label:not(:first-child) {
     margin-left: -10px;
 }
+
+.cases-card__close {
+    position: absolute;
+    bottom: 50px;
+    right: 73px;
+}
+
+.cases-card__close .svg-arrow-up {
+    width: 30px;
+    height: 29px;
+    flex-shrink: 0;
+}
