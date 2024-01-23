@@ -83,6 +83,21 @@ p.filter-result {
     display: block;
 }
 
+.cases-inner-cards .cases-card .cases-card__text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    min-height: 108px;
+}
+
+.cases-inner-cards .cases-card .cases-card__text.active {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: unset;
+    min-height: unset;
+}
+
 .cases-inner-cards .cases-card .cases-card__title {
     margin-bottom: 24px;
 }
