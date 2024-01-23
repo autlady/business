@@ -25,11 +25,7 @@ section.cases-inner
             .cases-label Работа в ИТ
         .select-wrapper
             p.selected Выбранные фильтры:
-            .filter 
-                span Направление
-                button.close-filter
-                    svg.svg-icon-close 
-                        use(href="./img/spriteSvg.svg#svg-icon-close")
+            +filter("Направление")
             +btn-reset("Сбросить")
         p.filter-result Найдено:
             span 4
