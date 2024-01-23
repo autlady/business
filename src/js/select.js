@@ -88,8 +88,6 @@ if (dropdowns.length > 0){
             }
         });
     }
-
-
     }
 
 }
