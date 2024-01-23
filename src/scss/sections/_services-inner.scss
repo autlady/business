@@ -1,6 +1,10 @@
 .services-inner {
     padding-top: 60px;
     padding-bottom: 90px;
+
+    @include mediaMobile {
+        padding-bottom: 60px;
+    }
 }
 
 .services-inner .title-group {
@@ -43,5 +47,17 @@
 
     @include mediaMobile {
         display: block;
+    }
+}
+
+.services-cards-inner {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    @include mediaMobile {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 8px;
     }
 }
