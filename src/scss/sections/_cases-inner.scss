@@ -64,3 +64,28 @@ p.filter-result {
         margin-bottom: 24px;
     }
 }
+
+.cases-inner-cards {
+    margin-top: 53px;
+
+}
+
+.cases-inner-card + .cases-inner-card {
+    margin-top: 40px;
+}
+
+.cases-inner-cards .cases-card {
+    align-items: flex-start;
+}
+
+.cases-inner-cards .cases-card .cases-card-desc {
+    display: block;
+}
+
+.cases-inner-cards .cases-card .cases-card__title {
+    margin-bottom: 24px;
+}
+
+.cases-inner-cards .cases-card .cases-card__text {
+    margin-bottom: 8px;
+}

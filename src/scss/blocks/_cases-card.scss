@@ -74,14 +74,14 @@
 .cases-card__text p {
     color: #4D4D4D;
     font-size: 18px;
-    line-height: 1.5; 
+    line-height: 1.5;
 
     @media (max-width: 998px) {
         font-size: 14px;
     }
 }
 
-.cases-card__text p + p {
+.cases-card__text p+p {
     margin-top: 15px;
 }
 
@@ -115,22 +115,47 @@
 }
 
 .svg-play-border circle {
-  stroke: var(--accent-color);
-  stroke-width: 3px;
-  stroke-dasharray: 484;
-  stroke-dashoffset: 484px;
-}
-
-.start-video__btn:hover .svg-play-border circle{
-  animation: animate 3s forwards;
-}
-
-@keyframes animate{
-  0% {
+    stroke: var(--accent-color);
+    stroke-width: 3px;
+    stroke-dasharray: 484;
     stroke-dashoffset: 484px;
-  }
+}
 
-  100% {
-    stroke-dashoffset: 0;
-  }
+.start-video__btn:hover .svg-play-border circle {
+    animation: animate 3s forwards;
+}
+
+@keyframes animate {
+    0% {
+        stroke-dashoffset: 484px;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.cases-card__expand {
+    color: #185CFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    width: 100px;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+.cases-card-tags {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.cases-card-tags .cases-label {
+    padding: 6px 20px;
+    line-height: 20px;
 }
