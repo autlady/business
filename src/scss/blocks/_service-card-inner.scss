@@ -1,9 +1,9 @@
 .service-card-inner {
     display: flex;
     flex-direction: column;
-    padding: 40px 32px;
-    max-width: 400px;
-    min-height: 350px;
+    padding: 40px 50px;
+    max-width: 540px;
+    min-height: 396px;
     border: 0.976px solid #E7E7E7;
     box-shadow: 0px 4px 4px 0px #EDEDED inset, 0px -4px 4px 0px #EDEDED inset, 4px 0px 4px 0px #EDEDED inset, -4px 0px 4px 0px #EDEDED inset;
     background-color: #FFF;
@@ -46,11 +46,11 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    min-height: 108px;
+    min-height: 168px;
 
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 7;
 
     overflow: hidden;
 
