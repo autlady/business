@@ -24,3 +24,24 @@
         display: flex;
     }
 }
+
+.services-inner .form-group-title {
+    @include mediaMobile {
+        display: none;
+    }
+}
+
+.services-inner .form-group-title-mob {
+    display: none;
+    margin-bottom: 12px;
+    color: #989FA7;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+
+
+    @include mediaMobile {
+        display: block;
+    }
+}
