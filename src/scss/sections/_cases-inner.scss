@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     padding: 8px 25px;
-    
+
     border-radius: 5px;
     border: 1.25px solid rgba(98, 108, 119, 0.16);
 
@@ -27,6 +27,7 @@
 }
 
 .select-wrapper {
+    margin-bottom: 28px;
     display: flex;
     align-items: center;
 }
@@ -34,4 +35,10 @@
 .filter {
     margin-right: 13px;
     margin-left: 10px;
+}
+
+p.selected {
+    color: #2C2762;
+    font-size: 16px;
+    line-height: normal;
 }

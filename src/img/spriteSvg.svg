@@ -97,6 +97,13 @@
 		</g>
 	</symbol>
 
+	<!-- icon-close -->
+	<symbol id="svg-icon-close" viewBox="0 0 16 18">
+		<g>
+            <path d="M12 4.90643L11.0936 4L7.5 7.59357L3.90643 4L3 4.90643L6.59357 8.5L3 12.0936L3.90643 13L7.5 9.40643L11.0936 13L12 12.0936L8.40643 8.5L12 4.90643Z" fill="#353F4B"/>
+		</g>
+	</symbol>
+
 	<!-- telegram -->
 	<symbol id="svg-tg" viewBox="0 0 47 45">
 		<g>
