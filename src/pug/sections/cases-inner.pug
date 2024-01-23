@@ -5,6 +5,19 @@ section.cases-inner
         .title-group
             p.back-title Результаты работы
             h2.section-title Кейсы
+        .form-wrapper-inner
+            .form-group-title Категория
+            .form-group
+            .dropdown
+                button.dropdown__button 
+                    span Не выбран
+                ul.dropdown__list
+                    li.dropdown__list-item(data-value="item1") Аналитика
+                    li.dropdown__list-item(data-value="item2") Аналитика
+                    li.dropdown__list-item(data-value="item3") Аналитика
+                    li.dropdown__list-item(data-value="item4") Аналитика
+                    li.dropdown__list-item(data-value="item5") Аналитика
+                input(type="text" name="selet-category" value="" class="dropdown__input-hidden")
         .label-wrapper 
             .cases-label Направление
             .cases-label Работа в ИТ
@@ -28,5 +41,5 @@ section.cases-inner
             +filter("Направление")
             +btn-reset("Сбросить")
         p.filter-result Найдено:
-            span 4
+            span  4
 

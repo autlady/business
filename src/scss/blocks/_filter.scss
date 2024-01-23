@@ -1,0 +1,27 @@
+.filter {
+    margin-right: 13px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+    gap: 12px;
+    flex-shrink: 0;
+    height: 32px;
+    background: #F8F8FF;
+}
+
+.filter span {
+    color: #353F4B;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.close-filter {
+    display: flex;
+    align-items: center;
+}
+
+.close-filter .svg-icon-close {
+    width: 16px;
+    height: 18px;
+}
