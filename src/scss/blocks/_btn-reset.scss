@@ -17,15 +17,13 @@
     font-family: inherit;
     font-size: 16px;
     line-height: 30px;
-    white-space: nowrap;; 
-
-    transition: background-color 0.2s ease-in;
+    white-space: nowrap;
 
     &:hover {
-        background-color: var(--btn-hover-color);
+        background-color: #F8F8FF;
     }
 
     &:focus {
-        background-color: var(--btn-focus-color);
+        background-color: #F8F8FF;
     }
 }
