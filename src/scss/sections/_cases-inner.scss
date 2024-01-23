@@ -42,3 +42,22 @@ p.selected {
     font-size: 16px;
     line-height: normal;
 }
+
+.filter {
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+    gap: 12px;
+    flex-shrink: 0;
+    background: #F8F8FF;
+}
+
+.close-filter {
+    display: flex;
+    align-items: center;
+}
+
+.close-filter .svg-icon-close {
+    width: 16px;
+    height: 18px;
+}
