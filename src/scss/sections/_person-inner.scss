@@ -92,19 +92,19 @@
     display: none;
 
     @media (max-width: 1200px) {
-        display: inline-block;
+        display: inline;
         margin-bottom: 16px;
     }
 }
 
-.person-experience-mob p {
+.person-experience-mob span {
     color: #353F4B;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
 }
 
-.person-experience-mob span {
+p.person-experience-mob {
     color: #696969;
     font-size: 14px;
     font-weight: 400;
@@ -117,7 +117,7 @@
     }
 }
 
-.person-activity p {
+p.person-activity {
     color: #696969;
     font-size: 22px;
     line-height: 30.4px;
