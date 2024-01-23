@@ -1,0 +1,26 @@
+.services-inner {
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.services-inner .title-group {
+  
+    @include mediaMobile {
+        display: none;
+    }
+}
+
+
+.services-inner .title-group-mob {
+    display: none;
+    position: relative;
+    padding-top: 75px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    padding-top: 22px;
+
+    @include mediaMobile {
+        display: flex;
+    }
+}
