@@ -25,3 +25,13 @@
     line-height: 25px;
     flex-shrink: 0;
 }
+
+.select-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    margin-right: 13px;
+    margin-left: 10px;
+}
