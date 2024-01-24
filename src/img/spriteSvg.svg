@@ -14,13 +14,6 @@
 		</g>
 	</symbol>
 
-	<!-- circle -->
-	<symbol id="svg-circle" viewBox="0 0 11 11">
-		<g>
-		    <rect width="11" height="11" rx="5.5" fill="#FF0032"/>
-		</g>
-	</symbol>
-
 		<!-- arrow-right-long-->
 	<symbol id="svg-arrow-right-long" viewBox="0 0 25 25">
 		<g>
