@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 680px;
-    background-color:aqua;
-    background-color:#fff;
+    background-color: aqua;
+    background-color: #fff;
     padding: 52px 95px;
 }
 
@@ -27,16 +27,17 @@
     font-family: inherit;
     color: #353F4B;
 
-.form-input::placeholder {
-    color: #7C7F8A;
-}
-}
-
-.form-input:focus, .form-textarea:focus{
-	border: 1px solid #FF0032;
+    .form-input::placeholder {
+        color: #7C7F8A;
+    }
 }
 
-.form-item + .form-item {
+.form-input:focus,
+.form-textarea:focus {
+    border: 1px solid #FF0032;
+}
+
+.form-item+.form-item {
     margin-top: 20px;
 }
 
@@ -51,4 +52,14 @@
 
 .service-form-privacy {
     margin-top: 20px;
+    padding-right: 25px;
+    color: #7C7F8A;
+    font-size: 12.697px;
+    line-height: 1.33;
+    letter-spacing: -0.212px;
+}
+
+.service-form-privacy a {
+    color: #7C7F8A;
+    text-decoration: underline;
 }
