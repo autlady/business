@@ -25,7 +25,7 @@
     padding-left: 27px;
 }
 
-.service-list:not(:last-child) {
+.service-list li:not(:last-child) {
     margin-bottom: 32px;
 
     @media (max-width: 1200px) {
