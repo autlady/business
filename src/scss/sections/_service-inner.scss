@@ -87,3 +87,13 @@
 .service-inner .modal-window {
     background: rgba(27, 40, 106, 0.50);
 }
+
+.service-inner .btn-subscribe {
+    display: none;
+
+    @include mediaMobile {
+        display: inline-flex;
+        width: 100%;
+    }
+}
+
