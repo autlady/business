@@ -7,8 +7,34 @@
     margin-bottom: 20px;
 }
 
+.service-inner-content {
+    margin-bottom: 40px;
+}
+
 .service-inner-content p {
     color: #353F4B;
     font-size: 24px;
     line-height: 1.4;
+}
+
+.service-inner-content p+p {
+    padding-top: 30px;
+}
+
+.service-list {
+    padding-left: 27px;
+}
+
+.service-list:not(:last-child) {
+    margin-bottom: 32px;
+
+    @media (max-width: 1200px) {
+        margin-bottom: 16px;
+    }
+}
+
+.service-list li p {
+    color: #353F4B;
+    font-size: 24px;
+    line-height: 32px;
 }
