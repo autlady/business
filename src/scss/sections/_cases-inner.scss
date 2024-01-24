@@ -83,16 +83,16 @@ p.filter-result {
     display: block;
 }
 
-.cases-inner-cards .cases-card .cases-card__text {
+.cases-inner-cards .cases-card .cases-card__text p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     overflow: hidden;
     min-height: 108px;
 }
 
 .cases-inner-cards .cases-card .cases-card__text p + p {
-    margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 .cases-inner-cards .cases-card .cases-card__text.active {
