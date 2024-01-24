@@ -23,3 +23,9 @@ closeTextBtn.addEventListener('click', function() {
     closeTextBtn.classList.add("hidden");
 })
 
+const expandBtns = document.querySelectorAll('.cases-card__expand');
+
+console.log(expandBtns)
+
+
+
