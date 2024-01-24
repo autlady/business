@@ -15,19 +15,38 @@
     color: #353F4B;
     font-size: 24px;
     line-height: 1.4;
+
+    @include mediaMobile {
+        font-size: 16px;
+    }
 }
 
 .service-inner-content p+p {
     padding-top: 30px;
+
+    @include mediaMobile {
+        padding-top: 20px;
+    }
 }
 
 .service-list {
     padding-left: 27px;
+    margin-bottom: 50px;
+
+    @include mediaMobile {
+        padding-left: 15px;
+    }
 }
 
 .service-list li {
- position: relative;
- font-size: 24px;
+    position: relative;
+    font-size: 24px;
+
+    @include mediaMobile {
+        font-size: 16px;
+    }
+
+
 }
 
 .service-list li:not(:last-child) {
@@ -47,6 +66,13 @@
     border-radius: 50%;
     top: 10px;
     left: -27px;
+
+    @include mediaMobile {
+        width: 6px;
+        height: 6px;
+        top: 13px;
+        left: -15px;
+    }
 }
 
 .service-list li p {
