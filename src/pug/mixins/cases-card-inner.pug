@@ -1,4 +1,4 @@
-mixin case-inner(title, text)
+mixin case-inner(title)
     .cases-card
         .cases-card__video
             button.start-video__btn
@@ -15,7 +15,7 @@ mixin case-inner(title, text)
                 .cases-label Работа в ИТ
                 .cases-label Работа в ИТ
             .cases-card__text 
-                p #{text}
+                block
             button.cases-card__expand Читать далее
             button.cases-card__close.hidden
                 svg.svg-arrow-up
