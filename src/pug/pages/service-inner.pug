@@ -1,0 +1,11 @@
+extends ../layouts/layout.pug
+
+block variables
+	-var title = "Cервис";
+
+block content
+	include ../sections/header-inner.pug
+	main
+		include ../sections/service-inner.pug
+		include ../sections/service-team.pug
+	include ../sections/footer.pug
