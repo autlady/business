@@ -18,9 +18,7 @@ section.service-inner
                 p 08.08.2000-27.09.2006 "М.ВИДЕО", зам. Директора по маркетингу/Директор по рекламе
             li  
                 p 03.10.1994-07.08.2000 ДЕНДИ/СТИПЛЕР, начальник отдела рекламы/Менеджер по рекламе
-        +btn-icon("Связаться с нами")
-        //- div(class="fade-block" data-modal id="modal-service")
-        //-     .modal-window
-        include ../blocks/service-form.pug
-
-            
+        button(class="btn-icon" type="button" data-modal-button="modal-service") Связаться с нами
+        div(class="fade-block hidden" data-modal id="modal-service")
+            .modal-window
+                include ../blocks/service-form.pug

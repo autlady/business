@@ -1,10 +1,15 @@
 .service-form {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 680px;
-    background-color: aqua;
     background-color: #fff;
     padding: 52px 95px;
+
+    @include mediaTablet {
+        padding: 32px 20px;
+        width: 390px;
+    }
 }
 
 .service-form-title {
@@ -13,6 +18,10 @@
     font-size: 48px;
     font-weight: 800;
     line-height: 1.1;
+
+    @include mediaTablet {
+        font-size: 26px;
+    }
 }
 
 .form-input {
@@ -27,13 +36,21 @@
     font-family: inherit;
     color: #353F4B;
 
-    .form-input::placeholder {
-        color: #7C7F8A;
+    @include mediaTablet {
+        height: 50px;
+        font-size: 17px;
     }
 }
 
-.form-input:focus,
-.form-textarea:focus {
+.form-input::placeholder {
+    color: #7C7F8A;
+        
+    @include mediaTablet {
+        color: #989FA7;
+    }
+}
+
+.form-input:focus {
     border: 1px solid #FF0032;
 }
 
@@ -62,4 +79,17 @@
 .service-form-privacy a {
     color: #7C7F8A;
     text-decoration: underline;
+}
+
+.service-form .close-btn {
+    position: absolute;
+    top: 0;
+    right: -52px;
+    z-index: 77;
+}
+
+.close-btn#btn-close-contact .svg-close {
+    width: 32px;
+    height: 32px;
+    color: #fff;
 }
