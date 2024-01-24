@@ -91,6 +91,10 @@ p.filter-result {
     min-height: 108px;
 }
 
+.cases-inner-cards .cases-card .cases-card__text p + p {
+    margin-bottom: 30px;
+}
+
 .cases-inner-cards .cases-card .cases-card__text.active {
     display: -webkit-box;
     -webkit-box-orient: vertical;
