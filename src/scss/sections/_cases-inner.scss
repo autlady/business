@@ -70,7 +70,7 @@ p.filter-result {
 
 }
 
-.cases-inner-card + .cases-inner-card {
+.cases-inner-cards .cases-card + .cases-card {
     margin-top: 40px;
 }
 
@@ -83,12 +83,13 @@ p.filter-result {
     display: block;
 }
 
-.cases-inner-cards .cases-card .cases-card__text p {
+.cases-inner-cards .cases-card .cases-card__text {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
     overflow: hidden;
     min-height: 108px;
+    height: 108px;
 }
 
 .cases-inner-cards .cases-card .cases-card__text p + p {
@@ -100,7 +101,8 @@ p.filter-result {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: unset;
     min-height: unset;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    height: auto;
 }
 
 .cases-inner-cards .cases-card .cases-card__title {
