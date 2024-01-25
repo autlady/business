@@ -30,7 +30,18 @@
     margin-top: 16px;
 }
 
-.custom-checkbox.disabled {
+// .custom-checkbox.disabled {
+//     cursor: default;
+//     pointer-events: none;
+//     background-color: #EEE;
+// }
+
+.checkbox.disabled .custom-checkbox {
     cursor: default;
     pointer-events: none;
+    background-color: #EEE;
+}
+
+.checkbox.disabled p {
+    color: #8E8E8E;
 }
