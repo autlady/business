@@ -3,6 +3,10 @@
     padding-bottom: 100px;
 }
 
+.programs-inner .title-group {
+    margin-top: 40px;
+}
+
 .title-group-mob {
     display: none;
 }
@@ -14,6 +18,7 @@
 }
 
 .programs-inner-block {
+    margin-top: 38px;
     display: grid;
     grid-column-gap: 18px;
     grid-row-gap: 20px;
