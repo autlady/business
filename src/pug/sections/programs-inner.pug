@@ -14,6 +14,9 @@ section.programs-inner
             button.btn.search__button.search__button--mob Найти
         .programs-inner-content
             .programs-inner-col
+                button(class="btn-show-filters" type="button" data-modal-button="modal-filters") 
+                    span Фильтры
+                    img(src="./img/icons/filter.svg" alt="Фильтры")
                 .select-wrapper
                     p.selected Выбранные фильтры:
                     +filter("Бесплатное")
