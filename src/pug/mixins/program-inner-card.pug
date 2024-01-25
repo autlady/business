@@ -1,9 +1,9 @@
 mixin program-inner(title, text, start, price)
-    .program-inner-card
+    a(href="#!").program-inner-card
         h3.program-inner-card__title #{title}
         p.program-inner-card__text #{text}
         .program-inner-card-footer 
             p.program-inner-card__start Старт:
-                span #{start}
+                span  #{start}
             p.program-inner-card__price Cтоимость:
-                span #{price}
+                span  #{price}
