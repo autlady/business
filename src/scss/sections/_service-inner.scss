@@ -103,3 +103,13 @@
     }
 }
 
+.service-inner .modal-window {
+
+    @media (max-width: 550px) {
+        padding: 100px 0;
+    }
+    @include mediaMobileS {
+        width: 100%;
+    }
+}
+
