@@ -2,8 +2,12 @@
     padding-bottom: 147px;
 
     @include mediaTablet {
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
+}
+
+.faq .title-group {
+    margin-bottom: 10px;
 }
 
 .list-header {
@@ -15,8 +19,12 @@
     border-bottom: 1px solid #C3CAD6;
 
     @media (max-width: 1200px) {
-        padding: 30px 0;
+        padding: 40px 0;
         gap: 40px;
+    }
+
+    @include mediaTablet {
+        padding: 30px 0;
     }
 }
 

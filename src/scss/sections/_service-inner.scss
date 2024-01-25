@@ -1,6 +1,11 @@
 .service-inner {
     padding-top: 60px;
     padding-bottom: 90px;
+
+    @include mediaTablet {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .service-inner .section-title {

@@ -1,5 +1,9 @@
 .service-team {
     padding-bottom: 90px;
+
+    @include mediaTablet {
+        padding-bottom: 40px;
+    }
 }
 
 .service-team-wrapper {
