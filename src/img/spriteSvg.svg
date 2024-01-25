@@ -1,5 +1,13 @@
 <svg style="width:0; height:0; visibility: hidden;" xmlns="http://www.w3.org/2000/svg">
 
+    <!-- plus -->
+	<symbol id="svg-plus" viewBox="0 0 50 50">
+		<g>
+		    <path d="M25 9V41" stroke="#353F4B" stroke-width="2"/>
+            <path d="M41 25L9 25" stroke="#353F4B" stroke-width="2"/>
+		</g>
+	</symbol>
+
     <!-- arrow-right-->
 	<symbol id="svg-arrow-right" viewBox="0 0 13 11">
 		<g>
