@@ -9,6 +9,10 @@
     line-height: 1.2;
 }
 
+.widget.sphere .widget__title {
+    margin-bottom: 41px;
+}
+
 .widget__body label {
     display: flex;
     align-items: center;
@@ -29,12 +33,6 @@
 .checkbox + .checkbox {
     margin-top: 16px;
 }
-
-// .custom-checkbox.disabled {
-//     cursor: default;
-//     pointer-events: none;
-//     background-color: #EEE;
-// }
 
 .checkbox.disabled .custom-checkbox {
     cursor: default;
