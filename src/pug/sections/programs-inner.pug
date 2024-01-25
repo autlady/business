@@ -12,5 +12,12 @@ section.programs-inner
             input(type="text" class="search__input" placeholder="Какой курс вам нужен?")
             button.btn.search__button Найти программу
         .programs-inner-content
-            .programs-inner-col 
+            .programs-inner-col
+                .select-wrapper
+                    p.selected Выбранные фильтры:
+                    +filter("Бесплатное")
+                    +btn-reset("Сбросить")
+        p.filter-result Найдено:
+            span  48 
             aside.sidebar
+        
