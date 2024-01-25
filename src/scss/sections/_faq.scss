@@ -1,9 +1,20 @@
 .faq {
-
+    padding-bottom: 147px;
 }
 
 .list-header {
+    padding: 49px 0;
     display: flex;
+    gap: 90px;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #C3CAD6;
+}
+
+.list-content {
+    padding: 49px 0;
+    border-bottom: 1px solid #C3CAD6;
+    color: #353F4B;
+    font-size: 24px;
+    line-height: 1.4;
 }
