@@ -1,0 +1,22 @@
+.widget__title {
+    margin-bottom: 16px;
+    color: #4D4D4D;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.widget__body label {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.checkbox p {
+    color: #4D4D4D;
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+.checkbox p span {
+    color: #8E8E8E;
+}

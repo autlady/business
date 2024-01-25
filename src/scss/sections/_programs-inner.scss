@@ -25,3 +25,9 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
