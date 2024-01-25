@@ -34,7 +34,9 @@
     margin-bottom: 28px;
     display: flex;
     align-items: center;
+}
 
+.cases-inner .select-wrapper {
     @include mediaTablet() {
         display: none;
     }
