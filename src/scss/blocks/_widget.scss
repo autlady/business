@@ -29,3 +29,8 @@
 .checkbox + .checkbox {
     margin-top: 16px;
 }
+
+.custom-checkbox.disabled {
+    cursor: default;
+    pointer-events: none;
+}
