@@ -22,6 +22,12 @@
     color: #4D4D4D;
     font-size: 20px;
     line-height: normal;
+
+    @include mediaMobile {
+        font-size: 12px;
+        padding-left: 6px;
+        padding-right: 100px;
+    }
 }
 
 .search__input::placeholder {
@@ -38,4 +44,16 @@
     font-size: 18px;
     font-weight: 700;
     height: 56px;
+
+    @include mediaMobile {
+        display: none;
+    }
+}
+
+.search__button.search__button--mob {
+    display: none;
+
+    @include mediaMobile {
+        display: inline-flex;
+    }
 }
