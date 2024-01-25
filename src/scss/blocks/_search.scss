@@ -5,6 +5,7 @@
 .search__input {
     padding-left: 19px;
     padding-right: 280px;
+    // max-width: 1241px;
     width: 1241px;
     height: 56px;
 
@@ -13,4 +14,21 @@
     border-bottom: 1px solid #F3F4F7;
     border-left: 1px solid #F3F4F7;
     background: #F8F8FF;
+
+    color: #4D4D4D;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.search__input::placeholder {
+    color: #757575;
+}
+
+.btn.search__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
 }
