@@ -8,6 +8,10 @@ h4.faq-list-item__title {
         font-size: 24px;
         line-height: 1.4;
     }
+
+    @include mediaTablet {
+        font-size: 16px;
+    }
 }
 
 .svg-plus {

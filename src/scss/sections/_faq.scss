@@ -1,5 +1,9 @@
 .faq {
     padding-bottom: 147px;
+
+    @include mediaTablet {
+        padding-bottom: 60px;
+    }
 }
 
 .list-header {
@@ -25,5 +29,10 @@
 
     @media (max-width: 1200px) {
         font-size: 22px;
+    }
+
+    @include mediaTablet {
+        padding: 25px 0;
+        font-size: 14px;
     }
 }
