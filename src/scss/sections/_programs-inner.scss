@@ -10,3 +10,18 @@
 .programs-inner-content {
     padding-top: 45px;
 }
+
+.programs-inner-block {
+    display: grid;
+    grid-column-gap: 18px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include mediaTablet {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mediaMobile {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
