@@ -17,6 +17,17 @@
     gap: 86px;
 }
 
+.programs-inner-content .select-wrapper {
+    @media (max-width: 515px) {
+        display: none;
+    }
+} 
+
+.programs-inner-content .filter-result {
+    @include mediaTablet() {
+        display: block;
+    }
+}
 
 .programs-inner-block {
     margin-top: 38px;
@@ -40,4 +51,8 @@
     width: 320px;
     padding-right: 60px;
     flex-shrink: 0;
+
+    @include mediaTablet {
+        display: none;
+    }
 }
