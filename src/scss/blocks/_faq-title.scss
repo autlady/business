@@ -3,9 +3,20 @@ h4.faq-list-item__title {
     font-size: 30px;
     font-weight: 600;
     line-height: 1.42;
+
+    @media (max-width: 1200px) {
+        font-size: 24px;
+        line-height: 1.4;
+    }
 }
 
 .svg-plus {
     height: 50px;
     width: 50px;
+    flex-shrink: 0;
+
+    @media (max-width: 1200px) {
+        height: 30px;
+        width: 30px;
+    }
 }
