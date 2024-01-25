@@ -1,3 +1,7 @@
+.widget + .widget {
+    margin-top: 40px;
+}
+
 .widget__title {
     margin-bottom: 16px;
     color: #4D4D4D;
@@ -19,4 +23,9 @@
 
 .checkbox p span {
     color: #8E8E8E;
+}
+
+
+.checkbox + .checkbox {
+    margin-top: 16px;
 }
