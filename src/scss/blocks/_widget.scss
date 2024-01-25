@@ -34,6 +34,10 @@
     margin-top: 16px;
 }
 
+.checkbox .custom-checkbox {
+    flex-shrink: 0;
+}
+
 .checkbox.disabled .custom-checkbox {
     cursor: default;
     pointer-events: none;
