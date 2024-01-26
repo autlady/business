@@ -2,6 +2,11 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background: linear-gradient(90deg, #686A6D 0%, #A8ADB8 100%);
+
+    @media (max-width: 1240px) {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
 }
 
 .program-banner-wrapper {
@@ -19,6 +24,7 @@
 
 .program-banner-col .block-info {
     color: rgba(255, 255, 255, 0.50);
+    margin-bottom: 0;
 }
 
 .program-banner__title {
@@ -34,6 +40,8 @@
     letter-spacing: -0.499px;
 
     @media (max-width: 1240px) {
+        margin-top: 40px;
+        margin-bottom: 20px;
         font-size: 28px;
         letter-spacing: -0.216px;
     }
@@ -75,6 +83,11 @@
     font-size: 28px;
     font-weight: 400;
     line-height: 34px;
+
+    @media (max-width: 1240px) {
+        margin-bottom: 32px;
+        font-size: 18px;
+    }
 }
 
 .program-banner__price span {
@@ -127,16 +140,26 @@
     line-height: 34px;
 }
 
- .program-banner-mob {
+.program-banner-mob {
     display: none;
 
     @media (max-width: 1240px) {
         display: block;
     }
- }
+}
 
- .program-banner-mob .block-info {
-    @media (max-width: 1240px) {
-        color: #EEE;
-    }
- }
+.program-banner-mob .block-info {
+    color: #EEE;
+    margin-bottom: 0;
+}
+
+.program-banner__subtitle-mob {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.program-banner__subtitle-mob span {
+    color: #006EFF;
+    font-weight: 600;
+}
