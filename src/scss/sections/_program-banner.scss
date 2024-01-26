@@ -3,7 +3,7 @@
     padding-bottom: 60px;
     background: linear-gradient(90deg, #686A6D 0%, #A8ADB8 100%);
 
-    @media (max-width: 1240px) {
+    @include mediaTablet {
         padding-top: 24px;
         padding-bottom: 40px;
     }
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 1240px) {
+    @include mediaTablet {
         display: none;
     }
 }
@@ -39,7 +39,7 @@
     line-height: 1.2;
     letter-spacing: -0.499px;
 
-    @media (max-width: 1240px) {
+    @include mediaTablet {
         margin-top: 40px;
         margin-bottom: 20px;
         font-size: 28px;
@@ -52,7 +52,7 @@
     position: relative;
     padding-right: 20px;
 
-    @media (max-width: 1240px) {
+    @include mediaTablet {
         padding-right: 0;
     }
 }
@@ -68,7 +68,7 @@
     border-radius: 5px;
     z-index: -1;
 
-    @media (max-width: 1240px) {
+    @include mediaTablet {
         bottom: 4px;
         height: 3px;
         border-radius: 3px;
@@ -84,7 +84,7 @@
     font-weight: 400;
     line-height: 34px;
 
-    @media (max-width: 1240px) {
+    @include mediaTablet {
         margin-bottom: 32px;
         font-size: 18px;
     }
@@ -103,14 +103,29 @@
 .program-banner-logos {
     display: flex;
     align-items: center;
+
+    @include mediaTablet {
+       margin-top: 32px;
+       margin-bottom: 32px;
+    }
+
 }
 
 .program-banner__logo:first-child {
     margin-right: 64px;
+
+    @include mediaTablet {
+        margin-right: 16px;
+    }
 }
 
 .program-banner__logo {
     margin-right: 53px;
+    flex-shrink: 0;
+
+    @include mediaTablet {
+        margin-right: 16px;
+    }
 }
 
 .program-banner-aside {
@@ -120,6 +135,12 @@
     padding-left: 61px;
     width: 415px;
     border-left: 1px solid #fff;
+
+    @media (max-width: 1200px) {
+        margin-right: 25px;
+        padding-left: 25px;
+        width: 300px;
+    }
 }
 
 .program-banner__subtitle {
@@ -143,7 +164,7 @@
 .program-banner-mob {
     display: none;
 
-    @media (max-width: 1240px) {
+    @include mediaTablet {
         display: block;
     }
 }
@@ -162,4 +183,18 @@
 .program-banner__subtitle-mob span {
     color: #006EFF;
     font-weight: 600;
+}
+
+.program-banner__subtitle-mob + .program-banner__subtitle-mob {
+    margin-top: 20px;
+}
+
+.program-banner-btns-mob {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.program-banner-mob .btn-program {
+    width: 350px;
 }
