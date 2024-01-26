@@ -18,6 +18,8 @@
 }
 
 .program-banner__title {
+    position: relative;
+    z-index: 2;
     margin-top: 50px;
     margin-bottom: 40px;
 
@@ -28,23 +30,24 @@
     letter-spacing: -0.499px;
 }
 
-span.border {
-    display: inline;
-    background-repeat: no-repeat;
-    background-position: left bottom 15px;
-    background-size: 100% 5px;
-    background-image: linear-gradient(to right, #FF0032, #FF0032);
+.border {
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
 }
 
-// .program-banner__title span::before {
-//     content: '';
-//     bottom: 0;
-//     left: 0;
-//     position: absolute;
-//     width: 100%;
-//     height: 6px;
-//     background-color: var(--accent-color);
-// }
+.border::after {
+    content: '';
+    bottom: 7px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    z-index: -1;
+
+}
 
 .program-banner__price {
     margin-bottom: 136px;
