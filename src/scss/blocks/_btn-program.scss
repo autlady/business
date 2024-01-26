@@ -31,3 +31,28 @@
     }
 }
 
+.btn-program--blue {
+    background-color: #006EFF;
+
+    &:hover {
+        background-color: #006eff97;
+    }
+
+    &:focus {
+        background-color: #2c7feb;
+    }
+}
+
+.btn-program--white {
+    border: 1px solid #66696F;
+    background-color: #FFF;
+    color: #66696F;
+
+    &:hover {
+        background-color: #F8F8FF;
+    }
+
+    &:focus {
+        background-color: #F8F8FF;
+    }
+}
