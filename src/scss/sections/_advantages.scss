@@ -1,5 +1,10 @@
 .advantages {
     padding: 78px 0;
+
+    @include mediaLaptop {
+        padding-top: 60px;
+        padding-bottom: 32px;
+    }
 }
 
 .advantages-wrapper {
