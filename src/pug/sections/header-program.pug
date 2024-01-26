@@ -1,0 +1,26 @@
+header.header.header-program
+    .container.container-header 
+        .header-content 
+            .header__logo
+                a(href="index.html").logo-img
+                    img(src="./img/logo.webp", alt="logo")
+                a(href="index.html").logo-text АНО Центр защиты бизнеса
+            .header-info 
+                .social-icons
+                    a(href="#!").social-icons__item
+                        img(src="./img/socials/bluetelegram.svg", alt="telegram")
+                    a(href="#!").social-icons__item
+                        img(src="./img/socials/bluewhatsapp.svg", alt="whatsapp")
+                a(href="tel:89994442211").contact-phone +7 (999) 444 22 11
+                include ../blocks/menu-toggle.pug
+            .mob-info
+                .social-icons-mob
+                    a(href="#!").social-icons-mob__item
+                        img(src="./img/socials/phone.svg", alt="phone")
+                    a(href="#!").social-icons-mob__item.icon-divider
+                        img(src="./img/socials/bluewhatsapp.svg", alt="whatsapp") 
+                    a(href="#!").social-icons-mob__item
+                        img(src="./img/socials/bluetelegram.svg", alt="telegram")
+                include ../blocks/menu-toggle.pug
+            .aside-menu-wrapper
+                include ../blocks/aside-menu.pug
