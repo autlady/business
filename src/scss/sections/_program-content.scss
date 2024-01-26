@@ -1,6 +1,13 @@
 .program-content {
     padding-top: 50px;
     padding-bottom: 212px;
+    background-color: #F3F4F7;
+
+    @include mediaLaptop {
+        padding-top: 0;
+        padding-bottom: 60px;
+        background-color: #fff;
+    }
 }
 
 .program-content .title-program {
@@ -106,6 +113,11 @@
 
     @include mediaTablet {
         display: block;
+        width: 620px;
+    }
+
+    @media (max-width: 665px) {
+        width: 100%;
     }
 }
 
