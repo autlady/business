@@ -7,6 +7,10 @@
 .program-banner-wrapper {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1240px) {
+        display: none;
+    }
 }
 
 .program-banner-col {
@@ -28,12 +32,21 @@
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.499px;
+
+    @media (max-width: 1240px) {
+        font-size: 28px;
+        letter-spacing: -0.216px;
+    }
 }
 
 .border {
     display: inline-block;
     position: relative;
     padding-right: 20px;
+
+    @media (max-width: 1240px) {
+        padding-right: 0;
+    }
 }
 
 .border::after {
@@ -46,6 +59,12 @@
     background-color: var(--accent-color);
     border-radius: 5px;
     z-index: -1;
+
+    @media (max-width: 1240px) {
+        bottom: 4px;
+        height: 3px;
+        border-radius: 3px;
+    }
 
 }
 
@@ -107,3 +126,17 @@
     font-size: 24px;
     line-height: 34px;
 }
+
+ .program-banner-mob {
+    display: none;
+
+    @media (max-width: 1240px) {
+        display: block;
+    }
+ }
+
+ .program-banner-mob .block-info {
+    @media (max-width: 1240px) {
+        color: #EEE;
+    }
+ }
