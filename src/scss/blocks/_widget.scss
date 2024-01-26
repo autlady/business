@@ -13,13 +13,13 @@
     margin-bottom: 41px;
 }
 
-.widget__body label {
+.widget__body .checkbox {
     display: flex;
-    align-items: center;
     column-gap: 10px;
 }
 
 .checkbox p {
+    padding-top: 3px;
     color: #4D4D4D;
     font-size: 16px;
     line-height: 1.5; 
