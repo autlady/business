@@ -1,0 +1,31 @@
+.program-content {
+    padding-top: 50px;
+    padding-bottom: 212px;
+}
+
+.program-content .title-program {
+    margin-bottom: 40px;
+}
+
+.program-content-list {
+    width: 1182px;
+}
+
+.program-content-list li p {
+    padding-right: 210px;
+    color: #353F4B;
+    font-size: 20px;
+    line-height: 27.3px;
+}
+
+.program-content-list li {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 2px;
+    border-top: 1px solid rgba(53, 63, 75, 0.30);
+}
+
+.program-content-list li:first-child {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
