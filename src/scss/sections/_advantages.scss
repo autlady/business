@@ -1,0 +1,38 @@
+.advantages {
+    padding: 78px 0;
+}
+
+.advantages-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-content {
+    padding-top: 22px;
+    width: 720px;
+    gap: 100px;
+}
+
+.advantages-content .section-title {
+    margin-bottom: 23px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.advantages-content p {
+    font-size: 20px;
+    line-height: normal;
+}
+
+.advantages__img {
+    margin-right: 110px;
+    width: 329px;
+    height: 321.6px;
+    flex-shrink: 0;
+}
+
+.advantages__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
