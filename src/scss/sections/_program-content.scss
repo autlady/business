@@ -6,10 +6,27 @@
 .program-content .title-program {
     margin-bottom: 40px;
     padding-right: 750px;
+
+    @include mediaTablet {
+        display: none;
+    }
+}
+
+.program-content .title-program-mob {
+    display: none;
+
+    @include mediaTablet {
+        display: block;
+    }
 }
 
 .program-content-list {
     width: 1182px;
+
+    @media (max-width: 1380px) {
+        width: 100%;
+    }
+
 }
 
 .program-content-list li p {
@@ -17,6 +34,8 @@
     color: #353F4B;
     font-size: 20px;
     line-height: 27.3px;
+
+
 }
 
 .program-content-list li {
@@ -29,4 +48,17 @@
 .program-content-list li:first-child {
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.program-content__text-mob {
+    display: none;
+    color: #353F4B;
+    font-size: 14px;
+    line-height: normal;
+
+
+    @include mediaTablet {
+        display: block;
+
+    }
 }
