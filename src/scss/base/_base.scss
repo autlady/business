@@ -167,7 +167,7 @@ select:-webkit-autofill:focus {
   max-width: var(--container-width);
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .container.container-header {
@@ -175,6 +175,10 @@ select:-webkit-autofill:focus {
     max-width: 100%;
     padding: 0 20px;
   }
+}
+
+.container.container-program {
+   max-width: 1420px;
 }
 
 .headline {
