@@ -1,0 +1,27 @@
+.teacher-card {
+    display: flex;
+}
+
+.teacher-card__img {
+    width: 510px;
+    background: #C4C4C4;
+    flex-shrink: 0;
+}
+
+.teacher-card__img img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.teacher-card__content {
+    padding: 103px 174px 105px 109px;
+}
+
+.teacher-card__name {
+    color: var(--title-color);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.25;
+}
