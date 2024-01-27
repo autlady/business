@@ -2,14 +2,19 @@
     padding-top: 71px;
     padding-bottom: 117px;
     background-color: #F3F4F7;
+
+    @include mediaTablet {
+        background-color: #fff;
+    }
 }
 
 .diploma-wrapper {
     display: flex;
     gap: 45px;
-
+    
     @include mediaTablet {
         flex-direction: column;
+        gap: 0px;
     }
 }
 
@@ -34,7 +39,14 @@
 .diploma__img {
     width: 556px;
     flex-shrink: 0;
-    // height: 
+
+    @media (max-width: 1300px) {
+        width: 450px;
+    }
+    
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 }
 
 .diploma__img img {
@@ -45,6 +57,7 @@
 
 .diploma-content .title-program-mob {
     display: none;
+    margin-bottom: 24px;
 
     @include mediaTablet {
         display: block;
@@ -60,5 +73,16 @@
 
     @include mediaTablet {
         display: block;
+    }
+}
+
+.diploma-content .btn-icon {
+
+    @media (max-width: 1203px) {
+        margin-bottom: 30px;
+    }
+
+    @include mediaTablet {
+        display: none;
     }
 }
