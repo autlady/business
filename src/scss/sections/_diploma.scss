@@ -9,11 +9,22 @@
     gap: 67px;
 }
 
+.diploma-content .title-program {
+    @include mediaTablet {
+        display: none;
+    }
+}
+
 .diploma__text {
     margin-bottom: 54px;
     color: #353F4B;
     font-size: 20px;
     line-height: 28px;
+
+    @include mediaTablet {
+        display: none;
+    }
+
 }
 
 .diploma__img {
@@ -27,3 +38,14 @@
     // object-fit: cover;
 }
 
+.diploma__text-mob {
+    display: none;
+    margin-bottom: 24px;
+    color: #353F4B;
+    font-size: 14px;
+    line-height: normal;
+
+    @include mediaTablet {
+        display: block;
+    }
+}
