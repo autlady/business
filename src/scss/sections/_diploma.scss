@@ -11,7 +11,7 @@
 .diploma-wrapper {
     display: flex;
     gap: 45px;
-    
+
     @include mediaTablet {
         flex-direction: column;
         gap: 0px;
@@ -43,7 +43,15 @@
     @media (max-width: 1300px) {
         width: 450px;
     }
-    
+
+    @media(max-width: 1194px) {
+        display: none;
+    }
+
+    @include mediaTablet {
+        display: block;
+    }
+
     @media (max-width: 600px) {
         width: 100%;
     }
@@ -73,6 +81,17 @@
 
     @include mediaTablet {
         display: block;
+    }
+}
+
+.diploma__text-mob a {
+    color: #353F4B;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: underline;
+
+    &:hover {
+        color: var(--accent-color);
     }
 }
 
