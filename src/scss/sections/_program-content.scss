@@ -6,6 +6,9 @@
     @include mediaLaptop {
         padding-top: 0;
         padding-bottom: 60px;
+    }
+
+    @include mediaTablet {
         background-color: #fff;
     }
 }

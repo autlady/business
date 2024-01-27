@@ -4,6 +4,8 @@
     background-color: #F3F4F7;
 
     @include mediaTablet {
+        padding-top: 0;
+        padding-bottom: 60px;
         background-color: #fff;
     }
 }
