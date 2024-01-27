@@ -6,7 +6,11 @@
 
 .diploma-wrapper {
     display: flex;
-    gap: 67px;
+    gap: 45px;
+
+    @include mediaTablet {
+        flex-direction: column;
+    }
 }
 
 .diploma-content .title-program {
@@ -28,7 +32,8 @@
 }
 
 .diploma__img {
-    // width: 556px;
+    width: 556px;
+    flex-shrink: 0;
     // height: 
 }
 
@@ -36,6 +41,14 @@
     // width: 100%;
     // height: 100%;
     // object-fit: cover;
+}
+
+.diploma-content .title-program-mob {
+    display: none;
+
+    @include mediaTablet {
+        display: block;
+    }
 }
 
 .diploma__text-mob {
