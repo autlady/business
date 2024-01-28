@@ -1,0 +1,22 @@
+.price-card-tarif {
+    max-width: 270px;
+}
+
+.price-card__title {
+    color: #353F4B;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.price-card__old-price {
+    color: #353F4B;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+.price-card__old-price span {
+    text-decoration: none;
+}
