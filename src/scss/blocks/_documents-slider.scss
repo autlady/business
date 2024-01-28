@@ -1,0 +1,7 @@
+.documents-slider {
+    display: none;
+
+    @media (max-width: 1086px) {
+        display: block;
+    }
+}

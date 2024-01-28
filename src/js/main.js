@@ -196,3 +196,11 @@ const swiperTeachers = new Swiper('.teachers-slider', {
     el: '.swiper-pagination',
   },
 });
+
+// Documents slider
+
+const swiperDocuments = new Swiper('.documents-slider', {
+  // Optional parameters
+  slidesPerView: 4,
+  spaceBetween: 8,
+});
