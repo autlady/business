@@ -1,0 +1,37 @@
+.documents {
+    background-color: #F3F4F7;
+}
+
+.documents-wrapper {
+    display: flex;
+    gap: 114px;
+    overflow: hidden;
+}
+
+.documents-col .title-program-inner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.documents__imgs {
+    display: flex;
+    column-gap: 20px;
+}
+
+.documents__imgs-col:first-child {
+    margin-top: -80px;
+}
+
+.documents__imgs-col {
+    margin-top: -260px;
+}
+
+.documents-img {
+    width: 260px;
+}
+
+.documents-img:not(:last-child) {
+    margin-bottom: 20px;
+}
+
