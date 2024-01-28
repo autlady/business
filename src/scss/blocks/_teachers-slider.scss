@@ -10,9 +10,13 @@
     }
 }
 
-.teachers-slider .program-slider-group {
+.teachers-slider .cases-controls {
     display: flex;
-    
+
+    @media (max-width: 1199px) {
+        display: flex;
+    }
+
     @include mediaMobile {
         display: none;
     }
