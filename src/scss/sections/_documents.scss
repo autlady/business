@@ -6,6 +6,11 @@
     display: flex;
     gap: 114px;
     overflow: hidden;
+    height: 470px;
+}
+
+.documents-col .btn-icon {
+    // margin-bottom: 181px;
 }
 
 .documents-col .title-program-inner {
@@ -17,6 +22,7 @@
 .documents__imgs {
     display: flex;
     column-gap: 20px;
+    flex-shrink: 0;
 }
 
 .documents__imgs-col:first-child {
