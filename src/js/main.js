@@ -222,3 +222,17 @@ const swiperDocuments = new Swiper('.documents-slider', {
     },
   },
 });
+
+// Reviews slider
+
+const swiperReviews = new Swiper('.reviews-slider', {
+  // Optional parameters
+  slidesPerView: 2,
+  spaceBetween: 10,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.program-slider-next',
+    prevEl: '.program-slider-prev',
+  },
+});
