@@ -1,0 +1,11 @@
+.teachers-slider {
+    padding-top: 100px;
+}
+
+.teachers-slider .swiper-pagination {
+    display: none;
+
+    @include mediaMobile {
+        display: block;
+    }
+}
