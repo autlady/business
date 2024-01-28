@@ -1,16 +1,24 @@
+.price-card {
+    border: 1px solid #F3F4F7;
+    background-color: #F3F4F7;
+    color: #353F4B;
+}
+
 .price-card-tarif {
     max-width: 270px;
 }
 
 .price-card__title {
-    color: #353F4B;
+    margin-bottom: 17px;
+
     font-size: 48px;
     font-weight: 800;
     line-height: 1.1;
 }
 
 .price-card__old-price {
-    color: #353F4B;
+    margin-bottom: 5px;
+
     font-size: 26px;
     font-weight: 500;
     line-height: normal;
@@ -19,4 +27,78 @@
 
 .price-card__old-price span {
     text-decoration: none;
+}
+
+.price-card__new-price {
+    margin-bottom: 10.5px;
+
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.price-card__timing {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.price-card-diploma {
+    margin-bottom: 34px;
+}
+
+.price-card__study {
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.price-card__installment-pay {
+    margin-bottom: 8px;
+
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.price-card__installment-pay span {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.05;
+}
+
+.price-card__installment {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.price-card__installment-zero {
+    color: var(--accent-color);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.price-card__plan-title {
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.price-card__plan {
+    padding-left: 21px;
+    margin-bottom: 12px;
+}
+
+.price-card__plan p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.price-card__plan li:not(:last-child) {
+    margin-bottom: 8px;
 }
