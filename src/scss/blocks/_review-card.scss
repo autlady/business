@@ -6,10 +6,36 @@
 
 .review-card__text {
     margin-bottom: 44px;
+    position: relative;
 
-    max-height: 414px;
+    max-height: 390px;
     overflow: hidden;
     overflow-y: auto;
+
+    scrollbar-width: thin;
+    scrollbar-color: red;
+}
+
+.review-card__text::after {
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 36px;
+    background-color: rgba(238, 239, 244, 0.5);
+    z-index: 2;
+    display: block;
+}
+
+.review-card__text::-webkit-scrollbar {
+    width: 12px;
+}
+
+.review-card__text::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 12px;
+    border-left: 8px solid #F3F4F7;
+    border-right: 8px solid #F3F4F7;
 }
 
 .review-card__text p {
