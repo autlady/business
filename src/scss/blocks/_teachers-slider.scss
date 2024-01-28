@@ -1,5 +1,21 @@
 .teachers-slider {
     padding-top: 100px;
+
+    @include mediaTablet {
+        padding-top: 40px;
+    }
+
+    @include mediaMobile {
+        padding-top: 17px;
+    }
+}
+
+.teachers-slider .program-slider-group {
+    display: flex;
+    
+    @include mediaMobile {
+        display: none;
+    }
 }
 
 .teachers-slider .swiper-pagination {
