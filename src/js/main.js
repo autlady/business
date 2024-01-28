@@ -201,6 +201,24 @@ const swiperTeachers = new Swiper('.teachers-slider', {
 
 const swiperDocuments = new Swiper('.documents-slider', {
   // Optional parameters
-  slidesPerView: 4,
+  slidesPerView: 3.5,
   spaceBetween: 8,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1.5,
+    },
+    570: {
+      slidesPerView: 2,
+    },
+    712: {
+      slidesPerView: 2.5,
+    },
+    846: {
+      slidesPerView: 3,
+    },
+    970: {
+      slidesPerView: 3.5,
+    },
+  },
 });
