@@ -228,7 +228,7 @@ const swiperDocuments = new Swiper('.documents-slider', {
 const swiperReviews = new Swiper('.reviews-slider', {
   // Optional parameters
   slidesPerView: 2,
-  spaceBetween: 10,
+  spaceBetween: 20,
 
   // Navigation arrows
   navigation: {
