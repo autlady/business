@@ -1,7 +1,14 @@
 .price-card {
+    position: relative;
+    padding: 52px 74px 72px;
+
     border: 1px solid #F3F4F7;
     background-color: #F3F4F7;
+
     color: #353F4B;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .price-card-tarif {
@@ -20,7 +27,6 @@
     margin-bottom: 5px;
 
     font-size: 26px;
-    font-weight: 500;
     line-height: normal;
     text-decoration: line-through;
 }
@@ -33,14 +39,7 @@
     margin-bottom: 10.5px;
 
     font-size: 40px;
-    font-weight: 500;
     line-height: 1.1;
-}
-
-.price-card__timing {
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
 }
 
 .price-card-diploma {
@@ -49,43 +48,25 @@
 
 .price-card__study {
     margin-bottom: 12px;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
+
 }
 
 .price-card__installment-pay {
     margin-bottom: 8px;
-
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
 }
 
 .price-card__installment-pay span {
     font-size: 50px;
-    font-weight: 500;
     line-height: 1.05;
 }
 
-.price-card__installment {
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
-}
 
 .price-card__installment-zero {
     color: var(--accent-color);
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
 }
 
 .price-card__plan-title {
     margin-bottom: 12px;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
 }
 
 .price-card__plan {
@@ -93,12 +74,44 @@
     margin-bottom: 12px;
 }
 
-.price-card__plan p {
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
-}
 
 .price-card__plan li:not(:last-child) {
     margin-bottom: 8px;
+}
+
+a.price-card__link {
+    color: rgba(53, 63, 75, 0.80);
+    font-weight: 400;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+.price-card-circle {
+    position: absolute;
+    top: 53px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 170px;
+    flex-shrink: 0;
+
+    border-radius: 85px;
+    background: rgba(255, 0, 0, 0.58);
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.price-card__off {
+    margin-bottom: 6px;
+    font-size: 42px;
+    line-height: 46px;
 }
