@@ -8,7 +8,7 @@
     }
 }
 
-.module + .module {
+.module+.module {
     margin-top: 123px;
 
     @include mediaLaptop {
@@ -38,6 +38,11 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 1.1;
+
+    @include mediaTablet {
+        font-size: 20px;
+        line-height: 1;
+    }
 }
 
 .module__price {
@@ -47,11 +52,21 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 1.4;
+
+    @include mediaTablet {
+        color: #353F4B;
+        font-size: 16px;
+        line-height: 1.75;
+    }
 }
 
 .module__list {
     margin-bottom: 24px;
     position: relative;
+
+    @include mediaTablet {
+        margin-bottom: 16px;
+    }
 }
 
 .module__list::after {
@@ -62,12 +77,20 @@
     right: 0;
     height: 151px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+
+    @include mediaTablet {
+        height: 86px;
+    }
 }
 
 .module__list li {
     padding: 16px 0;
     border-radius: 2px;
     border-bottom: 1px solid rgba(53, 63, 75, 0.30);
+
+    @include mediaTablet {
+        padding: 12px 0;
+    }
 }
 
 .module__list li:last-child {
@@ -79,6 +102,10 @@
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
+
+    @include mediaTablet {
+        font-size: 14px;
+    }
 }
 
 a.module__link {
@@ -90,5 +117,11 @@ a.module__link {
 
     &:hover {
         color: var(--accent-color);
+    }
+
+    @include mediaTablet {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.16px;
     }
 }
