@@ -1,0 +1,17 @@
+.mediation-advantages {
+    padding: 78px 0;
+
+    @include mediaLaptop {
+        padding-top: 60px;
+        padding-bottom: 32px;
+    }
+}
+
+.mediation-advantages .advantages-text {
+    font-size: 20px;
+    line-height: normal;
+
+    @include mediaTablet {
+        display: block;
+    }
+}
