@@ -1,7 +1,11 @@
 .modules {
-    padding-bottom: 100px;
+    // padding-bottom: 100px;
 }
 
 .modules .title-program {
     margin-bottom: 121px;
+
+    @include mediaLaptop {
+        margin-bottom: 60px;
+    }
 }

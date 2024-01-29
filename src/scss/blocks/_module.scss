@@ -1,9 +1,19 @@
 .module {
+    width: 1182px;
+    padding-right: 15px;
     position: relative;
+
+    @media (max-width: 1300px) {
+        width: 100%;
+    }
 }
 
 .module + .module {
     margin-top: 123px;
+
+    @include mediaLaptop {
+        margin-top: 60px;
+    }
 }
 
 .module__num {
@@ -15,6 +25,10 @@
     font-weight: 700;
     line-height: 1;
     z-index: -1;
+
+    @media (max-width: 1650px) {
+        display: none;
+    }
 }
 
 .module__title {
