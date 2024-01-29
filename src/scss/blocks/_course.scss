@@ -1,4 +1,8 @@
 .course {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 760px;
     padding: 40px 32px;
     border: 1px solid #F3F4F7;
     background: #F3F4F7;
@@ -6,7 +10,7 @@
 
 .course__title {
     margin-bottom: 24px;
-    color: #2C2762;
+    color: var(--title-color);
     font-size: 30px;
     font-weight: 600;
     line-height: 1.28;
@@ -38,7 +42,7 @@
 
 .course__subtitle {
     margin-bottom: 11px;
-    color: #2C2762;
+    color: var(--title-color);
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
