@@ -24,10 +24,10 @@
     transition: background-color 0.2s ease-in;
 
     &:hover {
-        background-color: var(--btn-hover-color);
+        background-color: #F3F4F7;
     }
 
     &:focus {
-        background-color: var(--btn-focus-color);
+        background-color: #F3F4F7;
     }
 }
