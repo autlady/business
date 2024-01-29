@@ -5,6 +5,10 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+
+    @include mediaTablet {
+        padding-bottom: 32px;
+    }
 }
 
 .mediation-advantages .advantages-text {
@@ -12,6 +16,7 @@
     line-height: normal;
 
     @include mediaTablet {
+        font-size: 14px;
         display: block;
     }
 }

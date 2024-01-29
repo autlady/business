@@ -1,5 +1,7 @@
 .modules {
-    // padding-bottom: 100px;
+    @include mediaTablet {
+        padding-bottom: 60px;
+    }
 }
 
 .modules .title-program {
@@ -7,5 +9,9 @@
 
     @include mediaLaptop {
         margin-bottom: 60px;
+    }
+
+    @include mediaTablet {
+        margin-bottom: 32px;
     }
 }
