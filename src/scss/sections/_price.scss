@@ -5,4 +5,12 @@
 .price-wrapper {
     display: flex;
     gap: 20px;
+
+    @media (max-width: 1330px) {
+        gap: 10px;
+    }
+
+    @include mediaTablet {
+        flex-direction: column;
+    }
 }

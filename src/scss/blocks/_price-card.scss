@@ -10,6 +10,17 @@
     font-size: 17px;
     font-weight: 500;
     line-height: 1.5;
+
+    @media (max-width: 1330px) {
+        width: 55%;
+        padding: 40px 20px 70px;
+    }
+
+    @include mediaTablet {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
 
 .price-card-tarif {
@@ -18,18 +29,29 @@
 
 .price-card__title {
     margin-bottom: 17px;
-
     font-size: 48px;
     font-weight: 800;
     line-height: 1.1;
+
+    @include mediaTablet {
+        margin-bottom: 16px;
+
+        color: #848D98;
+        font-size: 26px;
+    }
 }
 
 .price-card__old-price {
     margin-bottom: 5px;
-
     font-size: 26px;
     line-height: normal;
     text-decoration: line-through;
+
+    @include mediaTablet {
+        margin-bottom: 8px;
+        font-size: 18px;
+        font-weight: 500;
+    }
 }
 
 .price-card__old-price span {
@@ -38,27 +60,50 @@
 
 .price-card__new-price {
     margin-bottom: 10.5px;
-
     font-size: 40px;
     line-height: 1.1;
+
+    @include mediaTablet {
+        margin-bottom: 6px;
+        font-size: 24px;
+        font-weight: 500;
+    }
 }
 
 .price-card-diploma {
     margin-bottom: 34px;
+
+    @include mediaTablet {
+        margin-bottom: 32px;
+    }
 }
 
 .price-card__study {
     margin-bottom: 12px;
 
+    @include mediaTablet {
+        margin-bottom: 24px;
+    }
+
 }
 
 .price-card__installment-pay {
     margin-bottom: 8px;
+
+    @include mediaTablet {
+        margin-bottom: 6px;
+    }
 }
 
 .price-card__installment-pay span {
     font-size: 50px;
     line-height: 1.05;
+
+    @include mediaTablet {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+    }
 }
 
 
@@ -68,16 +113,29 @@
 
 .price-card__plan-title {
     margin-bottom: 12px;
+
+    @include mediaTablet {
+        margin-bottom: 16px;
+    }
 }
 
 .price-card__plan {
     padding-left: 21px;
     margin-bottom: 12px;
+
+    @include mediaTablet {
+        padding-left: 30px;
+        margin-bottom: 16px;
+    }
 }
 
 
 .price-card__plan li:not(:last-child) {
     margin-bottom: 8px;
+
+    @include mediaTablet {
+        margin-bottom: 4px;
+    }
 }
 
 a.price-card__link {
@@ -109,10 +167,30 @@ a.price-card__link {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
+
+    @media (max-width:1170px) {
+        top: 30px;
+        right: 15px;
+    }
+
+    @include mediaTablet {
+        width: 102px;
+        height: 102px;
+        border-radius: 51px;
+
+        font-size: 10px;
+        line-height: 11.4px;
+    }
 }
 
 .price-card__off {
     margin-bottom: 6px;
     font-size: 42px;
     line-height: 46px;
+
+    @include mediaTablet {
+        margin-bottom: 3px;
+        font-size: 24px;
+        line-height: 11.5px;
+    }
 }
