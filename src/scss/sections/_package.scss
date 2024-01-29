@@ -1,6 +1,9 @@
 .package {
     padding-top: 100px;
-    padding-bottom: 100px;
+
+    @include mediaTablet {
+        display: none;
+    }
 }
 
 .package .title-program-inner {
