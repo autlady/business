@@ -1,0 +1,13 @@
+.mediation-diploma .diploma__text a {
+    color: #353F4B;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration-line: underline;
+}
+
+.mediation-diploma .diploma__img {
+    @media (max-width: 1194px) {
+        display: block;
+    }
+}
