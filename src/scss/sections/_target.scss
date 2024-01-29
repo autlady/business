@@ -15,6 +15,12 @@
 
 .target-content .title-program {
     margin-bottom: 40px;
+
+    @include mediaTablet {
+        margin-bottom: 24px;
+    }
+
+
 }
 
 .target__subtitle {
