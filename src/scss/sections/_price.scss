@@ -1,5 +1,16 @@
 .price {
     padding-bottom: 100px;
+
+    @media (max-width: 538px) {
+        padding-bottom: 60px;
+     }
+}
+
+.price .container-program {
+    @media (max-width: 538px) {
+       padding-left: 0;
+       padding-right: 0;
+    }
 }
 
 .price-wrapper {
