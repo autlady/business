@@ -1,0 +1,10 @@
+.mediation-banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(90deg, #686A6D 0%, #A8ADB8 100%);
+
+    @include mediaTablet {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+}
