@@ -1,0 +1,9 @@
+// module
+mixin module-item(num, title, price)
+    .module
+        .module__num #{num}
+        h3.module__title #{title}
+        p.module__price Cтоимость: #{price}
+        ul.module__list 
+            block
+    a(href="#!").module__link Cмотреть все темы модуля
