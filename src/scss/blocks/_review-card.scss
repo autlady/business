@@ -7,17 +7,20 @@
 .review-card__text {
     margin-bottom: 44px;
     position: relative;
+}
 
+.scroll-wrapper {
     max-height: 390px;
     overflow: hidden;
     overflow-y: auto;
 
     scrollbar-width: thin;
-    scrollbar-color: red;
+    scrollbar-color: grey red;
 }
 
 .review-card__text::after {
     content: "";
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;

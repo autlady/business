@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.module + .module {
+    margin-top: 123px;
+}
+
 .module__num {
     position: absolute;
     top: -60px;
