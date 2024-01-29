@@ -1,0 +1,18 @@
+// sign-up-docs
+.sign-up-docs
+    h2.sign-up-title Документы
+    h3.sign-up-subtitle Документ, удостоверяющий личность
+    form(action="" class="signup-docs-form")
+          .docs-form-item
+            .form-group-title Тип документа
+            .form-group.form-group--docs
+                .dropdown
+                    button.dropdown__button.dropdown__button--contacts 
+                        span Паспорт гражданина РФ
+                    ul.dropdown__list
+                        li.dropdown__list-item(data-value="item1") Москва
+                        li.dropdown__list-item(data-value="item2") Санкт-Петербург
+                        li.dropdown__list-item(data-value="item3") Город1
+                        li.dropdown__list-item(data-value="item4") Город2
+                        li.dropdown__list-item(data-value="item5") Город3
+                    input(type="text" name="selet-category" value="" class="dropdown__input-hidden")
