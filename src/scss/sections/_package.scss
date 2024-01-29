@@ -6,3 +6,32 @@
 .package .title-program-inner {
     margin-bottom: 40px;
 }
+
+.package__list {
+    padding-left: 30px;
+}
+
+.package__list li {
+    position: relative;
+}
+
+.package__list li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.package__list li::before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    top: 4px;
+    left: -25px;
+}
+
+.package__list p {
+    color: #353F4B;
+    font-size: 22px;
+    line-height: 28px;
+}
