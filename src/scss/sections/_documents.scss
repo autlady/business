@@ -31,6 +31,12 @@
     }
 }
 
+.documents-col .btn-icon {
+    @include mediaTablet {
+        width: 350px;
+    }
+}
+
 .documents-col .title-program-inner {
     margin-top: 50px;
     margin-bottom: 50px;
