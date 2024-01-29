@@ -1,0 +1,25 @@
+.sign-up-contacts {
+    width: 820px;
+}
+
+.signup-contact-form {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dropdown__button--contacts {
+    height: 56px;
+    border: 1px solid #B4B4B4;
+}
+
+.dropdown__button.dropdown__button--contacts:focus,
+.dropdown__button.dropdown__button--contacts.dropdown__button--active {
+  box-shadow: unset;
+  border: 1px solid #FF0032;
+}
+
+// .dropdown__button--contacts:focus {
+//     border: 1px solid #FF0032;
+// }
