@@ -98,13 +98,20 @@
 
 .price-card__installment-pay {
     margin-bottom: 8px;
+    display: flex;
+    align-items: end;
+    gap: 6px;
 
     @include mediaTablet {
         margin-bottom: 6px;
     }
 }
 
-.price-card__installment-pay span {
+.from {
+    padding-bottom: 6px;
+}
+
+.pay {
     font-size: 50px;
     line-height: 1.05;
 
