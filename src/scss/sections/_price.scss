@@ -13,4 +13,8 @@
     @include mediaTablet {
         flex-direction: column;
     }
+
+    @media (max-width: 538px) {
+        gap: 0px;
+    }
 }

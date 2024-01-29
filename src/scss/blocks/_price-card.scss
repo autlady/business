@@ -17,9 +17,18 @@
     }
 
     @include mediaTablet {
+        width: 65%;
         font-size: 14px;
         font-weight: 400;
         line-height: normal;
+    }
+
+    @media (max-width: 662px) {
+        width: 80%;
+    }
+
+    @media (max-width: 538px) {
+        width: 100%;
     }
 }
 

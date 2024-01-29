@@ -1,5 +1,4 @@
 .price-form {
-    // width: 680px;
     width: 50%;
     padding: 52px 95px 142px;
 
@@ -9,6 +8,18 @@
         width: 45%;
         padding: 40px 20px 70px;
     }
+
+    @include mediaTablet {
+        width: 65%;
+    }
+
+    @media (max-width: 662px) {
+        width: 80%;
+    }
+
+    @media (max-width: 538px) {
+        width: 100%;
+    }
 }
 
 .price-form-title {
@@ -17,6 +28,10 @@
     font-size: 48px;
     font-weight: 800;
     line-height: 1.1;
+
+    @include mediaTablet {
+        font-size: 26px;
+    }
 }
 
 .price-form .btn-subscribe {
