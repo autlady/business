@@ -1,0 +1,18 @@
+extends ../layouts/layout.pug
+
+block variables
+	-var title = "Общая программа";
+
+block content
+	include ../sections/header-program.pug
+	main
+		include ../sections/program-banner.pug
+		include ../sections/advantages.pug
+		include ../sections/program-content.pug
+		include ../sections/target.pug
+		include ../sections/diploma.pug
+		include ../sections/teachers.pug
+		include ../sections/documents.pug
+		include ../sections/reviews.pug
+		include ../sections/price.pug 
+	include ../sections/footer.pug
