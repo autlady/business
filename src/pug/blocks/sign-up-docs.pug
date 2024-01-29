@@ -3,7 +3,7 @@
     h2.sign-up-title Документы
     h3.sign-up-subtitle Документ, удостоверяющий личность
     form(action="" class="signup-docs-form")
-          .docs-form-item
+        .docs-form-item
             .form-group-title Тип документа
             .form-group.form-group--docs
                 .dropdown
@@ -16,3 +16,21 @@
                         li.dropdown__list-item(data-value="item4") Документ3
                         li.dropdown__list-item(data-value="item5") Документ4
                     input(type="text" name="selet-category" value="" class="dropdown__input-hidden")
+
+        fieldset
+            input#file.inputfile(type="file", data-multiple-caption="{count} файлов выбрано", multiple)
+            label.form-label(for="file")
+                span Выберите файл
+        
+        p.fieldset-desc Разворот паспорта гражданина РФ 2-3 страница
+        h3.sign-up-subtitle CНИЛС
+
+        fieldset
+            input#file2.inputfile(type="file", data-multiple-caption="{count} файлов выбрано", multiple)
+            label.form-label(for="file2") 
+                span Выберите файл
+        
+        button(type="submit" class="btn btn--signup") Записаться на обучение
+        p.service-form-privacy 
+            | Нажимая на кнопку, Вы даёте согласие на обработку своих персональных данных в соответствии c 
+            a(href="#!") Политикой в отношении обработки персональных данных

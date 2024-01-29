@@ -5,3 +5,60 @@
 .form-group--docs .dropdown__button--contacts {
     width: 490px;
 }
+
+fieldset {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    border: 1px dashed #B4B4B4;
+}
+
+// .form-label {
+// 	cursor: pointer;
+// 	font-size: 18px;
+// 	font-family: Tahoma, sans-serif;
+// 	vertical-align: top;
+// }
+
+/*КАСТОМНЫЙ ВЫБОР ФАЙЛА*/
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+.inputfile+label {
+    display: inline-block;
+
+    color: #2C2762;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+    color: var(--accent-color);
+}
+
+.fieldset-desc {
+    margin-top: 8px;
+    margin-bottom: 40px;
+    color: #7C7F8A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn--signup {
+    margin-top: 54px;
+    border-radius: 4px;
+}
+
+.signup-docs-form .service-form-privacy {
+    width: 490px;
+}
