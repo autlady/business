@@ -3,7 +3,7 @@ section.news
         .title-group
             p.back-title События
             h2.section-title Новости
-            +btn-icon("Все новости")
+            +btn-icon("Все новости", "all-news.html")
         ul.list-group
             li.list-group-item.active(data-tab="tab-1") Лента
             li.list-group-item(data-tab="tab-2") Новости
@@ -12,7 +12,7 @@ section.news
             li.list-group-item(data-tab="tab-5") Видео
         div(class="card" data-tab-content id="tab-1")
             include ../blocks/news-slider.pug
-            +btn-icon-mob("Все новости")
+            +btn-icon-mob("Все новости", "all-news.html")
             include ../blocks/pagination.pug
         div(class="card hidden" data-tab-content id="tab-2")
             +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")

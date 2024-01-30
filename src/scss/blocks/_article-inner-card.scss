@@ -3,6 +3,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
+
+    &:hover {
+        .article-inner-card__title {
+            color: var(--accent-color);
+    }
+}
 }
 
 .article-inner-card::after {

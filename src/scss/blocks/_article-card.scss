@@ -1,5 +1,13 @@
 .article-card {
     display: block;
+    background: #fff;
+
+    &:hover {
+        .article-card__title {
+            color: var(--accent-color);
+    }
+}
+
     @media (max-width: 899px) {
         padding-bottom: 12px;
 		border-bottom: 1px solid #F2F3F7;
