@@ -1,6 +1,11 @@
 .sign-up {
     padding-top: 94px;
     padding-bottom: 100px;
+
+    @include mediaMobile {
+        padding-top: 24px;
+        padding-bottom: 60px;
+    }
 }
 
 .sign-up-title {
