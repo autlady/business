@@ -9,6 +9,10 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.signup-contact-form .form-group {
+    margin-bottom: 0;
+}
+
 .form-input--contacts {
     @include mediaTablet {
         height: 56px;
