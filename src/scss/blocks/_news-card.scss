@@ -5,6 +5,12 @@
     max-width: 400px;
     min-height: 310px;
 
+    &:hover {
+        .news-card__title {
+             color: var(--accent-color);
+        }
+    }
+
     @media (max-width: 1364px) {
         min-height: unset;
     }
