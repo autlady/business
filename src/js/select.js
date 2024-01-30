@@ -81,14 +81,16 @@ if (dropdowns.length > 0){
             const customBtnMob = document.querySelector('.btn-reset-mob');
             const customSelectsMob = document.querySelectorAll('#dropdown-btn-mob span');
 
-            customBtnMob.addEventListener('click', function() {
+            if (customBtnMob){
+                
+              customBtnMob.addEventListener('click', function() {
                 for (item of customSelectsMob) {
                     item.textContent = "Не выбран";
                     item.classList.remove('text-black');
-            }
-        });
-    }
+              }
+        
+           });
+       }}
     }
 
 }
-
