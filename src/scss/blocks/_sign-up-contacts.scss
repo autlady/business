@@ -3,14 +3,19 @@
 }
 
 .signup-contact-form {
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 24px;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    // column-gap: 20px;
+    row-gap: 24px;
+    // display: grid;
+    // grid-column-gap: 20px;
+    // grid-row-gap: 24px;
+    // grid-template-columns: repeat(2, 1fr);
 }
 
 .signup-contact-form .form-group {
     margin-bottom: 0;
+    width: 400px;
 }
 
 .form-input--contacts {

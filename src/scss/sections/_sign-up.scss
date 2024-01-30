@@ -27,6 +27,10 @@
     gap: 160px;
     padding-left: 140px;
 
+    @media (max-width: 1700px) {
+        gap: 60px;
+    }
+
     @media (max-width: 1199px) {
         gap: 0px;
     }
