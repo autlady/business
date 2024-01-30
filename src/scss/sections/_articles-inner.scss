@@ -1,6 +1,11 @@
 .articles-inner {
     padding-top: 60px;
     padding-bottom: 104px;
+
+    @include mediaTablet {
+        padding-top: 24px;
+        padding-bottom: 60px;
+    }
 }
 
 .articles-inner .title-group {
@@ -94,10 +99,33 @@
 
     @media (max-width: 1199px) {
         display: block;
+        margin-bottom: 32px;
+    }
+}
+
+.articles-inner .articles-list {
+    @media (max-width: 1199px) {
+        border-left: none;
+    }
+}
+
+.articles-inner .article-card {
+    @media (max-width: 1199px) {
+        padding-bottom: 12px;
+        border-bottom: 1px solid #F2F3F7;
     }
 }
 
 .articles-inner .btn-show-filters {
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+        display: inline-flex;
+    }
+}
+
+.articles-inner .btn-more-mob {
+    display: none;
+
     @media (max-width: 1199px) {
         display: inline-flex;
     }
