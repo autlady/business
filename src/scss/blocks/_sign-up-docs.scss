@@ -13,6 +13,7 @@
 }
 
 .form-group--docs .dropdown__button--contacts {
+    margin-top: 8px;
     width: 490px;
 
     @include mediaMobile {
