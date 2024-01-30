@@ -42,6 +42,12 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
+
+    @include mediaMobile {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+    }
 }
 
 .sign-up-mob {
