@@ -1,9 +1,17 @@
 .form-group--docs {
     width: 490px;
+
+    @include mediaMobile {
+        width: 100%;
+    }
 }
 
 .form-group--docs .dropdown__button--contacts {
     width: 490px;
+
+    @include mediaMobile {
+        width: 100%;
+    }
 }
 
 fieldset {
