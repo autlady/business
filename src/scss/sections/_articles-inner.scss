@@ -39,7 +39,12 @@
     }
 }
 
+.form-group--articles {
+    margin-bottom: 37px;
+}
+
 .articles-inner-content .btn--reset {
+    margin-top: 20px;
     color: var(--title-color);
     font-size: 17px;
     font-weight: 600;
@@ -47,6 +52,7 @@
     letter-spacing: -0.168px;
     background-color: transparent;
     border: none;
+    box-shadow: none;
 
     &:hover {
         color: var(--accent-color);
@@ -73,4 +79,8 @@
 .articles-inner-wrapper .filter {
     margin-right: 0;
     margin-left: 0;
+}
+
+.form-group--articles-bottom {
+    margin-bottom: 49px;
 }
