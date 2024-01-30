@@ -14,20 +14,41 @@
     }
 }
 
-
-fieldset {
+.form-fieldset {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #fff;
-    border: 1px dashed #B4B4B4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill: none; stroke: lightgrey; stroke-width: 2; stroke-dasharray: 16 10'/></svg>")
 }
 
-// .form-label {
-// 	cursor: pointer;
-// 	font-size: 18px;
-// 	font-family: Tahoma, sans-serif;
-// 	vertical-align: top;
-// }
+.form-fieldset__content {
+    color: #7C7F8A;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.form-fieldset__row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.form-fieldset__btn .form-label {
+    cursor: pointer;
+    color: var(--title-color);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
 
 /*КАСТОМНЫЙ ВЫБОР ФАЙЛА*/
 .inputfile {

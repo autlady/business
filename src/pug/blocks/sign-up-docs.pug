@@ -17,10 +17,16 @@
                         li.dropdown__list-item(data-value="item5") Документ4
                     input(type="text" name="selet-category" value="" class="dropdown__input-hidden")
 
-        fieldset
-            input#file.inputfile(type="file", name="selectFile")
-            label.form-label(for="file")
-                span Выберите файл
+        fieldset.form-fieldset
+            .form-fieldset__content
+                // top
+                .form-fieldset__row
+                    .form-fieldset__btn
+                        label.form-label(for="file")
+                            input#file.inputfile(type="file", name="selectFile")
+                            span Выберите файл
+                    p или переместите сюда
+                p Форматы файла: PDF, PNG, JPEG, JPG
         
         p.fieldset-desc Разворот паспорта гражданина РФ 2-3 страница
         h3.sign-up-subtitle CНИЛС
@@ -29,6 +35,8 @@
             input#file2.inputfile(type="file", name="selectFile2")
             label.form-label(for="file2") 
                 span Выберите файл
+        
+        
         
         button(type="submit" class="btn btn--signup") Записаться на обучение
         p.service-form-privacy 
