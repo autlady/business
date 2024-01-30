@@ -1,0 +1,39 @@
+.articles-inner .title-group {
+    margin-top: 40px;
+
+    @include mediaMobile {
+        display: none;
+    }
+}
+
+.articles-inner .back-title {
+    @media (max-width: 1350px) {
+        left: 100px;
+    }
+
+    @include mediaTablet {
+        left: 40px;
+    }
+
+    @include mediaMobile {
+        left: 0px;
+    }
+}
+
+.articles-inner .title-group-mob {
+    display: none;
+    position: relative;
+    padding-top: 75px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    padding-top: 22px;
+
+    @include mediaMobile {
+        display: flex;
+    }
+}
+
+// .articles-inner .title-group-mob .back-title {
+//     font-size: 39px;
+// }
