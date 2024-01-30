@@ -1,0 +1,5 @@
+.contact-form-mob .form-input {
+    @include mediaTablet {
+        height: 54px;
+    }
+}
