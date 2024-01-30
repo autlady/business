@@ -3,7 +3,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
 }
 
 .article-inner-card::after {
@@ -44,6 +43,13 @@
     color: #353F4B;
     font-size: 17px;
     line-height: 27px;
+
+    min-height: 54px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    overflow: hidden;
 }
 
 .article-inner-card-labels {
