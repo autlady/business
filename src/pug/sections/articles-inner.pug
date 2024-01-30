@@ -9,6 +9,7 @@ section.articles-inner
             p.back-title Литература
             h2.section-title Cтатьи 
         .articles-inner-content
+            // form
             form.articles-form#custom-form
                 label.form-group-title Cтатус
                 .form-group
@@ -69,4 +70,21 @@ section.articles-inner
                         span.custom-checkbox 
                         p Фильтр
                 button(class="btn" type="submit") Применить 
-                button(class="btn btn--reset" type="reset") Cбросить фильтр 
+                button(class="btn btn--reset" type="reset") Cбросить фильтр      
+            // articles
+            .articles-inner-wrapper 
+                .select-wrapper
+                    +filter("Фильтр")
+                    +filter("Фильтр")
+                    +btn-reset("Сбросить")
+                a.article-inner-card
+                    .article-inner-card-top 
+                        .article-inner-card__title Excel: простые шаги для оптимизации работы с данными
+                        .article-inner-card__button
+                            svg.svg-arrow-next
+                                use(href="./img/spriteSvg.svg#svg-arrow-next")
+                    p.article-inner-card__text Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…
+                    .article-inner-card-labels
+                        .article-inner-card__label Работа в ИТ
+                        .article-inner-card__label Работа в ИТ
+                include ../blocks/pagination.pug

@@ -1,3 +1,8 @@
+.articles-inner {
+    padding-top: 60px;
+    padding-bottom: 104px;
+}
+
 .articles-inner .title-group {
     margin-top: 40px;
 
@@ -52,6 +57,20 @@
     }
 }
 
-// .articles-inner .title-group-mob .back-title {
-//     font-size: 39px;
-// }
+.articles-inner-content {
+    display: flex;
+    gap: 52px;
+}
+
+.articles-inner-wrapper {
+    padding-top: 70px;
+}
+
+.articles-inner-wrapper .select-wrapper {
+    gap: 10px;
+}
+
+.articles-inner-wrapper .filter {
+    margin-right: 0;
+    margin-left: 0;
+}
