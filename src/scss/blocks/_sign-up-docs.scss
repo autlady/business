@@ -1,3 +1,9 @@
+.sign-up-docs {
+    @include mediaMobile {
+        padding-top: 60px;
+    }
+}
+
 .form-group--docs {
     width: 490px;
 
@@ -38,6 +44,10 @@
     margin-bottom: 3px;
     text-align: center;
     column-gap: 10px;
+
+    @include mediaMobile {
+        display: none;
+    }
 }
 
 .form-fieldset__btn .form-label {
@@ -87,8 +97,16 @@
 .btn--signup {
     margin-top: 54px;
     border-radius: 4px;
+
+    @media (max-width: 550px) {
+        width: 100%;
+    }
 }
 
 .signup-docs-form .service-form-privacy {
     width: 490px;
+
+    @include mediaMobile {
+        width: 100%;
+    }
 }
