@@ -10,12 +10,21 @@
     font-size: 48px;
     font-weight: 800;
     line-height: 66px;
+
+    @include mediaTablet {
+        font-size: 26px;
+        line-height: 1;
+    }
 }
 
 .sign-up-wrapper {
     display: flex;
     gap: 160px;
     padding-left: 140px;
+
+    @include mediaMobile {
+        display: none;
+    }
 }
 
 .sign-up-content {
@@ -28,4 +37,12 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
+}
+
+.sign-up-mob {
+    display: none;
+
+    @include mediaMobile {
+        display: block;
+    }
 }

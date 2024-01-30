@@ -3,9 +3,14 @@
     flex-direction: column;
     width: 540px;
     height: 760px;
-    padding: 40px 32px;
+    padding-top: 40px;
+    padding-left: 32px;
     border: 1px solid #F3F4F7;
     background: #F3F4F7;
+
+    @media (max-width: 1390px) {
+        display: none;
+    } 
 }
 
 .course__title {
@@ -38,6 +43,10 @@
 
 .course__item:not(:last-child) {
     margin-bottom: 24px;
+}
+
+.course__item:last-child {
+    margin-bottom: 40px;
 }
 
 .course__subtitle {
