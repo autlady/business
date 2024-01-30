@@ -31,12 +31,16 @@
         p.fieldset-desc Разворот паспорта гражданина РФ 2-3 страница
         h3.sign-up-subtitle CНИЛС
 
-        fieldset
-            input#file2.inputfile(type="file", name="selectFile2")
-            label.form-label(for="file2") 
-                span Выберите файл
-        
-        
+        fieldset.form-fieldset
+            .form-fieldset__content
+                // top
+                .form-fieldset__row
+                    .form-fieldset__btn
+                        label.form-label(for="file2")
+                            input#file.inputfile(type="file", name="selectFile2")
+                            span Выберите файл
+                    p или переместите сюда
+                p Форматы файла: PDF, PNG, JPEG, JPG
         
         button(type="submit" class="btn btn--signup") Записаться на обучение
         p.service-form-privacy 
