@@ -9,6 +9,12 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.form-input--contacts {
+    @include mediaTablet {
+        height: 56px;
+    }
+}
+
 .dropdown__button--contacts {
     height: 56px;
     border: 1px solid #B4B4B4;
