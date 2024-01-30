@@ -34,6 +34,24 @@
     }
 }
 
+.articles-inner-content .btn--reset {
+    color: var(--title-color);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: -0.168px;
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
 // .articles-inner .title-group-mob .back-title {
 //     font-size: 39px;
 // }
