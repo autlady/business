@@ -50,6 +50,12 @@
     -webkit-line-clamp: 2;
 
     overflow: hidden;
+
+    @media (max-width: 1430px) {
+        width: 400px;
+    }
+
+
 }
 
 .article-inner-card-labels {

@@ -66,6 +66,10 @@
 .articles-inner-content {
     display: flex;
     gap: 52px;
+
+    @media (max-width: 1199px) {
+        display: none;
+    }
 }
 
 .articles-inner-wrapper {
@@ -83,4 +87,18 @@
 
 .form-group--articles-bottom {
     margin-bottom: 49px;
+}
+
+.articles-inner .articles-list {
+    display: none;
+
+    @media (max-width: 1199px) {
+        display: block;
+    }
+}
+
+.articles-inner .btn-show-filters {
+    @media (max-width: 1199px) {
+        display: inline-flex;
+    }
 }
