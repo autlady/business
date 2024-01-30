@@ -27,6 +27,10 @@
     gap: 160px;
     padding-left: 140px;
 
+    @media (max-width: 1199px) {
+        gap: 0px;
+    }
+
     @include mediaMobile {
         display: none;
     }
@@ -34,6 +38,10 @@
 
 .sign-up-content {
     width: 820px;
+
+    // @media (max-width: 1199px) {
+    //     width: 100%;
+    // }
 }
 
 .sign-up-subtitle {
