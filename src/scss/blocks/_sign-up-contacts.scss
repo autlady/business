@@ -27,6 +27,16 @@
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
+
+    @include mediaMobile {
+        width: 100%;
+    }
+}
+
+.signup-contact-form .dropdown {
+    @include mediaMobile {
+        width: 100%;
+    }
 }
 
 .dropdown__button.dropdown__button--contacts:focus,
