@@ -19,6 +19,12 @@
     }
 }
 
+.article-card-labels {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .article-card__label {
     display: inline-flex;
     align-items: center;
