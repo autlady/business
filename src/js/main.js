@@ -257,8 +257,5 @@ const swiperThankyouPrograms = new Swiper('.thankyou-programs-slider', {
     846: {
       slidesPerView: 3,
     },
-    // 970: {
-    //   slidesPerView: 3.5,
-    // },
   },
 });

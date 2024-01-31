@@ -1,6 +1,11 @@
 .thankyou {
     padding-top: 41px;
     padding-bottom: 70px;
+
+    @include mediaMobile {
+        padding-top: 64px;
+        padding-bottom: 60px;
+    }
 }
 
 .thankyou__headline {
@@ -10,6 +15,12 @@
     font-size: 40px;
     font-weight: 500;
     line-height: normal;
+
+    @include mediaMobile {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 1.28;
+    }
 }
 
 .thankyou__text {
@@ -19,10 +30,21 @@
     font-size: 24px;
     font-weight: 400;
     line-height: normal;
+
+    @include mediaMobile {
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.24px;
+    }
 }
 
 .thankyou__contacts {
     margin-bottom: 8px;
+
+    @include mediaMobile {
+        margin-bottom: 12px;
+    }
 }
 
 .thankyou__contacts-item {
@@ -30,6 +52,11 @@
     font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.3px;
+
+    @include mediaMobile {
+        font-size: 14px;
+        line-height: 1.3;
+    }
 }
 
 .thankyou__contacts-item span {
@@ -39,12 +66,20 @@
     line-height: 1.2;
 }
 
+.thankyou__contacts-item--mail {}
+
 .thankyou__check {
     margin-bottom: 50px;
     color: rgba(13, 27, 61, 0.70);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
+
+    @include mediaMobile {
+        color: var(--Black, #0D1B3D);
+        font-size: 12px;
+        line-height: normal;
+    }
 }
 
 .thankyou__social {
