@@ -14,6 +14,13 @@ for (let item of toggleMenu) {
             asideMenu.classList.add('active');
             bodyEl.classList.add('noscroll');
         }
-    })
+    });
 };
 
+asideMenu.addEventListener('click', function (e) {
+    if (e.target === e.currentTarget){
+        asideMenu.classList.remove('active');
+        bodyEl.classList.remove('noscroll');
+        for (let item of toggleMenu) { item.classList.remove('active'); }
+    }
+});
