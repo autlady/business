@@ -259,3 +259,26 @@ const swiperThankyouPrograms = new Swiper('.thankyou-programs-slider', {
     },
   },
 });
+
+// Thankyou Services slider
+
+const swiperThankyouServices = new Swiper('.thankyou-services-slider', {
+  // Optional parameters
+  slidesPerView: 3,
+  spaceBetween: 20,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1.3,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    712: {
+      slidesPerView: 2.5,
+    },
+    846: {
+      slidesPerView: 3,
+    },
+  },
+});
