@@ -64,9 +64,20 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
+
+    @include mediaMobile {
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
 
-.thankyou__contacts-item--mail {}
+.thankyou__contacts-item--mail {
+
+    @include mediaMobile {
+        color: #185CFF;
+        line-height: 1.3;
+    }
+}
 
 .thankyou__check {
     margin-bottom: 50px;
@@ -76,7 +87,8 @@
     line-height: 1.6;
 
     @include mediaMobile {
-        color: var(--Black, #0D1B3D);
+        margin-bottom: 32px;
+        color: #0D1B3D;
         font-size: 12px;
         line-height: normal;
     }
@@ -92,6 +104,18 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
+
+    @include mediaMobile {
+        font-size: 20px;
+        letter-spacing: -0.091px;
+    }
+}
+
+.thankyou__social .svg-ok-fill, .svg-tg-fill, .svg-youtube-fill, .svg-vk-fill {
+    @include mediaMobile {
+        width: 32px;
+        height: 32px;
+    }
 }
 
 .thankyou__social .social-icons-fill a {
