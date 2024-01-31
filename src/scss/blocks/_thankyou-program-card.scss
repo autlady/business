@@ -8,7 +8,7 @@
     box-shadow: 0px 2.8px 2.8px 0px #EDEDED inset, 0px -2.8px 2.8px 0px #EDEDED inset, 2.8px 0px 2.8px 0px #EDEDED inset, -2.8px 0px 2.8px 0px #EDEDED inset;
 
     background: #FFF;
-    
+
     &:hover {
         background: linear-gradient(180deg, rgba(232, 75, 62, 0.10) 0%, rgba(44, 39, 98, 0.10) 100%);
     }
@@ -19,6 +19,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    min-height: 48px;
+    flex-shrink: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 
 .thankyou-program-card__title {
@@ -27,6 +34,7 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
+  
 }
 
 .thankyou-program-card__text {
@@ -34,9 +42,18 @@
     color: #4D4D4D;
     font-size: 16px;
     line-height: 1.4;
+
+    min-height: 110px;
+    flex-shrink: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
 }
 
 .thankyou-program-card__start {
+    margin-top: auto;
+    flex-shrink: 0;
     color: #353F4B;
     font-size: 16px;
     line-height: 1.5;
