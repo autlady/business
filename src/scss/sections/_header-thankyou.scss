@@ -1,0 +1,25 @@
+.header-thankyou {
+    padding-top: 20px;
+}
+
+.header-thankyou-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-thankyou-content .logo-img {
+    width: 65px;
+    height: 66.5px;
+}
+
+.logo-text-thankyou {
+    color: #0D1B3D;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
