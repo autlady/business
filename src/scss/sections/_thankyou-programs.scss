@@ -9,10 +9,18 @@
     font-size: 28px;
     font-weight: 400;
     line-height: normal;
+
+    @include mediaMobile {
+        font-size: 16px;
+    }
 }
 
 .thankyou-programs-slider {
     margin-bottom: 40px;
+
+    @include mediaMobile {
+        margin-bottom: 32px;
+    }
 }
 
 .thankyou-btn {
