@@ -1,7 +1,10 @@
 section.person-inner 
-    .container 
-        p.block-info Главная /
-            span  Cтатьи
+    .container
+        ul.breadcrumbs__list 
+            li.breadcrumbs__list-item
+                a(href="index.html").breadcrumbs__link Главная
+            li.breadcrumbs__list-item
+                a(href="#!").breadcrumbs__link Cтатьи 
         .person-content 
             .person-data
                 h2.person-name Вадим Маратович Зарипов

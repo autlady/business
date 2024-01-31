@@ -1,7 +1,10 @@
 section.news-inner 
-    .container 
-        p.block-info Главная /
-            span  Новости
+    .container
+        ul.breadcrumbs__list 
+            li.breadcrumbs__list-item
+                a(href="index.html").breadcrumbs__link Главная
+            li.breadcrumbs__list-item
+                a(href="#!").breadcrumbs__link Новости 
         .title-group
             p.back-title События
             h2.section-title Все новости
@@ -21,6 +24,7 @@ section.news-inner
                         li.dropdown__list-item(data-value="item4") Аналитика
                         li.dropdown__list-item(data-value="item5") Аналитика
                     input(type="text" name="selet-category" value="" class="dropdown__input-hidden")
+        //tabs
         ul.list-group
             li.list-group-item.active(data-tab="tab-1") Лента
             li.list-group-item(data-tab="tab-2") Новости

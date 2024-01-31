@@ -1,7 +1,10 @@
 section.article-top 
-    .container 
-        p.block-info Главная /
-            span  Новости
+    .container
+        ul.breadcrumbs__list 
+            li.breadcrumbs__list-item
+                a(href="index.html").breadcrumbs__link Главная
+            li.breadcrumbs__list-item
+                a(href="#!").breadcrumbs__link Новости
         .article-top-content
             .article__img 
             include ../blocks/article-widget.pug
