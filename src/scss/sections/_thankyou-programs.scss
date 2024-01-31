@@ -21,3 +21,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.thankyou-btn .btn-icon {
+    @include mediaMobileS {
+        width: 100%;
+    }
+}
