@@ -246,9 +246,9 @@ const swiperThankyouPrograms = new Swiper('.thankyou-programs-slider', {
 
   breakpoints: {
     320: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.3,
     },
-    570: {
+    480: {
       slidesPerView: 2,
     },
     712: {
