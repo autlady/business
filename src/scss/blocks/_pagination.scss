@@ -1,7 +1,3 @@
-.programs-slider {
-   
-}
-
 .pagination-wrapper {
     position: relative;
     display: flex;
@@ -28,7 +24,7 @@ z-index: 2;
     color: var(--title-color);
 }
 
-a.pagination__link {
+.pagination__link {
     color: var(--title-color);
 
      &:hover {
@@ -40,8 +36,8 @@ a.pagination__link {
     color: var(--accent-color);
 }
 
-a.pagination__link .svg-prev,
-a.pagination__link .svg-next {
+.pagination__link .svg-prev,
+.pagination__link .svg-next {
     width: 10px;
     height: 19px;
     fill: #2C2762;

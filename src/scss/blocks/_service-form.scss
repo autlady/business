@@ -79,6 +79,10 @@
 .service-form-privacy a {
     color: #7C7F8A;
     text-decoration: underline;
+
+    &:hover {
+        color: var(--accent-color);
+    }
 }
 
 .service-form .close-btn {
