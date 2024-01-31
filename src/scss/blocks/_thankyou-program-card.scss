@@ -26,6 +26,11 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+
+    @include mediaMobile {
+        margin-bottom: 18px;
+        min-height: 44px;
+    }
 }
 
 .thankyou-program-card__title {
@@ -34,7 +39,11 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
-  
+
+    @include mediaMobile {
+        font-size: 18px;
+    }
+
 }
 
 .thankyou-program-card__text {
@@ -49,6 +58,11 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
     overflow: hidden;
+
+    @include mediaMobile {
+        min-height: 132px;
+        -webkit-line-clamp: 6;  
+    }
 }
 
 .thankyou-program-card__start {
