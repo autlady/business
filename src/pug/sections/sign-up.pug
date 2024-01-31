@@ -5,8 +5,11 @@ section.sign-up
                 include ../blocks/sign-up-contacts.pug
                 include ../blocks/sign-up-docs.pug
             include ../blocks/course.pug
-        .sign-up-mob 
-            p.block-info Главная /
-                span  Новости
+        .sign-up-mob
+            ul.breadcrumbs__list 
+                li.breadcrumbs__list-item
+                    a(href="index.html").breadcrumbs__link Главная
+                li.breadcrumbs__list-item
+                    a(href="#!").breadcrumbs__link Новости 
             include ../blocks/contact-form-mob.pug
             include ../blocks/sign-up-docs.pug

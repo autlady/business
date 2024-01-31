@@ -41,8 +41,11 @@ section.mediation-banner
 
         // program-banner-mob
         .program-banner-mob
-            p.block-info Главная /
-                span  Новости
+            ul.breadcrumbs__list 
+                li.breadcrumbs__list-item
+                    a(href="index.html").breadcrumbs__link Главная
+                li.breadcrumbs__list-item
+                    a(href="#!").breadcrumbs__link Программы
             h1.program-banner__title #[span.border Медиация] в жизни, бизнесе и с органами государственной власти
             p.program-banner__price #[span Стоимость:] 80 000 руб.
             p.program-banner__subtitle-mob #[span Старт курса:] 25.09.2023

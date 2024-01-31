@@ -39,8 +39,11 @@ section.program-banner
                     p пн., ср., пят.: с 19.00 – 22.00, суб. с 9.00 – 17.10.
         // program-banner-mob
         .program-banner-mob
-            p.block-info Главная /
-                span  Новости
+            ul.breadcrumbs__list 
+                li.breadcrumbs__list-item
+                    a(href="index.html").breadcrumbs__link Главная
+                li.breadcrumbs__list-item
+                    a(href="#!").breadcrumbs__link Программы
             h1.program-banner__title #[span.border Генеральный директор:] 
                 br
                 | построение системы управления
