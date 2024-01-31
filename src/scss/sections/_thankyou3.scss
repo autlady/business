@@ -10,10 +10,18 @@
 
 .thankyou3-col {
     width: 835px;
+
+    @include mediaTablet {
+        width: 100%;
+    }
 }
 
 .thankyou3__title {
     margin-bottom: 40px;
+
+    @include mediaTablet {
+        margin-bottom: 20px;
+    }
 }
 
 .thankyou3__headline {
@@ -21,10 +29,20 @@
     font-size: 48px;
     font-weight: 800;
     line-height: 1.1;
+
+    @include mediaTablet {
+        color: #353F4B;
+        font-size: 26px;
+        line-height: 1;
+    }
 }
 
 .thankyou3__text {
     margin-bottom: 48px;
+
+    @include mediaTablet {
+        margin-bottom: 30px;
+    }
 }
 
 .thankyou3__text p {
@@ -32,13 +50,17 @@
     font-size: 28px;
     font-weight: 500;
     line-height: normal;
+
+    @include mediaTablet {
+        font-size: 16px;
+    }
 }
 
 .thankyou3-content {
     display: flex;
     gap: 65px;
 
-    @include mediaMobile {
+    @media (max-width: 1279px) {
         flex-direction: column;
         gap: 44px;
     }
@@ -49,16 +71,30 @@
     display: flex;
     align-items: center;
     gap: 16px;
+
+    @include mediaTablet {
+        margin-bottom: 18px;
+    }
 }
 
 .thankyou3-links-item span {
     color: #353F4B;
     font-size: 24px;
     line-height: 1.75;
+
+    @include mediaTablet {
+        font-size: 16px;
+        line-height: 1.7;
+    }
 }
 
 .thankyou3-links-item img {
     width: 48px;
     height: 48px;
     flex-shrink: 0;
+
+    @include mediaTablet {
+        width: 32px;
+        height: 32px;
+    }
 }
