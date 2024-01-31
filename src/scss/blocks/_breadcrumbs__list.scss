@@ -1,6 +1,10 @@
 .breadcrumbs__list {
     display: flex;
     gap: 9px;
+
+    @media (max-width: 1023px) {
+        margin-bottom: 24px;
+    }
 }
 
 .breadcrumbs__list-item {
@@ -8,9 +12,8 @@
 }
 
 .breadcrumbs__list-item:not(:last-child)::after {
-    // position: absolute;
     content: "/";
-    color: #c8c8d1;
+    color: #8E8E8E;
     margin-left: 8px;
 } 
 
@@ -24,7 +27,7 @@
     }
 }
 
-.breadcrumbs__link:last-child {
+.breadcrumbs__list-item:last-child .breadcrumbs__link {
     pointer-events: none;
     cursor: default;
 }
