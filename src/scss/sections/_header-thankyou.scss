@@ -7,16 +7,21 @@
 }
 
 .header-thankyou-content {
+    margin-left: -50px;
     display: flex;
     align-items: center;
     gap: 24px;
+
+    @include mediaLaptop {
+        margin-left: 0;
+    }
 
     @include mediaMobile {
         gap: 14px;
     }
 }
 
-.header-thankyou-content .logo-img {
+.logo-img-thankyou {
     width: 65px;
     height: 66.5px;
 
