@@ -110,9 +110,6 @@
     }
 }
 
-.footer__social {
-   
-}
 
 .footer__social-text {
     margin-bottom: 24px;
@@ -124,19 +121,6 @@
     @include mediaMobile {
         margin-bottom: 12px;
     }
-}
-
-.footer__social-icons {
-    display: flex;
-    gap: 16px;
-}
-
-.footer__social-item img {
-    @include mediaMobile {
-        width: 24px;
-        height: 24px;
-    }
-
 }
 
 .footer__contacts-copyright-mob {

@@ -1,0 +1,15 @@
+.social-icons-fill {
+    display: flex;
+    gap: 16px;
+}
+
+.svg-tg-fill, .svg-vk-fill, .svg-ok-fill, .svg-youtube-fill {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+
+    @include mediaMobile {
+        width: 24px;
+        height: 24px;
+    }
+}
