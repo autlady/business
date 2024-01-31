@@ -1,0 +1,30 @@
+.breadcrumbs__list {
+    display: flex;
+    gap: 9px;
+}
+
+.breadcrumbs__list-item {
+    position: relative;
+}
+
+.breadcrumbs__list-item:not(:last-child)::after {
+    // position: absolute;
+    content: "/";
+    color: #c8c8d1;
+    margin-left: 8px;
+} 
+
+.breadcrumbs__link {
+    color: #8E8E8E;
+    font-size: 14px;
+    line-height: 18px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.breadcrumbs__link:last-child {
+    pointer-events: none;
+    cursor: default;
+}
