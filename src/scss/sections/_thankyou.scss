@@ -58,3 +58,11 @@
     font-weight: 700;
     line-height: 1.2;
 }
+
+.thankyou__social .social-icons-fill a {
+    color: #2C2762;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
