@@ -1,15 +1,30 @@
 .footer-thankyou {
     padding-bottom: 50px;
-  
+
+    @include mediaMobile {
+        padding-bottom: 40px;
+    }
+
 }
 
 .footer-thankyou__content {
     padding-top: 15px;
     border-top: 1px solid #353F4B;
+
+    @include mediaMobile {
+        border-top: none;
+        padding-top: 0;
+    }
 }
 
 .footer-thankyou__content p {
     color: #353F4B;
     font-size: 14px;
     line-height: normal;
+
+    @include mediaMobile {
+        color: #000;
+        font-size: 12px;
+        line-height: normal;
+    }
 }
