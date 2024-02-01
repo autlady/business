@@ -18,7 +18,7 @@
     letter-spacing: -0.24px;
 }
 
-.articles-form#custom-form-mob {
+.articles-form.custom-form-mob {
     @media (max-width: 899px) {
 		display: flex;
         flex-direction: column;
@@ -28,7 +28,7 @@
     }
 }
 
-.articles-form#custom-form-mob .form-group {
+.articles-form.custom-form-mob .form-group {
     position: static;
     z-index: unset;
 }
@@ -43,10 +43,10 @@
     color: #2C2762;
 }
 
-.articles-form#custom-form-mob .dropdown__button {
+.articles-form.custom-form-mob .dropdown__button {
     width: 350px;
 }
 
-.articles-form#custom-form-mob .dropdown__list {
+.articles-form.custom-form-mob .dropdown__list {
     width: 350px;
 }
