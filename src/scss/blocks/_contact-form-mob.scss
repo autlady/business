@@ -1,3 +1,11 @@
+.contact-form-mob-block {
+    display: none;
+
+    @include mediaMobile {
+        display: block;
+    }
+}
+
 .contact-form-mob .form-input {
     @include mediaTablet {
         height: 54px;

@@ -28,24 +28,28 @@
     padding-left: 140px;
 
     @media (max-width: 1700px) {
+        padding-left: 100px;
         gap: 60px;
     }
 
     @media (max-width: 1199px) {
+        padding-left: 0;
         gap: 0px;
-    }
-
-    @include mediaMobile {
-        display: none;
     }
 }
 
 .sign-up-content {
     width: 820px;
 
-    // @media (max-width: 1199px) {
-    //     width: 100%;
-    // }
+    @media (max-width: 1199px) {
+        width: 100%;
+    }
+}
+
+.sign-up-contacts {
+    @include mediaMobile {
+        display: none;
+    }
 }
 
 .sign-up-subtitle {
@@ -59,13 +63,5 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 28px;
-    }
-}
-
-.sign-up-mob {
-    display: none;
-
-    @include mediaMobile {
-        display: block;
     }
 }
