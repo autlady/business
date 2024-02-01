@@ -4,11 +4,11 @@
         button(class="close-btn" id="btn-close-filters" data-modal-close)
             svg.svg-close 
                 use(href="./img/spriteSvg.svg#svg-close")
-    form.articles-form#custom-form-mob
+    form.articles-form.js-form#custom-form-mob
         label.form-group-title Cтатус
         .form-group
             .dropdown
-                button(class="dropdown__button" type="button" id="dropdown-btn-mob") 
+                button(class="dropdown__button js-btn" type="button" id="dropdown-btn-mob") 
                     span Не выбран
                 ul.dropdown__list
                     li.dropdown__list-item(data-value="item1") Аналитика
@@ -20,7 +20,7 @@
         label.form-group-title Отрасль науки
         .form-group
             .dropdown
-                button(class="dropdown__button" type="button" id="dropdown-btn-mob") 
+                button(class="dropdown__button js-btn" type="button" id="dropdown-btn-mob") 
                     span Не выбран
                 ul.dropdown__list 
                     li.dropdown__list-item(data-value="item1") Аналитика
@@ -32,7 +32,7 @@
         label.form-group-title Группа специальностей
         .form-group
             .dropdown
-                button(class="dropdown__button" type="button" id="dropdown-btn-mob") 
+                button(class="dropdown__button js-btn" type="button" id="dropdown-btn-mob") 
                     span Не выбран
                 ul.dropdown__list
                     li.dropdown__list-item(data-value="item1") Аналитика
@@ -44,7 +44,7 @@
         label.form-group-title Фильтр
         .form-group
             .dropdown
-                button(class="dropdown__button" type="button" id="dropdown-btn-mob") 
+                button(class="dropdown__button js-btn" type="button" id="dropdown-btn-mob") 
                     span Не выбран
                 ul.dropdown__list
                     li.dropdown__list-item(data-value="item1") Аналитика
@@ -64,4 +64,4 @@
                 span.custom-checkbox 
                 p Фильтр
         button.btn Применить
-        button(class="btn-reset-mob" type="reset") Cбросить фильтр  
+        button(class="btn-reset-mob js-reset" type="reset") Cбросить фильтр  

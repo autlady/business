@@ -13,11 +13,11 @@ section.articles-inner
             h2.section-title Cтатьи 
         .articles-inner-content
             // form
-            form.articles-form#custom-form
+            form.articles-form.js-form#custom-form
                 label.form-group-title Cтатус
                 .form-group
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -29,7 +29,7 @@ section.articles-inner
                 label.form-group-title Отрасль науки
                 .form-group
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list 
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -41,7 +41,7 @@ section.articles-inner
                 label.form-group-title Группа специальностей
                 .form-group
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -53,7 +53,7 @@ section.articles-inner
                 label.form-group-title Фильтр
                 .form-group.form-group--articles 
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -73,7 +73,7 @@ section.articles-inner
                         span.custom-checkbox 
                         p Фильтр
                 button(class="btn" type="submit") Применить 
-                button(class="btn btn--reset" type="reset") Cбросить фильтр      
+                button(class="btn btn--reset js-reset" type="reset") Cбросить фильтр      
             // articles
             .articles-inner-wrapper 
                 .select-wrapper

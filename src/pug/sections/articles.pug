@@ -12,11 +12,11 @@ section.articles
                 span Фильтры
                 img(src="./img/icons/filter.svg" alt="Фильтры")
         .articles-content 
-            form.articles-form#custom-form
+            form.articles-form.js-form#custom-form
                 label.form-group-title Cтатус
                 .form-group
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -28,7 +28,7 @@ section.articles
                 label.form-group-title Отрасль науки
                 .form-group
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list 
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -40,7 +40,7 @@ section.articles
                 label.form-group-title Группа специальностей
                 .form-group
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -52,7 +52,7 @@ section.articles
                 label.form-group-title Фильтр
                 .form-group
                     .dropdown
-                        button(class="dropdown__button" type="button") 
+                        button(class="dropdown__button js-btn" type="button") 
                             span Не выбран
                         ul.dropdown__list
                             li.dropdown__list-item(data-value="item1") Аналитика
@@ -71,7 +71,7 @@ section.articles
                         input(type="checkbox" name="filter2").real-checkbox
                         span.custom-checkbox 
                         p Фильтр
-                button(class="btn btn--reset" type="reset") Cбросить фильтры  
+                button(class="btn btn--reset js-reset" type="reset") Cбросить фильтры  
             .articles-list
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")

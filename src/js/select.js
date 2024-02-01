@@ -63,34 +63,23 @@ if (dropdowns.length > 0){
             }
         })
 
-        const form = document.querySelector('#custom-form');
-        if (form) {
-            const customBtn = document.querySelector('.btn--reset');
-            const customSelects = document.querySelectorAll('.dropdown__button span');
+        const forms = document.querySelectorAll('.js-form');
+        if (forms) {
+            for (let formItem of forms){
+                const customBtn = formItem.querySelector('.js-reset');
+                const customSelects = formItem.querySelectorAll('.js-btn span');
 
-            customBtn.addEventListener('click', function() {
-                for (item of customSelects) {
-                    item.textContent = "Не выбран";
-                    item.classList.remove('text-black');
+                customBtn.addEventListener('click', function() {
+                    
+                    for (item of customSelects) {
+                        
+                        item.textContent = "Не выбран";
+                        item.classList.remove('text-black');
+                 }
+                });
             }
-        });
+       
     }
-
-        const formMob = document.querySelector('#custom-form-mob');
-        if (form) {
-            const customBtnMob = document.querySelector('.btn-reset-mob');
-            const customSelectsMob = document.querySelectorAll('#dropdown-btn-mob span');
-
-            if (customBtnMob){
-                
-              customBtnMob.addEventListener('click', function() {
-                for (item of customSelectsMob) {
-                    item.textContent = "Не выбран";
-                    item.classList.remove('text-black');
-              }
-        
-           });
-       }}
     }
 
 }
