@@ -16,6 +16,10 @@
     @media (max-width: 998px) {
         padding: 20px 12px;
     }
+
+    &:hover {
+        background: linear-gradient(180deg, rgba(232, 75, 62, 0.10) 0%, rgba(44, 39, 98, 0.10) 100%);
+    }
 }
 
 .service-card-inner__title {
