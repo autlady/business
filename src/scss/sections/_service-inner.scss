@@ -92,6 +92,13 @@
 
 .service-inner .modal-window {
     background: rgba(27, 40, 106, 0.50);
+
+    @media (max-width: 550px) {
+        padding: 100px 0;
+    }
+    @include mediaMobileS {
+        width: 100%;
+    }
 }
 
 .service-inner .btn-subscribe {
@@ -103,13 +110,5 @@
     }
 }
 
-.service-inner .modal-window {
 
-    @media (max-width: 550px) {
-        padding: 100px 0;
-    }
-    @include mediaMobileS {
-        width: 100%;
-    }
-}
 
