@@ -49,6 +49,24 @@
     }
 }
 
+.form-input.form-input-card {
+    border-radius: 4px 4px 0 0;
+    margin-bottom: -1px;
+}
+
+.form-input.form-input-date {
+    border-radius: 0 0 0 4px;
+    margin-right: -1px;
+}
+
+.form-input.form-input-code {
+    border-radius: 0 0 4px 0;
+}
+
+.form-item--row {
+    display: flex;
+}
+
 .form-input::placeholder {
     color: #7C7F8A;
         
@@ -65,8 +83,15 @@
     margin-top: 16px;
 }
 
-.btn-payment {
+.form-payment .form-item:nth-child(3) {
+    margin-top: 0;
+}
+
+.form-payment .form-item:last-child {
     margin-top: 40px;
+}
+
+.btn-payment {
     width: 100%;
     height: 56px;
     font-size: 18px;
