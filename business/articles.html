@@ -1,0 +1,667 @@
+<!-- module-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="libs/swiper.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Cтатьи</title>
+</head>
+
+<body>
+  <header class="header header-inner">
+    <div class="container container-header">
+      <div class="header-content">
+        <div class="header__logo">
+          <a class="logo-img" href="index.html">
+            <img src="./img/logo.webp" alt="logo">
+          </a>
+          <a class="logo-text" href="index.html">АНО Центр защиты бизнеса</a>
+        </div>
+        <div class="header-info">
+          <div class="social-icons">
+            <a class="social-icons__item" href="#!">
+              <img src="./img/socials/bluetelegram.svg" alt="telegram">
+            </a>
+            <a class="social-icons__item" href="#!">
+              <img src="./img/socials/bluewhatsapp.svg" alt="whatsapp">
+            </a>
+          </div>
+          <a class="contact-phone" href="tel:89994442211">+7 (999) 444 22 11</a>
+          <button class="menu-toggle">
+            <span></span>
+          </button>
+        </div>
+        <div class="mob-info">
+          <div class="social-icons-mob">
+            <a class="social-icons-mob__item" href="#!">
+              <img src="./img/socials/phone.svg" alt="phone">
+            </a>
+            <a class="social-icons-mob__item icon-divider" href="#!">
+              <img src="./img/socials/bluewhatsapp.svg" alt="whatsapp">
+            </a>
+            <a class="social-icons-mob__item" href="#!">
+              <img src="./img/socials/bluetelegram.svg" alt="telegram">
+            </a>
+          </div>
+          <button class="menu-toggle">
+            <span></span>
+          </button>
+        </div>
+        <div class="aside-menu-wrapper">
+          <!-- aside-menu-->
+          <div class="aside-menu">
+            <div class="aside-menu-top">
+              <div class="aside-menu__logo">
+                <a class="menu-logo-img" href="#!">
+                  <img src="./img/logo.webp" alt="logo">
+                </a>
+                <a class="menu-logo-text" href="#!">АНО Центр защиты бизнеса </a>
+              </div>
+              <div class="aside-menu__social">
+                <a class="aside-menu__social-item" href="#!">
+                  <img src="./img/socials/whatsapp.svg" alt="whatsapp">
+                  <span>WhatsApp</span>
+                </a>
+                <a class="aside-menu__social-item" href="#!">
+                  <img src="./img/socials/tg.svg" alt="telegram">
+                  <span>Telegram</span>
+                </a>
+              </div>
+              <a class="aside-menu-tel" href="tel:89998889090">+7 999 888 90 09 </a>
+            </div>
+            <ul class="nav__list">
+              <li>
+                <a href="index.html">Главная</a>
+              </li>
+              <li>
+                <a href="about-us.html">О нас</a>
+              </li>
+              <li>
+                <a href="all-programs.html">Образовательные программы</a>
+              </li>
+              <li>
+                <a href="services-page.html">Сервисы</a>
+              </li>
+              <li>
+                <a href="articles.html">Статьи</a>
+              </li>
+              <li>
+                <a href="team-inner.html">Команда</a>
+              </li>
+              <li>
+                <a href="cases.html">Кейсы</a>
+              </li>
+              <li>
+                <a href="all-news.html">Новости</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="articles-inner">
+      <div class="container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__list-item">
+            <a class="breadcrumbs__link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs__list-item">
+            <a class="breadcrumbs__link" href="#!">Cтатьи</a>
+          </li>
+        </ul>
+        <div class="title-group">
+          <p class="back-title">Научная литература</p>
+          <h2 class="section-title">Все статьи</h2>
+        </div>
+        <div class="title-group-mob">
+          <p class="back-title">Литература</p>
+          <h2 class="section-title">Cтатьи </h2>
+        </div>
+        <div class="articles-inner-content">
+          <!-- form-->
+          <form class="articles-form custom-form js-form">
+            <label class="form-group-title">Cтатус</label>
+            <div class="form-group">
+              <div class="dropdown">
+                <button class="dropdown__button js-btn" type="button">
+                  <span>Не выбран</span>
+                </button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                </ul>
+                <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+              </div>
+            </div>
+            <label class="form-group-title">Отрасль науки</label>
+            <div class="form-group">
+              <div class="dropdown">
+                <button class="dropdown__button js-btn" type="button">
+                  <span>Не выбран</span>
+                </button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                </ul>
+                <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+              </div>
+            </div>
+            <label class="form-group-title">Группа специальностей</label>
+            <div class="form-group">
+              <div class="dropdown">
+                <button class="dropdown__button js-btn" type="button">
+                  <span>Не выбран</span>
+                </button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                </ul>
+                <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+              </div>
+            </div>
+            <label class="form-group-title">Фильтр</label>
+            <div class="form-group form-group--articles">
+              <div class="dropdown">
+                <button class="dropdown__button js-btn" type="button">
+                  <span>Не выбран</span>
+                </button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                  <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                </ul>
+                <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+              </div>
+            </div>
+            <div class="form-group form-group--articles">
+              <label>
+                <input class="real-checkbox" type="checkbox" name="filter1">
+                <span class="custom-checkbox"> </span>
+                <span class="checkbox-text">Фильтр</span>
+              </label>
+            </div>
+            <div class="form-group form-group--articles-bottom">
+              <label>
+                <input class="real-checkbox" type="checkbox" name="filter2">
+                <span class="custom-checkbox"> </span>
+                <span class="checkbox-text">Фильтр</span>
+              </label>
+            </div>
+            <button class="btn" type="submit">Применить </button>
+            <button class="btn btn--reset js-reset" type="reset">Cбросить фильтр </button>
+          </form>
+          <!-- articles-->
+          <div class="articles-inner-wrapper">
+            <div class="select-wrapper">
+              <div class="filter">
+                <span>Фильтр</span>
+                <button class="close-filter">
+                  <svg class="svg-icon-close">
+                    <use href="./img/spriteSvg.svg#svg-icon-close"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="filter">
+                <span>Фильтр</span>
+                <button class="close-filter">
+                  <svg class="svg-icon-close">
+                    <use href="./img/spriteSvg.svg#svg-icon-close"></use>
+                  </svg>
+                </button>
+              </div>
+              <button class="btn-reset">Сбросить</button>
+            </div>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <!-- article-card-->
+            <a class="article-inner-card" href="article-inner.html">
+              <div class="article-inner-card-top">
+                <div class="article-inner-card__title">Excel: простые шаги для оптимизации работы с данными</div>
+                <div class="article-inner-card__button">
+                  <svg class="svg-arrow-next">
+                    <use href="./img/spriteSvg.svg#svg-arrow-next"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="article-inner-card__text">Разрабатывать и анализировать процедуры загрузки данных в хранилище банка из систем источников. Разрабатывать витрины данных и отчетности по данным…</p>
+              <div class="article-inner-card-labels">
+                <div class="article-inner-card__label">Работа в ИТ</div>
+                <div class="article-inner-card__label">Работа в ИТ</div>
+              </div>
+            </a>
+            <div class="pagination-wrapper">
+              <div class="pagination__divider"> </div>
+              <div class="pagination">
+                <a class="pagination__link pagination-prev" href="#!">
+                  <svg class="svg-prev">
+                    <use href="./img/spriteSvg.svg#svg-prev"></use>
+                  </svg>
+                </a>
+                <div class="pagination__link-active">1</div>
+                <a class="pagination__link" href="#!">2</a>
+                <div class="pagination__ellipsis">... </div>
+                <a class="pagination__link" href="#!">8</a>
+                <a class="pagination__link pagination-next" href="#!">
+                  <svg class="svg-next">
+                    <use href="./img/spriteSvg.svg#svg-next"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mobile article-list-->
+        <button class="btn-show-filters" type="button" data-modal-button="modal-filters">
+          <span>Фильтры</span>
+          <img src="./img/icons/filter.svg" alt="Фильтры">
+        </button>
+        <div class="articles-list">
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+          <!-- article-->
+          <a class="article-card" href="article-inner.html">
+            <h4 class="article-card__title">Stephanos. Рецензируемый мультиязычный научный журнал</h4>
+            <div class="article-card-labels">
+              <div class="article-card__label">Paбота в ИТ</div>
+            </div>
+          </a>
+        </div>
+        <button class="btn-more-mob">Показать еще</button>
+      </div>
+      <!--modal-->
+      <div class="fade-block hidden" data-modal id="modal-filters">
+        <div class="modal-window">
+          <div class="filters-mob">
+            <div class="filters-mob-top">
+              <div class="filters-mob__title">Фильтры</div>
+              <button class="close-btn" id="btn-close-filters" data-modal-close>
+                <svg class="svg-close">
+                  <use href="./img/spriteSvg.svg#svg-close"></use>
+                </svg>
+              </button>
+            </div>
+            <form class="articles-form custom-form-mob js-form">
+              <label class="form-group-title">Cтатус</label>
+              <div class="form-group">
+                <div class="dropdown">
+                  <button class="dropdown__button js-btn" type="button" id="dropdown-btn-mob">
+                    <span>Не выбран</span>
+                  </button>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                  </ul>
+                  <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+                </div>
+              </div>
+              <label class="form-group-title">Отрасль науки</label>
+              <div class="form-group">
+                <div class="dropdown">
+                  <button class="dropdown__button js-btn" type="button">
+                    <span>Не выбран</span>
+                  </button>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                  </ul>
+                  <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+                </div>
+              </div>
+              <label class="form-group-title">Группа специальностей</label>
+              <div class="form-group">
+                <div class="dropdown">
+                  <button class="dropdown__button js-btn" type="button">
+                    <span>Не выбран</span>
+                  </button>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                  </ul>
+                  <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+                </div>
+              </div>
+              <label class="form-group-title">Фильтр</label>
+              <div class="form-group">
+                <div class="dropdown">
+                  <button class="dropdown__button js-btn" type="button">
+                    <span>Не выбран</span>
+                  </button>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__list-item" data-value="item1">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item2">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item3">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item4">Аналитика</li>
+                    <li class="dropdown__list-item" data-value="item5">Аналитика</li>
+                  </ul>
+                  <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input class="real-checkbox" type="checkbox" name="filter1">
+                  <span class="custom-checkbox"> </span>
+                  <span class="checkbox-text">Фильтр</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input class="real-checkbox" type="checkbox" name="filter2">
+                  <span class="custom-checkbox"> </span>
+                  <span class="checkbox-text">Фильтр</span>
+                </label>
+              </div>
+              <button class="btn">Применить</button>
+              <button class="btn-reset-mob js-reset" type="reset">Cбросить фильтр </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <p>Центр защиты бизнеса</p>
+      </div>
+      <div class="footer-content">
+        <div class="footer__contacts">
+          <a class="footer__contacts-tel" href="tel:89994442211">+7 (999) 444 22 11</a>
+          <a class="footer__contacts-mail" href="mailto:mail@mail.ru">mail@mail.ru</a>
+          <div class="footer__contacts-copyright">
+            <p>&copy; АНО Центр защиты бизнеса 2023</p>
+          </div>
+        </div>
+        <div class="footer__social">
+          <div class="footer__social-text">
+            <p>Следите за нашими соц сетями:</p>
+          </div>
+          <!-- socila-icons-->
+          <div class="social-icons-fill">
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-tg-fill">
+                <use href="./img/spriteSvg.svg#svg-tg-fill"></use>
+              </svg>
+            </a>
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-vk-fill">
+                <use href="./img/spriteSvg.svg#svg-vk-fill"></use>
+              </svg>
+            </a>
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-ok-fill">
+                <use href="./img/spriteSvg.svg#svg-ok-fill"></use>
+              </svg>
+            </a>
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-youtube-fill">
+                <use href="./img/spriteSvg.svg#svg-youtube-fill"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__widgets">
+          <ul class="footer-widget">
+            <li>
+              <a class="footer-widgets__link" href="all-programs.html">Программы</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="services-page.html">Сервисы</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="articles.html">Cтатьи</a>
+            </li>
+          </ul>
+          <ul class="footer-widget">
+            <li>
+              <a class="footer-widgets__link" href="about-us.html">СМИ о нас </a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="all-news.html">Новости</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="cases.html">Кейсы</a>
+            </li>
+          </ul>
+          <ul class="footer-widget">
+            <li>
+              <a class="footer-widgets__link" href="#!">Партнеры</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="team-inner.html">Команда</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__contacts-copyright-mob">
+        <p>&copy; АНО Центр защиты бизнеса 2023</p>
+      </div>
+    </div>
+  </footer>
+  <script src="libs/swiper.js"></script>
+  <script src="libs/swiper-bundle.min.js.map"></script>
+  <script src="js/toggleMenu.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/select.js"></script>
+  <script src="js/SwiperAdder.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/expand.js"></script>
+  <script src="js/accordeon.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.payment-form 
+    .payment-form-title 
+        p As the leading agency for white label web design services, we have mastered the art of working with 
+    form(action="mail.php" class="form-payment")
+        .form-item
+            input(class="form-input" type="text" name="sum" placeholder="Cумма")
+        .form-item
+            input(class="form-input" type="text" name="tel" placeholder="Номер карты")
+        .form-item
+            input(class="form-input" type="text" name="date" placeholder="ММ/ГГ")
+        .form-item
+            input(class="form-input" type="text" name="email" placeholder="Электронная почта")
+        .form-item
+            button(type="submit" class="btn btn-payment") Оплатить 100 Р
+    button(class="close-btn" id="btn-close-payment" data-modal-close)
+        svg.svg-close 
+                use(href="./img/spriteSvg.svg#svg-close")

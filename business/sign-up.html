@@ -1,0 +1,376 @@
+<!-- module-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="libs/swiper.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Форма записи на курс</title>
+</head>
+
+<body>
+  <header class="header header-inner">
+    <div class="container container-header">
+      <div class="header-content">
+        <div class="header__logo">
+          <a class="logo-img" href="index.html">
+            <img src="./img/logo.webp" alt="logo">
+          </a>
+          <a class="logo-text" href="index.html">АНО Центр защиты бизнеса</a>
+        </div>
+        <div class="header-info">
+          <div class="social-icons">
+            <a class="social-icons__item" href="#!">
+              <img src="./img/socials/bluetelegram.svg" alt="telegram">
+            </a>
+            <a class="social-icons__item" href="#!">
+              <img src="./img/socials/bluewhatsapp.svg" alt="whatsapp">
+            </a>
+          </div>
+          <a class="contact-phone" href="tel:89994442211">+7 (999) 444 22 11</a>
+          <button class="menu-toggle">
+            <span></span>
+          </button>
+        </div>
+        <div class="mob-info">
+          <div class="social-icons-mob">
+            <a class="social-icons-mob__item" href="#!">
+              <img src="./img/socials/phone.svg" alt="phone">
+            </a>
+            <a class="social-icons-mob__item icon-divider" href="#!">
+              <img src="./img/socials/bluewhatsapp.svg" alt="whatsapp">
+            </a>
+            <a class="social-icons-mob__item" href="#!">
+              <img src="./img/socials/bluetelegram.svg" alt="telegram">
+            </a>
+          </div>
+          <button class="menu-toggle">
+            <span></span>
+          </button>
+        </div>
+        <div class="aside-menu-wrapper">
+          <!-- aside-menu-->
+          <div class="aside-menu">
+            <div class="aside-menu-top">
+              <div class="aside-menu__logo">
+                <a class="menu-logo-img" href="#!">
+                  <img src="./img/logo.webp" alt="logo">
+                </a>
+                <a class="menu-logo-text" href="#!">АНО Центр защиты бизнеса </a>
+              </div>
+              <div class="aside-menu__social">
+                <a class="aside-menu__social-item" href="#!">
+                  <img src="./img/socials/whatsapp.svg" alt="whatsapp">
+                  <span>WhatsApp</span>
+                </a>
+                <a class="aside-menu__social-item" href="#!">
+                  <img src="./img/socials/tg.svg" alt="telegram">
+                  <span>Telegram</span>
+                </a>
+              </div>
+              <a class="aside-menu-tel" href="tel:89998889090">+7 999 888 90 09 </a>
+            </div>
+            <ul class="nav__list">
+              <li>
+                <a href="index.html">Главная</a>
+              </li>
+              <li>
+                <a href="about-us.html">О нас</a>
+              </li>
+              <li>
+                <a href="all-programs.html">Образовательные программы</a>
+              </li>
+              <li>
+                <a href="services-page.html">Сервисы</a>
+              </li>
+              <li>
+                <a href="articles.html">Статьи</a>
+              </li>
+              <li>
+                <a href="team-inner.html">Команда</a>
+              </li>
+              <li>
+                <a href="cases.html">Кейсы</a>
+              </li>
+              <li>
+                <a href="all-news.html">Новости</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="sign-up">
+      <div class="container">
+        <div class="sign-up-wrapper">
+          <div class="sign-up-content">
+            <!-- sign-up-contacts-->
+            <div class="sign-up-contacts">
+              <h2 class="sign-up-title">Контактная информация</h2>
+              <form class="signup-contact-form" action="mail.php">
+                <div class="form-group">
+                  <label class="form-group-title">Имя</label>
+                  <input class="form-input form-input--contacts" type="text" name="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Фамилия</label>
+                  <input class="form-input form-input--contacts" type="text" name="surname">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Отчество</label>
+                  <input class="form-input form-input--contacts" type="text" name="middle-name">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Телефон</label>
+                  <input class="form-input form-input--contacts" type="text" name="tel" placeholder="+7 (___)___-__-__">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Город</label>
+                  <div class="dropdown">
+                    <button class="dropdown__button dropdown__button--contacts">
+                      <span>Не выбран</span>
+                    </button>
+                    <ul class="dropdown__list">
+                      <li class="dropdown__list-item" data-value="item1">Москва</li>
+                      <li class="dropdown__list-item" data-value="item2">Санкт-Петербург</li>
+                      <li class="dropdown__list-item" data-value="item3">Город1</li>
+                      <li class="dropdown__list-item" data-value="item4">Город2</li>
+                      <li class="dropdown__list-item" data-value="item5">Город3</li>
+                    </ul>
+                    <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Почта</label>
+                  <input class="form-input form-input--contacts" type="text" name="email">
+                </div>
+              </form>
+            </div>
+            <div class="contact-form-mob-block">
+              <h2 class="sign-up-title">Контактная информация </h2>
+              <form class="contact-form-mob" action="mail.php">
+                <div class="form-group">
+                  <label class="form-group-title">Имя</label>
+                  <input class="form-input form-input--contacts" type="text" name="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Телефон</label>
+                  <input class="form-input form-input--contacts" type="text" name="tel" placeholder="+7 (___)___-__-__">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Фамилия</label>
+                  <input class="form-input form-input--contacts" type="text" name="surname">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Отчество</label>
+                  <input class="form-input form-input--contacts" type="text" name="middle-name">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Почта</label>
+                  <input class="form-input form-input--contacts" type="text" name="email">
+                </div>
+                <div class="form-group">
+                  <label class="form-group-title">Город</label>
+                  <div class="dropdown">
+                    <button class="dropdown__button dropdown__button--contacts">
+                      <span>Не выбран</span>
+                    </button>
+                    <ul class="dropdown__list">
+                      <li class="dropdown__list-item" data-value="item1">Москва</li>
+                      <li class="dropdown__list-item" data-value="item2">Санкт-Петербург</li>
+                      <li class="dropdown__list-item" data-value="item3">Город1</li>
+                      <li class="dropdown__list-item" data-value="item4">Город2</li>
+                      <li class="dropdown__list-item" data-value="item5">Город3</li>
+                    </ul>
+                    <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- sign-up-docs-->
+            <div class="sign-up-docs">
+              <h2 class="sign-up-title">Документы</h2>
+              <h3 class="sign-up-subtitle">Документ, удостоверяющий личность</h3>
+              <form class="signup-docs-form" action="mail.php">
+                <div class="docs-form-item">
+                  <label class="form-group-title">Тип документа</label>
+                  <div class="form-group form-group--docs">
+                    <div class="dropdown">
+                      <button class="dropdown__button dropdown__button--contacts">
+                        <span>Паспорт гражданина РФ</span>
+                      </button>
+                      <ul class="dropdown__list">
+                        <li class="dropdown__list-item" data-value="item1">Паспорт гражданина РФ</li>
+                        <li class="dropdown__list-item" data-value="item2">Документ1</li>
+                        <li class="dropdown__list-item" data-value="item3">Документ2</li>
+                        <li class="dropdown__list-item" data-value="item4">Документ3</li>
+                        <li class="dropdown__list-item" data-value="item5">Документ4</li>
+                      </ul>
+                      <input class="dropdown__input-hidden" type="text" name="selet-category" value="">
+                    </div>
+                  </div>
+                </div>
+                <fieldset class="form-fieldset">
+                  <div class="form-fieldset__content">
+                    <!-- top-->
+                    <div class="form-fieldset__row">
+                      <div class="form-fieldset__btn">
+                        <label class="form-label" for="file">
+                          <input class="inputfile" id="file" type="file" name="selectFile">
+                          <span>Выберите файл</span>
+                        </label>
+                      </div>
+                      <p>или переместите сюда</p>
+                    </div>
+                    <p>Форматы файла: PDF, PNG, JPEG, JPG</p>
+                  </div>
+                </fieldset>
+                <p class="fieldset-desc">Разворот паспорта гражданина РФ 2-3 страница</p>
+                <h3 class="sign-up-subtitle">CНИЛС</h3>
+                <fieldset class="form-fieldset">
+                  <div class="form-fieldset__content">
+                    <!-- top-->
+                    <div class="form-fieldset__row">
+                      <div class="form-fieldset__btn">
+                        <label class="form-label" for="file2">
+                          <input class="inputfile" id="file2" type="file" name="selectFile2">
+                          <span>Выберите файл</span>
+                        </label>
+                      </div>
+                      <p>или переместите сюда</p>
+                    </div>
+                    <p>Форматы файла: PDF, PNG, JPEG, JPG</p>
+                  </div>
+                </fieldset>
+                <button class="btn btn--signup" type="submit">Записаться на обучение</button>
+                <p class="service-form-privacy">
+                  Нажимая на кнопку, Вы даёте согласие на обработку своих персональных данных в соответствии c <a href="#!">Политикой в отношении обработки персональных данных</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <!-- course-->
+          <div class="course">
+            <h4 class="course__title">Медиация в жизни, бизнесе и с органами государственной власти</h4>
+            <p class="course__old-price">
+              <span>82 200</span> P
+            </p>
+            <p class="course__price">62 200 P</p>
+            <div class="course__item">
+              <div class="course__subtitle">Cтарт курса</div>
+              <p>25.09.2023</p>
+            </div>
+            <div class="course__item">
+              <div class="course__subtitle">Продолжительность</div>
+              <p>264 ак.ч. (3 месяца)</p>
+            </div>
+            <div class="course__item">
+              <div class="course__subtitle">Формат обучения</div>
+              <p>Онлайн</p>
+            </div>
+            <div class="course__item">
+              <div class="course__subtitle">Документ</div>
+              <p>Удостоверение о повышении квалификации</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <p>Центр защиты бизнеса</p>
+      </div>
+      <div class="footer-content">
+        <div class="footer__contacts">
+          <a class="footer__contacts-tel" href="tel:89994442211">+7 (999) 444 22 11</a>
+          <a class="footer__contacts-mail" href="mailto:mail@mail.ru">mail@mail.ru</a>
+          <div class="footer__contacts-copyright">
+            <p>&copy; АНО Центр защиты бизнеса 2023</p>
+          </div>
+        </div>
+        <div class="footer__social">
+          <div class="footer__social-text">
+            <p>Следите за нашими соц сетями:</p>
+          </div>
+          <!-- socila-icons-->
+          <div class="social-icons-fill">
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-tg-fill">
+                <use href="./img/spriteSvg.svg#svg-tg-fill"></use>
+              </svg>
+            </a>
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-vk-fill">
+                <use href="./img/spriteSvg.svg#svg-vk-fill"></use>
+              </svg>
+            </a>
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-ok-fill">
+                <use href="./img/spriteSvg.svg#svg-ok-fill"></use>
+              </svg>
+            </a>
+            <a class="social-icons-fill-item" href="#!">
+              <svg class="svg-youtube-fill">
+                <use href="./img/spriteSvg.svg#svg-youtube-fill"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__widgets">
+          <ul class="footer-widget">
+            <li>
+              <a class="footer-widgets__link" href="all-programs.html">Программы</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="services-page.html">Сервисы</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="articles.html">Cтатьи</a>
+            </li>
+          </ul>
+          <ul class="footer-widget">
+            <li>
+              <a class="footer-widgets__link" href="about-us.html">СМИ о нас </a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="all-news.html">Новости</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="cases.html">Кейсы</a>
+            </li>
+          </ul>
+          <ul class="footer-widget">
+            <li>
+              <a class="footer-widgets__link" href="#!">Партнеры</a>
+            </li>
+            <li>
+              <a class="footer-widgets__link" href="team-inner.html">Команда</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__contacts-copyright-mob">
+        <p>&copy; АНО Центр защиты бизнеса 2023</p>
+      </div>
+    </div>
+  </footer>
+  <script src="libs/swiper.js"></script>
+  <script src="libs/swiper-bundle.min.js.map"></script>
+  <script src="js/toggleMenu.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/select.js"></script>
+  <script src="js/SwiperAdder.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/expand.js"></script>
+  <script src="js/accordeon.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

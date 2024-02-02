@@ -7,3 +7,7 @@ section.cta
             .cta__text
                 p As the leading agency for white label web design services, we have mastered the art of working with our clients as their in-house web design team. We provide you with full access to our team of designers and developers who bring experience to the table.
             +btn-icon("Поддержать") 
+    button(class="btn-icon" type="button" data-modal-button="modal-service") Связаться с нами
+    div(class="fade-block hidden" data-modal id="modal-service")
+        .modal-window
+            include ../blocks/payment-form.pug
