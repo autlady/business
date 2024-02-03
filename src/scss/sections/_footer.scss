@@ -10,6 +10,7 @@
     }
 
     @include mediaMobile {
+        padding-bottom: 10px;
         font-size: 13px;
     }
 }
@@ -69,7 +70,6 @@
 }
 
 .footer__contacts-mail {
-    // margin-bottom: 18px;
     white-space: nowrap;
 }
 
