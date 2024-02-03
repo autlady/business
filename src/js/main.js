@@ -7,7 +7,7 @@
   swips.addSwiper(".programs-slider", "min-width:1200px", {
     // Optional parameters
     slidesPerView: 4,
-    spaceBetween: 20,
+    spaceBetween: 8,
 
     // If we need pagination
     pagination: {

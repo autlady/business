@@ -9,6 +9,10 @@
 
 .swiper-slide .program-card + .program-card {
     margin-top: 20px;
+
+    @media (max-width: 1199px) {
+        margin-top: 8px;
+    }
 }
 
 .program-slider-group {
