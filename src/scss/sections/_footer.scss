@@ -145,6 +145,8 @@
 }
 
 .footer-widget li:not(:last-child) {
+    margin-bottom: 8px;
+
     @include mediaMobile {
         margin-bottom: 11px;
     }
