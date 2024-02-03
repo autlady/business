@@ -46,9 +46,13 @@
     line-height: 34px;
 
     @media (max-width: 998px) {
-        font-size: 14px;
+        padding: 0 10px;
+        border-radius: 3.4px;
+        border: 0.85px solid rgba(98, 108, 119, 0.16);
+        color: #353F4B;
+        font-size: 13px;
         height: 24px;
-        line-height: 22px;
+        line-height: 17px;
     }
 }
 
