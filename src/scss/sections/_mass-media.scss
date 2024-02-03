@@ -20,4 +20,8 @@
         display: inline-flex;
         margin-top: 35px;
     }
+
+    @include mediaMobile {
+        margin-top: 20px;
+    }
 }
