@@ -25,7 +25,7 @@
 .aside-menu {
     background-color: #fff;
     max-width: 440px;
-    padding: 100px 30px 30px 30px;
+    padding: 100px 30px 30px 38px;
 
     @media (min-width: 1900px) {
         max-width: 600px;
@@ -40,7 +40,12 @@
 
 .aside-menu-top {
     border-bottom: 1px solid #C7C7C7;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
+
+    @media(max-width: 1240px) {
+        padding-bottom: 39px;
+    }
+
 }
 
 .aside-menu__logo {
@@ -48,13 +53,22 @@
     gap: 39px;
     align-items: center;
     margin-bottom: 53px;
+    padding-right: 85px;
+
+    @media(max-width: 1240px) {
+        gap: 30.5px;
+        margin-bottom: 42px;
+    }
+
+    
 }
 
 .aside-menu__social {
+    padding-left: 10px;
     display: flex;
     align-items: center;
     gap: 28px;
-    margin-bottom: 15px;
+    margin-bottom: 28px;
 }
 
 .aside-menu__social-item {
@@ -65,54 +79,88 @@
 
 .aside-menu__social-item {
     color: #353F4B;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.75;
 
     &:hover {
         color: var(--accent-color);
     }
+
+    @media(max-width: 1240px) {
+        font-size: 16px;
+        line-height: 1.7;
+    }
 }
 
 .nav__list {
-    margin-top: 25px;
+    margin-top: 50px;
+
+    @media(max-width: 1240px) {
+        margin-top: 38.6px;
+    }
 }
 
 .nav__list a {
     color: #353F4B;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 1.28;
 
     &:hover {
         color: var(--accent-color);
     }
+
+    @media(max-width: 1240px) {
+        font-size: 24px;
+    }
 }
 
 .nav__list li:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+
+    @media(max-width: 1240px) {
+        margin-bottom: 25px;
+    }
 }
 
-.menu-logo-img img {
-    width: 60px;
-    object-fit: contain;
+.menu-logo-img {
+    width: 59px;
 
     @media(max-width: 1240px) {
         width: 46px;
     }
 }
 
+.menu-logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .menu-logo-text {
     color: #346CFF;
     font-size: 18px;
     font-weight: 600;
+    line-height: normal;
+
+    @media(max-width: 1240px) {
+        font-size: 16px;
+    }
 }
 
 .aside-menu-tel {
+    padding-left: 10px;
     color: #353F4B;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 35px;
 
     &:hover {
         color: var(--accent-color);
+    }
+
+
+    @media(max-width: 1240px) {
+        font-size: 16px;
+        line-height: 1.7;
     }
 }
