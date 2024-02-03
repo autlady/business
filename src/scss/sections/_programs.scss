@@ -6,13 +6,13 @@
     @include mediaTablet {
         padding-top: 40px;
         padding-bottom: 60px;
-      }
+    }
 }
 
 .programs .btn-icon {
     @media (max-width: 1388px) {
         display: none;
-}
+    }
 }
 
 .programs .btn-icon-mob {
@@ -21,7 +21,11 @@
     @media (max-width: 1388px) {
         display: inline-flex;
         margin-top: 35px;
-}
+    }
+
+    @include mediaMobile {
+        margin-top: 30px;
+    }
 }
 
 .programs .back-title {
@@ -29,4 +33,3 @@
         font-size: 38px;
     }
 }
-

@@ -98,5 +98,9 @@
     @media (min-width: 1200px) {
         column-gap: 20px;
     }
+
+    @include mediaMobile {
+        padding-bottom: 30px;
+    }
    
 }
