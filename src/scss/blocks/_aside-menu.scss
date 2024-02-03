@@ -94,6 +94,14 @@
 
 .nav__list {
     margin-top: 50px;
+    height: calc(100vh - 440px);
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 
     @media(max-width: 1240px) {
         margin-top: 38.6px;
@@ -125,6 +133,7 @@
 
 .menu-logo-img {
     width: 59px;
+    flex-shrink: 0;
 
     @media(max-width: 1240px) {
         width: 46px;

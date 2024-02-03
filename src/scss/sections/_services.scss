@@ -15,6 +15,19 @@
     }  
 }
 
+.services .form-wrapper {
+    @include mediaMobile {
+        gap: 0;
+        margin-top: 11px;
+    }
+}
+
+.services .form-wrapper .form-group {
+    @include mediaMobile {
+      margin-bottom: 0;
+    }
+}
+
 .services .btn-icon-mob {
     display: none;
 
@@ -43,3 +56,4 @@
         display: flex;
     }
 }
+
