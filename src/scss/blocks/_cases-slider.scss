@@ -23,3 +23,10 @@
         display: block;
     }
 }
+
+.cases .cases-slider .swiper-wrapper {
+
+    @include mediaMobile {
+        padding-bottom: 8px;
+    }
+}
