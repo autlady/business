@@ -12,7 +12,7 @@
 
     @media (max-width: 1200px) {
         flex-direction: column;
-    }  
+    }
 }
 
 .services .form-wrapper {
@@ -24,7 +24,7 @@
 
 .services .form-wrapper .form-group {
     @include mediaMobile {
-      margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -34,7 +34,11 @@
     @media (max-width: 1388px) {
         display: inline-flex;
         margin-top: 35px;
-}
+    }
+
+    @include mediaMobile {
+        margin-top: 18px;
+    }
 }
 
 .services .title-group {
@@ -56,4 +60,3 @@
         display: flex;
     }
 }
-
