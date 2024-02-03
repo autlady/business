@@ -5,6 +5,7 @@
     width: 680px;
     background-color: #fff;
     padding: 60px 70px;
+    align-items: center;
 
     @include mediaTablet {
         padding: 32px 20px;
