@@ -28,8 +28,13 @@
     }
 }
 
+.list-header.active {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
 .list-content {
-    padding: 49px 0;
+    padding: 30px 0 49px;
     border-bottom: 1px solid #C3CAD6;
     color: #353F4B;
     font-size: 24px;
@@ -40,7 +45,7 @@
     }
 
     @include mediaTablet {
-        padding: 25px 0;
+        padding: 15px 0 30px;
         font-size: 14px;
     }
 }

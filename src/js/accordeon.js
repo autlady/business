@@ -5,5 +5,6 @@ headers.forEach(function (item) {
 })
 
 function showContent() {
+    this.classList.toggle('active');
     this.nextElementSibling.classList.toggle('hidden');
 }
