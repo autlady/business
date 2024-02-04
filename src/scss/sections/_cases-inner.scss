@@ -1,6 +1,15 @@
 .cases-inner {
     padding-top: 60px;
     padding-bottom: 100px;
+
+    @include mediaTablet {
+        padding-top: 32px;
+        padding-bottom: 60px;
+    }
+}
+
+.cases-inner .title-group {
+    padding-top: 62px;
 }
 
 .label-wrapper {
@@ -63,22 +72,35 @@ p.filter-result {
 
     @include mediaTablet() {
         display: block;
-        margin-bottom: 24px;
+        margin-bottom: 32px;
     }
 }
 
 .cases-inner-cards {
     margin-top: 53px;
 
+    @include mediaTablet {
+        margin-top: 0;
+    }
+
 }
 
 .cases-inner-cards .cases-card + .cases-card {
     margin-top: 40px;
+
+    @include mediaTablet {
+        margin-top: 16px;
+    }
 }
 
 .cases-inner-cards .cases-card {
     align-items: flex-start;
     padding-bottom: 50px;
+
+    @include mediaTablet {
+        background-color: #fff;
+        padding: 0;
+    }
 }
 
 .cases-inner-cards .cases-card .cases-card-desc {
@@ -96,6 +118,10 @@ p.filter-result {
 
 .cases-inner-cards .cases-card .cases-card__text p + p {
     padding-top: 30px;
+
+    @include mediaTablet {
+        padding-top: 12px;
+}
 }
 
 .cases-inner-cards .cases-card .cases-card__text.active {
@@ -109,6 +135,10 @@ p.filter-result {
 
 .cases-inner-cards .cases-card .cases-card__title {
     margin-bottom: 24px;
+
+    @include mediaTablet {
+        margin-bottom: 12px;
+    }
 }
 
 .cases-inner-cards .cases-card .cases-card__text {
