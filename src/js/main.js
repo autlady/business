@@ -62,7 +62,6 @@
 
   // Optional parameters
   slidesPerView: 3,
-  spaceBetween: 20,
 
   // If we need pagination
   pagination: {
