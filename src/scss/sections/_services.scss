@@ -16,9 +16,10 @@
 }
 
 .services .form-wrapper {
+    margin-top: 11px;
+
     @include mediaMobile {
         gap: 0;
-        margin-top: 11px;
     }
 }
 
