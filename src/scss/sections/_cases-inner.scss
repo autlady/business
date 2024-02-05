@@ -70,10 +70,11 @@
 
 .current-filters {
     padding-left: 16px;
+    padding-right: 10px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 10px;
 }
 
 .current-filters .filter {
