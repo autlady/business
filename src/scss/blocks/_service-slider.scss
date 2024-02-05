@@ -2,16 +2,24 @@
     padding: 20px;
 
     @include mediaMobileS {
-        padding: 15px;
+        padding: 0;
         margin-left: -15px;
     }
 }
 
 .services-slider .swiper-slide {
-    box-shadow: 0px 0px 34.826px 0px rgba(0, 0, 0, 0.05);
+    padding: 15px;
 
     @media (min-width: 1200px) {
         width: calc((100% - 60px) / 3);
+        padding: 0px;
+    }
+}
+
+.services-slider .service-card-wrapper {
+    box-shadow: 0px 0px 34.826px 0px rgba(0, 0, 0, 0.05);
+
+    @media (min-width: 1200px) {
         box-shadow: none;
     }
 }

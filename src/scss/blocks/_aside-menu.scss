@@ -23,36 +23,43 @@
 }
 
 .aside-menu {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
     max-width: 440px;
-    padding: 100px 30px 30px 38px;
+    padding: 30px 30px 30px 38px;
+    overflow: hidden;
 
     @media (min-width: 1900px) {
         max-width: 600px;
         width: 100%;
     }
-
-    @media (max-width: 1240px) {
-        padding-top: 70px;
-    }
 }
 
 
 .aside-menu-top {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-bottom: 1px solid #C7C7C7;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 
-    @media(max-width: 1240px) {
-        padding-bottom: 39px;
+    @media(max-width: 991px) {
+        height: 180px;
     }
 
 }
+
+.aside-menu-top >*{margin-bottom: 0;}
+
 
 .aside-menu__logo {
     display: flex;
     gap: 39px;
     align-items: center;
-    margin-bottom: 53px;
+    margin-bottom: 0;
     padding-right: 85px;
 
     @media(max-width: 1240px) {
@@ -68,7 +75,6 @@
     display: flex;
     align-items: center;
     gap: 28px;
-    margin-bottom: 28px;
 
     @media(max-width: 1240px) {
         margin-bottom: 19px;
@@ -96,9 +102,16 @@
     }
 }
 
+.aside-menu__social-item img {
+    width: 28px;
+}
+
 .nav__list {
-    margin-top: 50px;
-    height: calc(100vh - 440px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: calc(100vh - 360px);
     overflow: hidden;
     overflow-y: auto;
     scrollbar-width: none;
@@ -107,15 +120,14 @@
         display: none;
     }
 
-    @media(max-width: 1240px) {
-        margin-top: 38.6px;
-        height: calc(100vh - 338px);
+    @media(max-width: 991px) {
+        height: calc(100vh - 240px);
     }
 }
 
 .nav__list a {
     color: #353F4B;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     line-height: 1.28;
 
@@ -123,14 +135,14 @@
         color: var(--accent-color);
     }
 
-    @media(max-width: 1240px) {
-        font-size: 23px;
+    @media(max-width: 479px) {
+        font-size: 24px;
         line-height: 1.2;
     }
 }
 
 .nav__list li:not(:last-child) {
-    margin-bottom: 32px;
+    margin-bottom: 0;
 
     @media(max-width: 1240px) {
         margin-bottom: 25px;

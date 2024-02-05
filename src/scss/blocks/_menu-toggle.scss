@@ -91,8 +91,6 @@
   background-color: #185CFF;
   border-radius: 5px;
   right: 0;
-  // -webkit-transition: 0.2s;
-  // transition: 0.2s;
 
   @media(max-width: 1240px) {
     border-radius: 2px;
@@ -149,6 +147,13 @@
 
 .menu-toggle.active span {
   background-color: transparent !important;
+  width: 40px;
+  right:-30px;
+  top: -10px;
+
+  @media (max-width: 1240px) {
+    right: 0; top: 10px;
+  }
 }
 
 .menu-toggle.active span:after {
@@ -166,3 +171,5 @@
   transform: rotate(-45deg);
   width: 100%;
 }
+
+

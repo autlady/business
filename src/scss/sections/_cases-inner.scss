@@ -37,7 +37,30 @@
     font-size: 16px;
     line-height: 25px;
     flex-shrink: 0;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: #F8F8FF;
+    }
 }
+
+.cases-label-wrapper input{
+    width: 0.01em;
+    height: 0.01em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .cases-label-wrapper {
+    position: relative;
+}
+  
+  .cases-label-wrapper  input:checked +.cases-label{
+      background-color: #FFF;
+      border: 1.25px solid #353f4b;
+  }
 
 .select-wrapper {
     margin-bottom: 28px;
