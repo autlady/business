@@ -5,9 +5,10 @@
         margin-top: -20px;
     }
 
-    @include mediaMobileS {
+    @media (max-width: 479px) {
         padding: 0;
-        margin-left: -15px;
+        width: calc(100% + 30px);
+        margin: 0 -15px;
     }
 }
 
@@ -37,6 +38,3 @@
         padding-bottom: 30px;
     }
 }
-
-
-
