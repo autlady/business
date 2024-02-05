@@ -68,6 +68,18 @@
     align-items: center;
 }
 
+.current-filters {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.current-filters .filter {
+    flex-shrink: 0;
+} 
+
 .cases-inner .select-wrapper {
     @include mediaTablet() {
         display: none;

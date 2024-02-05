@@ -75,8 +75,9 @@ section.cases-inner
                 span.cases-label Работа в ИТ
         .select-wrapper
             p.selected Выбранные фильтры:
-            +filter("Направление")
-            +btn-reset("Сбросить")
+            .current-filters
+                +filter("Направление")
+            button.btn-reset#filters-reset Сбросить
         p.filter-result Найдено:
             span  4
         .cases-inner-cards
