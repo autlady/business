@@ -22,8 +22,9 @@ section.programs-inner
                     img(src="./img/icons/filter.svg" alt="Фильтры")
                 .select-wrapper
                     p.selected Выбранные фильтры:
-                    +filter("Бесплатное")
-                    +btn-reset("Сбросить")
+                    .current-filters
+                        +filter("Бесплатное")
+                    button.btn-reset#filters-reset Сбросить
                 p.filter-result Найдено:
                     span  48 
                 .programs-inner-block
