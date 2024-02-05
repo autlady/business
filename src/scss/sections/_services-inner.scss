@@ -30,9 +30,14 @@
 }
 
 .services-inner .form-group-title {
+
     @include mediaMobile {
         display: none;
     }
+}
+
+.services-inner .form-group {
+    margin-top: 12px;
 }
 
 .services-inner .form-group-title-mob {
