@@ -138,6 +138,13 @@
 
 .menu-toggle.active {
   border: 2px solid #FFF;
+  height: 35px;
+  right:-30px;
+  top: -10px;
+
+  @media (max-width: 1240px) {
+    right: 0; top: 10px;
+  }
 
 }
 
@@ -148,12 +155,6 @@
 .menu-toggle.active span {
   background-color: transparent !important;
   width: 40px;
-  right:-30px;
-  top: -10px;
-
-  @media (max-width: 1240px) {
-    right: 0; top: 10px;
-  }
 }
 
 .menu-toggle.active span:after {

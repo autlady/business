@@ -1,6 +1,6 @@
 .filters-mob {
     width: 390px;
-    padding: 10px 15px 40px 15px;
+    padding: 0;
 }
 
 .filters-mob-top {
@@ -8,6 +8,14 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 18px;
+
+    @media (max-width: 498px) {
+        margin-top: 30px;
+    }
+
+    @include mediaMobile {
+        margin-top: 15px;
+    }
 }
 
 .filters-mob__title {
@@ -22,26 +30,35 @@
     @media (max-width: 899px) {
 		display: flex;
         flex-direction: column;
-        height: calc(100vh - 150px);
-        overflow: hidden;
-        overflow-y: auto;
-        scrollbar-width: none;
+        height: calc(100vh - 50px);
+        // overflow: hidden;
+        // overflow-y: auto;
+        // scrollbar-width: none;
     }
 }
 
-.articles-form.custom-form-mob::-webkit-scrollbar {
-    @media (max-width: 899px) {
-		display: none;
-    }
-}
+// .articles-form.custom-form-mob::-webkit-scrollbar {
+//     @media (max-width: 899px) {
+// 		display: none;
+//     }
+// }
 
 .articles-form.custom-form-mob .form-group {
     position: static;
     z-index: unset;
+
+    @include mediaMobile {
+        margin-bottom: 10px;
+    }
+}
+
+.articles-form.custom-form-mob .form-group-title {
+    margin-bottom: 8px;
 }
 
 .filters-mob .btn {
-    margin-top: 30px;
+    margin-top: 10px;
+    height: 50px;
 }
 
 .close-btn#btn-close-filters .svg-close {
@@ -52,8 +69,10 @@
 
 .articles-form.custom-form-mob .dropdown__button {
     width: 350px;
+    height: 54px;
 }
 
 .articles-form.custom-form-mob .dropdown__list {
     width: 350px;
+    top: 54px;
 }
