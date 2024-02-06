@@ -1,11 +1,5 @@
 .aside-menu-wrapper {
     position: fixed;
-    transform: translateX(130%);
-    opacity: 0;
-}
-
-.aside-menu-wrapper.active {
-    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -14,12 +8,15 @@
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: flex-end;
-    z-index: 10;
+    transform: translateX(130%);
+    transition: .3s;
+    opacity: 0;
+}
 
+.aside-menu-wrapper.active {
+    z-index: 10;
     transform: translateX(0%);
     opacity: 1;
-    transition: .3s;
-
 }
 
 .aside-menu {
