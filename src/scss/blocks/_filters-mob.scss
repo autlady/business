@@ -27,7 +27,7 @@
 }
 
 .articles-form.custom-form-mob {
-    @media (max-width: 899px) {
+    @media (max-width: 767px) {
 		display: flex;
         flex-direction: column;
         height: calc(100vh - 50px);
