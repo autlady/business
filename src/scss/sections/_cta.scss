@@ -10,7 +10,7 @@
     position: relative;
     padding-left: 48px;
 
-    @media(max-width: 390px) {
+    @media(max-width: 797px) {
         padding-left: 0;
     }
 }
@@ -110,6 +110,16 @@
         padding: 100px 0;
     }
     @include mediaMobileS {
+        width: 100%;
+    }
+}
+
+.btn-icon-support {
+    @media (max-width: 1388px) {
+        width: 350px;
+    }
+
+    @media (max-width: 498px) {
         width: 100%;
     }
 }
