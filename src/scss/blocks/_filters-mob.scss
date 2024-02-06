@@ -31,17 +31,8 @@
 		display: flex;
         flex-direction: column;
         height: calc(100vh - 50px);
-        // overflow: hidden;
-        // overflow-y: auto;
-        // scrollbar-width: none;
     }
 }
-
-// .articles-form.custom-form-mob::-webkit-scrollbar {
-//     @media (max-width: 899px) {
-// 		display: none;
-//     }
-// }
 
 .articles-form.custom-form-mob .form-group {
     position: static;
