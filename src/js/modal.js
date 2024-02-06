@@ -4,6 +4,7 @@ const btnClose = document.querySelector('[data-modal-close]');
 const body = document.querySelector('body');
 if (modal) {
     btn.addEventListener('click', function() {
+        console.log('click');
         modal.classList.remove('hidden');
         body.classList.add('noscroll');
     });
