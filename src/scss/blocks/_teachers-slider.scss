@@ -1,8 +1,5 @@
 .teachers-slider {
-    // padding-top: 100px;
-    padding: 100px 30px 30px 30px;
-    width: calc(100% + 40px);
-    margin: 0 -20px;
+    margin-top: 70px;
 
     @include mediaTablet {
         padding: 40px 20px 20px 20px;
@@ -12,6 +9,14 @@
 
     @media (max-width: 479px) {
         padding: 20px;
+    }
+}
+
+.teachers-slider .swiper-slide {
+    padding: 30px;
+
+    @include mediaTablet {
+        padding: 0;
     }
 }
 

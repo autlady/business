@@ -183,7 +183,7 @@ const swiperPartners = new Swiper('.partners-slider', {
 const swiperTeachers = new Swiper('.teachers-slider', {
   // Optional parameters
   slidesPerView: 1,
-  spaceBetween: 50,
+  spaceBetween: 30,
 
   // Navigation arrows
   navigation: {
