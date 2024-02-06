@@ -16,12 +16,8 @@
         width: 40%;
     }
 
-    @include mediaTablet {
-        // width: 510px;
-    }
-
     @include mediaMobile {
-        width: 510px;
+        width: 100%;
         height: 289px;
     }
 }
