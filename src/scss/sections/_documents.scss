@@ -35,6 +35,10 @@
     @include mediaTablet {
         width: 350px;
     }
+
+    @media (max-width: 498px) {
+        width: 100%;
+    }
 }
 
 .documents-col .title-program-inner {

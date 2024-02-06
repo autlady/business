@@ -195,4 +195,8 @@
 
 .program-banner-mob .btn-program {
     width: 350px;
+
+    @media (max-width: 498px) {
+        width: 100%;
+    }
 }
