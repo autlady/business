@@ -91,3 +91,12 @@
         display: none;
     }
 }
+
+.programs-inner .btn-more-mob {
+    display: none;
+
+    @media (max-width: 1199px) {
+        display: inline-flex;
+        margin-top: 32px;
+    }
+}
