@@ -121,6 +121,18 @@ a.logo-text::before {
     z-index: 3;
 }
 
+
+.social-icons__item {
+    display: flex;
+    align-items: center;
+    color: var(--btn-text-blue-color);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+
 .social-icons::after {
     content: "";
     position: absolute;
