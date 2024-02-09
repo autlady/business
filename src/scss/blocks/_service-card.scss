@@ -1,24 +1,26 @@
 .service-card {
-        display: flex;
-       
-        padding: 16px 16px 16px 28px;
-        align-items: center;
-    
-        border-radius: 4px;
-        background: #FFF;
-        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
 
-        color: #353F4B;
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 1.5;
-        
-    
+    padding: 16px 16px 16px 28px;
+    align-items: center;
+
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+
+    color: #353F4B;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+
     @media (max-width: 1199px) {
-        // padding: 0 16px;
         box-shadow: none;
         font-size: 16px;
     }
+}
+
+.service-card:hover {
+    color: var(--accent-color);
 }
 
 .swiper-slide .service-card:not(:last-child) {
@@ -27,7 +29,7 @@
     }
 }
 
-.service-card + .service-card {
+.service-card+.service-card {
     margin-top: 20px;
 
     @media (max-width: 1199px) {
