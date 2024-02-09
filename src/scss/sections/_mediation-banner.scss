@@ -17,3 +17,27 @@
 .mediation-banner .border {
     padding-right: 0;
 }
+
+.mediation-banner .fade-block {
+    background: rgba(27, 40, 106, 0.50);
+}
+
+.mediation-banner .modal-window {
+    background: rgba(27, 40, 106, 0.50);
+
+    @media (max-width: 550px) {
+        padding: 100px 0;
+    }
+    @include mediaMobileS {
+        width: 100%;
+    }
+}
+
+.mediation-banner .btn-subscribe {
+    display: none;
+
+    @include mediaMobile {
+        display: inline-flex;
+        width: 100%;
+    }
+}

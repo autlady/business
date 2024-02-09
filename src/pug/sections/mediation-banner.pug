@@ -10,9 +10,9 @@ section.mediation-banner
                 h1.program-banner__title #[span.border Медиация] в жизни, бизнесе и с органами государственной власти
                 p.program-banner__price #[span Стоимость:] 200 000 руб.
                 .program-banner-btns 
-                    a(href="thankyou.html").btn-program Записаться
-                    a(href="#!").btn-program.btn-program--blue Задать вопрос
-                    a(href="mediation.html").btn-program.btn-program--white Посмотреть программу
+                    a(href="sign-up.html").btn-program Записаться
+                    button(class="btn-program btn-program--blue" type="button" data-modal-button="modal-program") Задать вопрос
+                    a(href="#modules").btn-program.btn-program--white Посмотреть программу
                 .program-banner-logos
                     .program-banner__logo
                         img(src="./img/program/logo1.webp" alt="logo" width="198")
@@ -61,6 +61,9 @@ section.mediation-banner
                 .program-banner__logo
                     img(src="./img/program/logo2.webp" alt="logo" width="120")
             .program-banner-btns-mob
-                a(href="#!").btn-program Записаться
-                a(href="#!").btn-program.btn-program--blue Задать вопрос
+                a(href="sign-up.html").btn-program Записаться
+                button(class="btn-program btn-program--blue" type="button" data-modal-button="modal-program") Задать вопрос
                 a(href="mediation.html").btn-program.btn-program--white Посмотреть программу
+        div(class="fade-block hidden" data-modal id="modal-program")
+            .modal-window
+                include ../blocks/program-form.pug
