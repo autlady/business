@@ -215,3 +215,12 @@
         width: 100%;
     }
 }
+
+.program-banner .btn-subscribe {
+    display: none;
+
+    @include mediaMobile {
+        display: inline-flex;
+        width: 100%;
+    }
+}
