@@ -1,0 +1,15 @@
+.partners-slider .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+
+.partners-slider .swiper-slide {
+    width: auto;
+    margin-right: 20px;
+}
+
+.partners-slider img {
+    width: 257px;
+    height: 180px;
+    object-fit: contain;
+}

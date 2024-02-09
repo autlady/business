@@ -162,19 +162,17 @@ const swiperCases = new Swiper('.cases-slider', {
 
 const swiperPartners = new Swiper('.partners-slider', {
   // Optional parameters
-  slidesPerView: 5,
-  spaceBetween: 20,
 
-  breakpoints: {
-    320: {
-      slidesPerView: 3,
-    },
-    580: {
-      slidesPerView: 4,
-    },
-    900: {
-      slidesPerView: 5,
-    },
+  slidesPerView: 'auto',
+  spaceBetween: 0,
+ 
+  a11y: false,
+  freeMode: true,
+  speed: 2000,
+  loop: true,
+  autoplay: {
+      delay: 0.0,
+      disableOnInteraction: false,
   },
 });
 
