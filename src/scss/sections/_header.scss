@@ -174,7 +174,7 @@ a.logo-text::before {
     }
   }
 
-a.contact-phone {
+.contact-phone {
     position: relative;
     display: inline-flex;
     padding: 12px 24px;
@@ -198,7 +198,7 @@ a.contact-phone {
     }
 }
 
-a.contact-phone::after {
+.contact-phone::after {
     content: "";
     position: absolute;
     top: 0;
@@ -222,7 +222,7 @@ a.contact-phone::after {
             hsl(348deg 100% 50%) 100%);
 }
 
-a.contact-phone::before {
+.contact-phone::before {
     position: absolute;
     content: "";
     top: 0;
@@ -256,16 +256,21 @@ a.contact-phone::before {
     gap: 12px;
 }
 
-.social-icons-mob img {
-    width: 24px;
-    object-fit: contain;
+.social-icons-mob__item {
+    display: flex;
+    align-items: center;
+    color: var(--btn-text-blue-color);
+
+    &:hover {
+        color: var(--accent-color);
+    }
 }
 
-a.social-icons-mob__item.icon-divider {
+.social-icons-mob__item.icon-divider {
     position: relative;
 }
 
-a.social-icons-mob__item.icon-divider::before {
+.social-icons-mob__item.icon-divider::before {
     position: absolute;
     content: "";
     width: 1px;
