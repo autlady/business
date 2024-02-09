@@ -1,0 +1,20 @@
+.program-form 
+    .service-form-title Задать вопрос
+    form(action="mail.php" class="contact-form")
+        .form-item
+            input(class="form-input" type="text" name="name" placeholder="Имя")
+        .form-item
+            input(class="form-input" type="text" name="tel" placeholder="Телефон")
+        .form-item
+            input(class="form-input" type="text" name="email" placeholder="Почта")
+        .form-item
+            button(type="submit" class="btn") Оставить заявку
+        .form-item
+            a(href="thankyou2.html").btn-subscribe Записаться онлайн
+    .service-form-privacy 
+        p 
+            | Нажимая на кнопку, Вы даёте согласие на обработку своих персональных данных в соответствии c 
+            a(href="#!") Политикой в отношении обработки персональных данных
+    button(class="close-btn" id="btn-close-contact" data-modal-close)
+        svg.svg-close 
+                use(href="./img/spriteSvg.svg#svg-close")

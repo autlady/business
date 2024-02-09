@@ -200,3 +200,18 @@
         width: 100%;
     }
 }
+
+.program-banner .fade-block {
+    background: rgba(27, 40, 106, 0.50);
+}
+
+.program-banner .modal-window {
+    background: rgba(27, 40, 106, 0.50);
+
+    @media (max-width: 550px) {
+        padding: 100px 0;
+    }
+    @include mediaMobileS {
+        width: 100%;
+    }
+}

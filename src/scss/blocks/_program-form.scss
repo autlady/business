@@ -1,0 +1,31 @@
+.program-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    background-color: #fff;
+    padding: 52px 95px;
+
+    @include mediaTablet {
+        padding: 32px 20px;
+        width: 390px;
+    }
+}
+
+.program-form .close-btn {
+    position: absolute;
+    top: 0;
+    right: -52px;
+    z-index: 77;
+
+    @media (max-width: 550px) {
+        top: -40px;
+        right: 20px;
+    }
+}
+
+.close-btn#btn-close-contact .svg-close {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+}
