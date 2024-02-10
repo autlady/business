@@ -78,7 +78,6 @@
 }
 
 .news-inner .form-wrapper-inner {
-
     display: none;
 
     @media (max-width: 589px) {
@@ -93,6 +92,7 @@
   }
 
 .news-block-hide.active {
+    margin-top: 20px;
  
     display: grid !important;
     grid-gap: 20px;
