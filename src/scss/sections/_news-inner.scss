@@ -87,3 +87,27 @@
     }
 
 }
+
+.news-block-hide {
+    display: none!important;
+  }
+
+.news-block-hide.active {
+ 
+    display: grid !important;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+
+    @include mediaTablet {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mediaMobile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 589px) {
+        grid-template-columns: 1fr;
+    }
+
+  }

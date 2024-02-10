@@ -1,4 +1,4 @@
-section.news-inner 
+section.news-inner.js-group 
     .container
         ul.breadcrumbs__list 
             li.breadcrumbs__list-item
@@ -45,7 +45,10 @@ section.news-inner
                 +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
                 +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
                 +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")
-            button.btn-more-mob Показать еще
+            //hidden block
+            .news-block-hide.js-btn-target
+                +news("Lorem Ipsum has been the industry's standard dummy text ever", "30.09.2023", "Обучение", "Обучение")
+            button.btn-more-mob.js-btn-show Показать еще
             include ../blocks/pagination.pug
         div(class="card hidden" data-tab-content id="tab-2")
             +news("Lorem Ipsum has been the industry's standard dummy text ever", "28.09.2023", "Обучение", "Обучение")

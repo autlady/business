@@ -135,3 +135,11 @@
         display: inline-flex;
     }
 }
+
+.articles-inner-block-hide {
+    display: none!important;
+  }
+
+.articles-inner-block-hide.active {
+    display: block!important;
+}

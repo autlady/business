@@ -214,3 +214,13 @@ p.filter-result {
         margin-top: 32px;
     }
 }
+
+
+.cases-inner-cards.js-btn-target {
+    display: none!important;
+}
+
+.cases-inner-cards.js-btn-target.active {
+    margin-top: 16px;
+    display: block!important;
+}
