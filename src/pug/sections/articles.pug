@@ -72,7 +72,7 @@ section.articles
                         span.custom-checkbox 
                         span.checkbox-text Фильтр
                 button(class="btn btn--reset js-reset" type="reset") Cбросить фильтры  
-            .articles-list
+            .articles-list.js-group
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
@@ -81,7 +81,12 @@ section.articles
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
                 +article("Stephanos. Рецензируемый мультиязычный научный журнал")
-                button(class="btn-show-more" type="button") Показать еще
+                //hidden block
+                .article-cards-hide.js-btn-target 
+                    +article("Stephanos. Рецензируемый мультиязычный научный журнал")
+                    +article("Stephanos. Рецензируемый мультиязычный научный журнал")
+                    +article("Stephanos. Рецензируемый мультиязычный научный журнал")
+                button(class="btn-show-more js-btn" type="button") Показать еще
         +btn-icon-mob("Все статьи")
     //modal
     div(class="fade-block hidden" data-modal id="modal-filters")

@@ -1,4 +1,15 @@
-
+const jsGroups = document.querySelectorAll('.js-group');
+if (jsGroups.length > 0) {
+  for (let group of jsGroups) {
+    const jsGroupBtn = group.querySelector('.js-btn');
+    const jsGroupTarget = group.querySelector('.js-btn-target');
+    if (jsGroupBtn){ 
+      jsGroupBtn.addEventListener('click', () => {   
+        jsGroupTarget.classList.add('active');
+      });    
+    }
+  }
+}
 
 /*=========== SWIPER CLASS ========== */
 (function () {

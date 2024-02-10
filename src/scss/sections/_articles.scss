@@ -86,3 +86,11 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.article-cards-hide {
+    display: none!important;
+  }
+  
+  .article-cards-hide.active{
+    display: block !important;
+    }
