@@ -1,11 +1,8 @@
 const jsGroups = document.querySelectorAll('.js-group');
-console.log(jsGroups);
 if (jsGroups.length > 0) {
   for (let group of jsGroups) {
     const jsGroupBtn = group.querySelector('.js-btn-show');
     const jsGroupTarget = group.querySelector('.js-btn-target');
-    console.log(jsGroupBtn);
-    console.log(jsGroupTarget);
     if (jsGroupBtn){ 
       jsGroupBtn.addEventListener('click', () => {   
         jsGroupTarget.classList.add('active');
