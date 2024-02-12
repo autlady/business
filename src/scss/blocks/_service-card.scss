@@ -17,6 +17,14 @@
         box-shadow: none;
         font-size: 16px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(16);
+        padding-right: k(16);
+        padding-bottom: k(16);
+        padding-left: k(28);
+        font-size: k(19);
+    }
 }
 
 .service-card:hover {
@@ -34,5 +42,9 @@
 
     @media (max-width: 1199px) {
         margin-top: 0;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(20);
     }
 }
