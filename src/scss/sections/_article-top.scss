@@ -11,6 +11,11 @@
         padding-top: 24px;
         padding-bottom: 16px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(69);
+        padding-bottom: k(50);
+    }
 }
 
 .article-top-content {
@@ -20,6 +25,11 @@
 
     @media (max-width: 1200px) {
         margin-top: 12px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(20);
+        margin-top: k(40);
     }
 }
 
@@ -51,6 +61,10 @@
     margin-top: 12px;
     display: flex;
     align-items: center;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(12);
+    }
 
 }
 

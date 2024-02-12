@@ -8,6 +8,11 @@
     @media (max-width: 1200px) { 
         gap: 8px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-right: k(48);
+        gap: k(12);
+    }
 }
 
 .block-date span {
@@ -19,6 +24,10 @@
         font-size: 14px;
         line-height: 1.3;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(23.8);
+    }
 }
 
 .block-date .svg-calendar {
@@ -29,5 +38,10 @@
     @media (max-width: 1200px) {
         width: 16px;
         height: 16px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(27);
+        height: k(27);
     }
 }

@@ -9,6 +9,11 @@
     @include mediaMobile {
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(70);
+        padding-bottom: k(195);
+    }
 }
 
 .news-inner .title-group {
@@ -21,6 +26,10 @@
 
     @include mediaMobileS {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(90);
     }
 }
 

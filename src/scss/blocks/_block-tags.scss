@@ -8,15 +8,29 @@
     @media (max-width: 1200px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-right: k(12);
+        gap: k(12);
+    }
 }
 
 .block-tags span {
     font-size: 24px;
     line-height: 1.4;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(24);
+    }
 }
 
 .block-tags .svg-tag {
     width: 32px;
     height: 32px;
     flex-shrink: 0;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(32);
+        height: k(32);
+    }
 }

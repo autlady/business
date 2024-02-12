@@ -6,6 +6,10 @@
     @media (max-width: 1200px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(8);
+    }
 }
 
 .tag {
@@ -21,4 +25,12 @@
     font-size: 16px;
     line-height: 1.25;
     flex-shrink: 0;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(6);
+        padding-bottom: k(6);
+        padding-right: k(20);
+        padding-left: k(20);
+        font-size: k(16);
+    }
 }
