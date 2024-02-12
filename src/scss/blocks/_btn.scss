@@ -27,4 +27,13 @@
     &:focus {
         background-color: var(--btn-focus-color);
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-right: k(24);
+        padding-left: k(24);
+        height: k(54);
+        column-gap: k(12);
+        font-size: k(16);
+        line-height: k(52);
+    }
 }

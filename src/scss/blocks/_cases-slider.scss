@@ -2,6 +2,11 @@
     width: 46px;
     height: 46px;
     fill: var(--accent-color);
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(46);
+        height: k(46);
+    }
 }
 
 .program-slider-controls.cases-controls {
@@ -9,6 +14,10 @@
 
     @media (max-width: 1199px) {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(80);
     }
 }
 

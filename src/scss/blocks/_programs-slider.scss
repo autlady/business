@@ -5,6 +5,10 @@
 .swiper-wrapper {
     width: 100%;
     padding-bottom: 40px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {    
+        padding-bottom: k(40);
+    }
 }
 
 .swiper-slide .program-card + .program-card {
@@ -13,10 +17,20 @@
     @media (max-width: 1199px) {
         margin-top: 8px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       margin-top: k(20);
+
+    }
 }
 
 .program-slider-group {
     margin-top: 40px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       margin-top: k(40);
+
+    }
 }
 
 .pagination__divider {
@@ -29,6 +43,13 @@
     @media (max-width: 998px) {
         margin-right: 10px;
         width: 150px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       margin-right: k(24);
+       width: k(272);
+       height: (2);
+
     }
 }
 
@@ -45,6 +66,11 @@
 
     @media (max-width: 998px) {
         font-size: 14px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       font-size: k(18);
+
     }
 }
 
@@ -67,11 +93,22 @@
         column-gap: 10px;
     }
 
+    @media(min-width:1400px) and (max-width: 1919px) {
+       column-gap: k(24);
+
+    }
+
 }
 
 .program-slider-prev img, .program-slider-next img {
     width: 10px;
     height: 19px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       width: k(10);
+       height: k(19);
+
+    }
 }
 
 .swiper-pagination-bullet {
@@ -79,6 +116,12 @@
     height: 5px;
     border-radius: 1px;
     background: #D0D0D0;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       width: k(10);
+       height: k(5);
+
+    }
 }
 
 .swiper-pagination-bullet-active {
@@ -86,6 +129,12 @@
     height: 5px;
     border-radius: 1px;
     background: var(--accent-color);
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       width: k(42);
+       height: k(5);
+
+    }
 }
 
 .programs-slider .swiper-slide {

@@ -1,11 +1,12 @@
 .cases-card {
     padding-top: 54px;
     padding-bottom: 75px;
+    padding-left: 25px;
 
     position: relative;
     display: flex;
     align-items: center;
-    padding-left: 25px;
+    
     gap: 20px;
     background-color: #F8F8FF;
 
@@ -14,6 +15,13 @@
         padding: 24px 20px 32px;
     }
 
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(54);
+        padding-bottom: k(75);
+        padding-left: k(25);
+        gap: k(20);
+
+    }
 }
 
 .cases-card::before {
@@ -41,6 +49,12 @@
     @media (max-width: 480px) {
         width: 100%;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(362);
+        height: k(204);
+    }
+  
 }
 
 .cases-card-desc {
@@ -51,6 +65,10 @@
 
     @media (max-width: 797px) {
         row-gap: 12px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       row-gap: k(30);
     }
 }
 
@@ -69,6 +87,18 @@
     @media (max-width: 998px) {
         font-size: 18px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       padding-right: 15.81vw;
+       font-size: k(40);
+    }
+}
+
+.cases-card__text {
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-right: 1.81vw;
+
+    }
 }
 
 .cases-card__text p {
@@ -79,10 +109,18 @@
     @media (max-width: 998px) {
         font-size: 14px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       font-size: k(18);
+    }
 }
 
 .cases-card__text p+p {
     padding-top: 15px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       padding-top: k(15);
+    }
 }
 
 .start-video__btn {
@@ -98,11 +136,23 @@
     background-color: #F5F5F5;
     border: none;
     cursor: pointer;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       bottom: k(16);
+       right: k(16);
+       height: k(40);
+       width: k(40);
+    }
 }
 
 .svg-play {
     height: 40px;
     width: 40px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       width: k(40);
+       height: k(40);
+    }
 }
 
 .svg-play-border {
@@ -112,6 +162,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(50);
+        height: k(50);
+    }
 }
 
 .svg-play-border circle {
@@ -147,6 +202,13 @@
     &:hover {
         color: var(--accent-color);
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       font-size: k(14);
+       line-height: k(24);
+       width: k(100);
+
+    }
 }
 
 .cases-card-tags {
@@ -157,6 +219,11 @@
     @media (max-width: 1106px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       margin-bottom: k(24);
+
+    }
 }
 
 .cases-card-tags .cases-label {
@@ -164,16 +231,34 @@
     line-height: 20px;
     overflow: hidden;
     background-color: #fff;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       padding-top: k(6);
+       padding-bottom: k(6);
+       padding-right: k(20);
+       padding-left: k(20);
+       line-height: k(20);
+
+    }
 }
 
 .cases-card-tags .cases-label:not(:first-child) {
     margin-left: 5px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       margin-left: k(5);
+    }
 }
 
 .cases-card__close {
     position: absolute;
     bottom: 50px;
     right: 73px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       bottom: k(50);
+       right: k(73);
+    }
 }
 
 
@@ -181,4 +266,9 @@
     width: 30px;
     height: 29px;
     flex-shrink: 0;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       width: k(30);
+       height: k(29);
+    }
 }

@@ -14,6 +14,7 @@
 
     @media(min-width:1400px) and (max-width: 1919px) {
         padding: k(20);
+        margin-top: -2.04vw;
     }
 
 }
@@ -46,5 +47,10 @@
 
     @include mediaMobile {
         padding-bottom: 30px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+       column-gap: k(20);
+
     }
 }
