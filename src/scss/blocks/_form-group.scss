@@ -183,6 +183,10 @@
     font-size: 20px;
     line-height: 1.43;
     letter-spacing: -0.2px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
+    }
 }
 
 .real-checkbox {
@@ -206,6 +210,12 @@
     border-radius: 2px;
     border: 1px solid rgba(0, 0, 0, 0.20);
     margin-right: 5px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(30);
+        height: k(30);
+        margin-right: k(5);
+    }
 }
 
 .custom-checkbox::before {
