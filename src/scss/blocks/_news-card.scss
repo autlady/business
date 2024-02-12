@@ -14,6 +14,11 @@
     @media (max-width: 1364px) {
         min-height: unset;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        max-width: k(400);
+        min-height: k(310);
+      }
 }
 
 .news-card__img {
@@ -24,6 +29,10 @@
 
     @media (max-width: 998px) {
         margin-bottom: 8px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(12);
     }
 }
 
@@ -51,6 +60,12 @@
     @media (max-width: 998px) {
         margin-bottom: 12px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(10);
+        font-size: k(18);
+        min-height: k(53);
+    }
 }
 
 .news-card__info {
@@ -58,5 +73,9 @@
     font-size: 14px;
     line-height: 1.5;
     flex-shrink: 0;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(14);
+    }
 }
 
