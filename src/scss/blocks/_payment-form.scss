@@ -10,6 +10,14 @@
         padding: 34px 20px;
         width: 390px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(680);
+        padding-top: k(60);
+        padding-bottom: k(60);
+        padding-left: k(70);
+        padding-right: k(70);
+    }
 }
 
 .payment-form-title {
@@ -17,6 +25,10 @@
 
     @include mediaTablet {
         font-size: 37px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(43);
     }
 }
 
@@ -28,6 +40,10 @@
 
     @include mediaTablet {
         font-size: 16px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(18);
     }
 }
 
@@ -46,6 +62,13 @@
     @include mediaTablet {
         height: 50px;
         font-size: 17px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(59);
+        padding-left: k(22);
+        padding-right: (19);
+        font-size: k(18);
     }
 }
 
@@ -81,6 +104,7 @@
 
 .form-payment .form-item+.form-item {
     margin-top: 16px;
+
 }
 
 .form-payment .form-item:nth-child(3) {
@@ -98,6 +122,12 @@
     line-height: 56px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(43, 37, 37, 0.12);
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(56);
+        font-size: k(18);
+        line-height: k(56);
+    }
 }
 
 .payment-form .close-btn {
@@ -110,10 +140,19 @@
         top: -40px;
         right: 20px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        right: k(-52);
+    }
 }
 
 .close-btn#btn-close-payment .svg-close {
     width: 32px;
     height: 32px;
     color: #fff;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(32);
+        height: k(32);
+    }
 }
