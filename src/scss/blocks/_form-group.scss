@@ -5,18 +5,32 @@
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.24px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(12);
+        font-size: k(16);
+        line-height: k(24);
+    }
 }
 
 .form-group {
     margin-bottom: 18px;
     position: relative;
     z-index: 5;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(18);
+    }
 }
 
 .form-group label {
     display: flex;
     align-items: center;
     column-gap: 10px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        column-gap: k(10);
+    }
 }
 
 /*========DROPDOWN======*/
@@ -44,6 +58,17 @@
 
     @media (max-width: 450px) {
         width: 100%;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(400);
+        height: k(65);
+        padding-top: k(13);
+        padding-right: k(35);
+        padding-bottom: k(13);
+        padding-left: k(20);
+        font-size: k(20);
+        line-height: k(24)
     }
 }
 
@@ -103,6 +128,10 @@
             display: none;
         }
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(400);
+    }
 }
 
 .dropdown__list::-webkit-scrollbar {
@@ -129,6 +158,14 @@
     border-bottom: 0;
     padding: 13px 20px;
     cursor: pointer;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(13);
+        padding-bottom: k(13);
+        padding-left: k(20);
+        padding-right: k(20);
+        font-size: k(20);
+    }
 }
 
 .dropdown__list-item:hover {
@@ -203,4 +240,9 @@
     font-size: 20px;
     line-height: 28.7px;
     letter-spacing: -0.2px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
+        line-height: k(28.7);
+    }
 }
