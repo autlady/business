@@ -6,12 +6,26 @@
     flex-shrink: 0;
     height: 32px;
     background: #F8F8FF;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(7);
+        padding-bottom: k(7);
+        padding-right: k(12);
+        padding-left: k(12);
+        gap: k(12);
+        height: k(32);
+    }
 }
 
 .filter span {
     color: #353F4B;
     font-size: 16px;
     line-height: 18px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(16);
+        line-height: k(18);
+    }
 }
 
 .close-filter {
@@ -22,4 +36,9 @@
 .close-filter .svg-icon-close {
     width: 16px;
     height: 18px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(16);
+        height: k(18);
+    }
 }

@@ -6,10 +6,19 @@
         padding-top: 32px;
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(60);
+        padding-bottom: k(100);
+    }
 }
 
 .cases-inner .title-group {
     padding-top: 62px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(62);
+    }
 }
 
 .label-wrapper {
@@ -21,6 +30,11 @@
 
     @include mediaTablet() {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(45);
+        gap: k(12);
     }
 }
 
@@ -42,6 +56,15 @@
 
     &:hover {
         background-color: #F8F8FF;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(8);
+        padding-bottom: k(8);
+        padding-right: k(25);
+        padding-left: k(25);
+        font-size: k(16);
+        line-height: k(25);
     }
 }
 
@@ -66,6 +89,10 @@
     margin-bottom: 28px;
     display: flex;
     align-items: center;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(28);
+    }
 }
 
 .current-filters {
@@ -75,6 +102,12 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-left: k(16);
+        padding-right: k(10);
+        gap: k(10);
+    }
 }
 
 .current-filters .filter {
@@ -91,6 +124,10 @@ p.selected {
     color: #2C2762;
     font-size: 16px;
     line-height: normal;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(16);
+    }
 }
 
 p.filter-result {
@@ -100,6 +137,10 @@ p.filter-result {
 
     @include mediaTablet() {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(16);
     }
 }
 
@@ -119,6 +160,10 @@ p.filter-result {
         margin-top: 0;
     }
 
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(53);
+    }
+
 }
 
 .cases-inner-cards .cases-card+.cases-card {
@@ -126,6 +171,10 @@ p.filter-result {
 
     @include mediaTablet {
         margin-top: 16px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(40);
     }
 }
 
@@ -136,6 +185,10 @@ p.filter-result {
     @include mediaTablet {
         background-color: #fff;
         padding: 0;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-bottom: k(50);
     }
 }
 
@@ -156,6 +209,11 @@ p.filter-result {
         min-height: 63px;
         height: 63px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        min-height: k(108);
+        height: k(108);
+    }
 }
 
 .cases-inner-cards .cases-card .cases-card__text p+p {
@@ -163,6 +221,10 @@ p.filter-result {
 
     @include mediaTablet {
         padding-top: 12px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(30);
     }
 }
 
@@ -178,6 +240,10 @@ p.filter-result {
         margin-bottom: 25px;
     }
 
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(50);
+    }
+
 }
 
 .cases-inner-cards .cases-card .cases-card__title {
@@ -185,6 +251,10 @@ p.filter-result {
 
     @include mediaTablet {
         margin-bottom: 12px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(24);
     }
 }
 
@@ -223,4 +293,8 @@ p.filter-result {
 .cases-inner-cards.js-btn-target.active {
     margin-top: 16px;
     display: block!important;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(16);
+    }
 }
