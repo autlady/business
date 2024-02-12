@@ -7,6 +7,11 @@
         background-color: #FFF;
     }
 
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(12);
+        padding-bottom: k(12);
+      }
+
 }
 
 .header-content {
@@ -20,6 +25,10 @@
     align-items: center;
     gap: 93px;
     flex-shrink: 0;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(93);
+      }
 }
 
 .logo-img img {
@@ -29,6 +38,10 @@
     @media(max-width: 1240px) {
         width: 34px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(90);
+      }
 }
 
 .header-info {
@@ -39,6 +52,10 @@
     @media(max-width: 1240px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(40);
+      }
 }
 
 a.logo-text {
@@ -64,6 +81,14 @@ a.logo-text {
     @media(max-width: 1240px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(12);
+        padding-bottom: k(12);
+        padding-left: k(24);
+        padding-right: k(24);
+        font-size: k(22);
+      }
 }
 
 a.logo-text::after {
@@ -119,6 +144,14 @@ a.logo-text::before {
 
     position: relative;
     z-index: 3;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(5);
+        padding-bottom: k(5);
+        padding-left: k(24);
+        padding-right: k(24);
+        gap: k(30);
+      }
 }
 
 
@@ -196,6 +229,15 @@ a.logo-text::before {
     &:hover {
         color: var(--accent-color);
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(12);
+        padding-bottom: k(12);
+        padding-left: k(24);
+        padding-right: k(24);
+        font-size: k(22);
+        line-height: k(30);
+      }
 }
 
 .contact-phone::after {

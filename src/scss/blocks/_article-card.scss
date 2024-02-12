@@ -25,12 +25,22 @@
     @media (max-width: 1023px) {
 		font-size: 20px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(16);
+        font-size: k(24);
+        line-height: k(24);
+      }
 }
 
 .article-card-labels {
     display: flex;
     align-items: center;
     gap: 10px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(10);
+      }
 }
 
 .article-card__label {
@@ -54,5 +64,15 @@
         height: 24px;
         line-height: 17px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(36);
+        padding-left: k(16);
+        padding-right: k(16);
+        border-radius: k(8);
+        font-size: k(16);
+        line-height: k(34);
+       
+      }
 }
 

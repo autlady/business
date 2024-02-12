@@ -5,6 +5,10 @@
     @include mediaTablet {
         padding-top: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(87);
+      }
 }
 
 .news .btn-icon {

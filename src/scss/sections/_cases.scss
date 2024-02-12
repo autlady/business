@@ -4,10 +4,14 @@
 
     @include mediaTablet {
         padding-top: 40px;
-      }
+    }
 
     @include mediaMobile {
         padding-top: 8px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(100);
     }
 }
 
@@ -29,7 +33,7 @@
         margin-left: 15px;
         margin-right: -15px;
         width: calc(100% - 30px);
-       
+
     }
 }
 
@@ -46,17 +50,17 @@
 .container-cases .back-title {
     @include mediaMobile {
         left: 40px;
-}
+    }
 
-@media (max-width: 432px) {
-    left: 15px;
-}
+    @media (max-width: 432px) {
+        left: 15px;
+    }
 }
 
 .cases .btn-icon {
     @media (max-width: 1388px) {
         display: none;
-}
+    }
 }
 
 .cases .btn-icon-mob {
@@ -65,5 +69,5 @@
     @media (max-width: 1388px) {
         display: inline-flex;
         margin-top: 35px;
-}
+    }
 }

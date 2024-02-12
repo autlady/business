@@ -13,6 +13,10 @@
       @media(max-width: 481px) {
         overflow: hidden;
       }
+
+      @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(109);
+      }
 }
 
 .board .btn-icon {

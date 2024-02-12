@@ -7,6 +7,11 @@
         padding-top: 40px;
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(80);
+        padding-bottom: k(100);
+      }
 }
 
 .programs .btn-icon {

@@ -4,6 +4,10 @@
     @include mediaTablet {
         padding-top: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(107);
+      }
 }
 
 .form-wrapper {
@@ -13,6 +17,10 @@
     @media (max-width: 1200px) {
         flex-direction: column;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(18);
+      }
 }
 
 .services .form-wrapper {
@@ -21,6 +29,10 @@
     @include mediaMobile {
         gap: 0;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(11);
+      }
 }
 
 .services .form-wrapper .form-group {

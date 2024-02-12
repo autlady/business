@@ -15,3 +15,10 @@
 	--btn-text-blue-color: #346CFF;
 
 }
+
+@media(min-width:1400px) and (max-width: 1919px) {
+	:root {
+	  --container-width: 88.5vw;
+	}
+}
+  

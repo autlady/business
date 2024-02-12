@@ -7,10 +7,20 @@
         padding-top: 108px;
         padding-bottom: 140px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(154);
+        padding-bottom: k(160);
+      }
 }
 
 .header-banner-content {
     max-width: 1240px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        max-width: k(1240);
+      }
+
 }
 
 .header-banner__title {
@@ -19,6 +29,10 @@
     @include mediaMobile {
         margin-bottom: 36px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(47);
+      }
 }
 
 .header-banner__text p {
@@ -35,8 +49,16 @@
     @include mediaMobile {
         font-size: 14px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(30);
+      }
 }
 
 .header-banner__text p + p {
     margin-top: 30px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(30);
+      }
 }

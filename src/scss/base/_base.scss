@@ -38,6 +38,10 @@
     font-style: normal;
 }
 
+@function k($v) {
+  @return calc(100vw * (calc(($v /1920))));
+}
+
 * {
   box-sizing: border-box;
 }
@@ -180,10 +184,19 @@ select:-webkit-autofill:focus {
 
 .container.container-program {
    max-width: 1420px;
+
+   @media(min-width:1400px) and (max-width: 1919px) {
+    max-width: k(1420);
+  }
+  
 }
 
 .container.container-thankyou {
    max-width: 920px;
+
+   @media(min-width:1400px) and (max-width: 1919px) {
+    max-width: k(920);
+  }
 }
 
 .headline {
@@ -206,6 +219,10 @@ select:-webkit-autofill:focus {
     line-height: 1; 
     text-transform: none;
   }
+
+  @media(min-width:1400px) and (max-width: 1919px) {
+    font-size: k(120);
+  }
 }
 
 .title-group {
@@ -223,6 +240,12 @@ select:-webkit-autofill:focus {
   @include mediaTablet {
     padding-top: 22px;
   }
+
+  @media(min-width:1400px) and (max-width: 1919px) {
+    padding-top: k(75);
+    margin-bottom: k(32);
+  }
+
 }
 
 .back-title {
@@ -249,6 +272,12 @@ select:-webkit-autofill:focus {
   @media (max-width: 460px) {
     left: 0px;
   }
+
+  @media(min-width:1400px) and (max-width: 1919px) {
+    left: k(150);
+    font-size: k(100);
+  }
+  
 }
 
 .section-title {
@@ -267,6 +296,11 @@ select:-webkit-autofill:focus {
   @include mediaMobileS {
     font-size: 26px;
   }
+
+  @media(min-width:1400px) and (max-width: 1919px) {
+    font-size: k(48);
+    line-height: k(66);
+  }
 }
 
 .section-title span {
@@ -281,6 +315,10 @@ select:-webkit-autofill:focus {
   line-height: 1.12; 
   letter-spacing: -0.613px;
   color: var(--title-color);
+
+  @media(min-width:1400px) and (max-width: 1919px) {
+    font-size: k(61.5);
+  }
 }
 
 .title-group--center {
