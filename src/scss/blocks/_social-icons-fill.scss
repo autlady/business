@@ -1,6 +1,10 @@
 .social-icons-fill {
     display: flex;
     gap: 16px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(16);
+      }
 }
 
 .svg-tg-fill, .svg-vk-fill, .svg-ok-fill, .svg-youtube-fill {
@@ -11,5 +15,10 @@
     @include mediaMobile {
         width: 24px;
         height: 24px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(45);
+        height: k(45);
     }
 }
