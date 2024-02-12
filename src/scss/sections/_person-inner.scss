@@ -6,6 +6,11 @@
         padding-top: 32px;
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(60);
+        padding-bottom: k(100);
+    }
 }
 
 .person-content {
@@ -20,6 +25,12 @@
     @media (max-width: 1023px) {
         padding-top: 0;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(30);
+        padding-top: k(39);
+        justify-content: space-between;
+    }
 }
 
 .person-img {
@@ -30,6 +41,11 @@
 
     @media (max-width: 1200px) {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(540);
+        height: k(619);
     }
 }
 
@@ -71,6 +87,10 @@
     @include mediaMobile {
         width: 100%;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        max-width: k(933);
+    }
 }
 
 .person-name {
@@ -85,6 +105,11 @@
         font-size: 26px;
         line-height: 1;
         margin-bottom: 13px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(40);
+        font-size: k(48);
     }
 }
 
@@ -102,6 +127,10 @@
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(14);
+    }
 }
 
 p.person-experience-mob {
@@ -109,6 +138,10 @@ p.person-experience-mob {
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(14);
+    }
 }
 
 .person-activity {
@@ -126,6 +159,11 @@ p.person-activity {
         font-size: 14px;
         line-height: normal;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(22);
+        line-height: k(30.4);
+    }
 }
 
 .person-activity span {
@@ -138,6 +176,11 @@ p.person-activity {
         color: #353F4B;
         font-size: 14px;
         line-height: normal;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(22);
+        line-height: k(30.4);
     }
 }
 
@@ -160,12 +203,24 @@ p.person-activity {
     @media (max-width: 1200px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(60);
+        margin-bottom: k(66);
+        width: k(446);
+        height: k(217);
+        gap: k(45);
+    }
 }
 
 .num {
     color: var(--accent-color);
     font-size: 84px;
     line-height: normal;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(84);
+    }
 }
 
 .num sup {
@@ -174,11 +229,21 @@ p.person-activity {
     color: #353F4B;
     font-size: 36.9px;
     line-height: 75.2px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(36.9);
+        line-height: k(75.2);
+    }
 }
 
 .exp-row span {
     font-size: 22.4px;
     line-height: 32px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(22.4);
+        line-height: k(32);
+    }
 }
 
 .person-list-title {
@@ -192,6 +257,12 @@ p.person-activity {
         font-size: 20px;
         line-height: normal;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(16);
+        font-size: k(36);
+        line-height: k(50);
+    }
 }
 
 .person-list:not(:last-child) {
@@ -199,6 +270,10 @@ p.person-activity {
 
     @media (max-width: 1200px) {
         margin-bottom: 32px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(50);
     }
 }
 
@@ -211,5 +286,10 @@ p.person-activity {
         font-size: 14px;
         font-weight: 400;
         line-height: normal;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
+        line-height: k(32);
     }
 }
