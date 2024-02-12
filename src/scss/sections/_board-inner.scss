@@ -4,6 +4,10 @@
     @include mediaMobile {
         padding-top: 32px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(60);
+    }
 }
 
 .board-inner .title-group {
@@ -11,6 +15,10 @@
 
     @include mediaLaptop {
         margin-top: 0;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: (94);
     }
 }
 
@@ -31,6 +39,10 @@
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 8px;
         grid-row-gap: 16px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(152);
     }
 }
 
