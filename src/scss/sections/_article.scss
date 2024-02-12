@@ -17,6 +17,10 @@
     @media (max-width: 1200px) {
         width: 100%;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: calc(100% - 26.7vw);
+    }
 }
 
 .single-article h2 {
