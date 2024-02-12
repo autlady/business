@@ -22,6 +22,15 @@
     @media (max-width: 998px) {
         padding: 20px 16px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(40);
+        padding-bottom: k(40);
+        padding-left: k(32);
+        padding-right: k(32);
+        min-height: k(350);
+        max-width: k(400);
+      }
 }
 
 .program-card__title {
@@ -44,6 +53,12 @@
         font-size: 14px;
         min-height: 40px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(12);
+        font-size: k(25);
+        min-height: k(62);
+      }
 }
 
 .program-card__text {
@@ -69,6 +84,12 @@
         font-size: 8px;
         min-height: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(12);
+        font-size: k(18);
+        min-height: k(108);
+      }
 }
 
 .program-card__link {
@@ -81,6 +102,10 @@
     @media (max-width: 480px) {
         column-gap: 5px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        column-gap: k(12);
+      }
 }
 
 .program-card__link span {
@@ -92,6 +117,10 @@
     @media (max-width: 998px) {
         font-size: 10px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(16);
+      }
 }
 
 .program-card__link .svg-arrow-right {
@@ -103,4 +132,9 @@
         width: 8px;
         height: 8px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(13);
+        height: k(11);
+      }
 }

@@ -165,6 +165,20 @@ a.logo-text::before {
     }
 }
 
+.social-icons__item svg {
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(44);
+        height: k(38);
+      }
+}
+
+.social-icons__item:last-child svg {
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(45);
+        height: k(45);
+      }
+}
+
 
 .social-icons::after {
     content: "";

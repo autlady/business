@@ -8,6 +8,10 @@
             color: var(--accent-color);
        }
    }
+
+   @media(min-width:1400px) and (max-width: 1919px) {
+    max-width: k(400);
+  }
 }
 
 .person-card__img {
@@ -19,6 +23,10 @@
     @media (max-width: 480px) {
         margin-bottom: 12px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(16);
+      }
 }
 
 .person-card__img img {
@@ -38,6 +46,10 @@
     @include mediaMobileS {
         gap: 6px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(10);
+      }
 }
 
 .person-card__label {
@@ -58,6 +70,15 @@
         line-height: 22px;
         padding: 3px 16px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(8);
+        padding-bottom: k(8);
+        padding-left: k(16);
+        padding-right: k(16);
+        border-radius: k(8);
+        font-size: k(16);
+      }
 }
 
 .person-card__name {
@@ -88,6 +109,13 @@
         margin-top: 8px;
         margin-bottom: 8px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(12);
+        margin-bottom: k(16);
+        font-size: k(30);
+        min-height: k(76);
+      }
 }
 
 .person-card__position {
@@ -102,4 +130,8 @@
     @media (max-width: 998px) {
         font-size: 14px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(18);
+      }
 }

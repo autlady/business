@@ -29,6 +29,16 @@
     &:focus {
         background-color: var(--btn-focus-color);
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-left: k(24);
+        padding-right: k(24);
+        height: k(56);
+        column-gap: k(8);
+        border-radius: k(4);
+        font-size: k(18);
+        line-height: k(56);
+      }
 }
 
 .btn-program--blue {
