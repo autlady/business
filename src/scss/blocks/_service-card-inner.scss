@@ -20,6 +20,15 @@
     &:hover {
         background: linear-gradient(180deg, rgba(232, 75, 62, 0.10) 0%, rgba(44, 39, 98, 0.10) 100%);
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(40);
+        padding-bottom: k(40);
+        padding-right: k(50);
+        padding-left: k(50);
+        max-width: k(540);
+        min-height: k(396);
+    }
 }
 
 .service-card-inner__title {
@@ -41,6 +50,12 @@
         font-size: 15px;
         min-height: 38px;
         line-height: 1.2;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(24);
+        font-size: k(25);
+        min-height: k(76);
     }
 }
 
@@ -67,6 +82,12 @@
     @media (max-width: 480px) {
         min-height: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(21);
+        font-size: k(16);
+        min-height: k(168);
+    }
 }
 
 .service-card-inner__link {
@@ -75,6 +96,10 @@
     column-gap: 5px;
     margin-top: auto;
     flex-shrink: 0;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        column-gap: k(5);
+    }
 }
 
 .service-card-inner__link span {
@@ -89,6 +114,10 @@
         line-height: 1.43;
         letter-spacing: -0.14px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(16);
+    }
 }
 
 .service-card-inner__link .svg-arrow-right-long {
@@ -99,5 +128,10 @@
     @media (max-width: 480px) {
         width: 16.7px;
         height: 16.7px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(25.5);
+        height: k(25.5);
     }
 }

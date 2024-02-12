@@ -5,6 +5,11 @@
     @include mediaMobile {
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(60);
+        padding-bottom: k(90);
+    }
 }
 
 .services-inner .title-group {
@@ -38,6 +43,10 @@
 
 .services-inner .form-group {
     margin-top: 12px;
+    
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(50);    
+    }
 }
 
 .services-inner .form-group-title-mob {
