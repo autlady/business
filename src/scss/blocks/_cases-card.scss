@@ -137,22 +137,22 @@
     border: none;
     cursor: pointer;
 
-    @media(min-width:1400px) and (max-width: 1919px) {
-       bottom: k(16);
-       right: k(16);
-       height: k(40);
-       width: k(40);
-    }
+    // @media(min-width:1400px) and (max-width: 1919px) {
+    //    bottom: k(16);
+    //    right: k(16);
+    //    height: k(40);
+    //    width: k(40);
+    // }
 }
 
 .svg-play {
     height: 40px;
     width: 40px;
 
-    @media(min-width:1400px) and (max-width: 1919px) {
-       width: k(40);
-       height: k(40);
-    }
+    // @media(min-width:1400px) and (max-width: 1919px) {
+    //    width: k(40);
+    //    height: k(40);
+    // }
 }
 
 .svg-play-border {
@@ -163,10 +163,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    @media(min-width:1400px) and (max-width: 1919px) {
-        width: k(50);
-        height: k(50);
-    }
+    // @media(min-width:1400px) and (max-width: 1919px) {
+    //     width: k(50);
+    //     height: k(50);
+    // }
 }
 
 .svg-play-border circle {
