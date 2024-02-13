@@ -6,4 +6,9 @@
         padding-top: 64px;
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(41);
+        padding-bottom: k(70);
+    }
 }

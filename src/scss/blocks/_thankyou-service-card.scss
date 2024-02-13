@@ -12,6 +12,14 @@
     &:hover {
         background: linear-gradient(180deg, rgba(232, 75, 62, 0.10) 0%, rgba(44, 39, 98, 0.10) 100%);
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(32);
+        padding-bottom: k(32);
+        padding-right: k(16);
+        padding-left: k(16);
+        min-height: k(242);
+    }
 }
 
 .thankyou-service-card-top {
@@ -31,6 +39,11 @@
         margin-bottom: 18px;
         min-height: 44px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(20);
+        min-height: k(48);
+    }
 }
 
 .thankyou-service-card__title {
@@ -42,6 +55,10 @@
 
     @include mediaMobile {
         font-size: 18px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
     }
 
 }
@@ -61,7 +78,12 @@
 
     @include mediaMobile {
         min-height: 132px;
-        -webkit-line-clamp: 6;  
+        -webkit-line-clamp: 6;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(16);
+        margin-bottom: k(32);
+        min-height: k(110);
     }
 }
-

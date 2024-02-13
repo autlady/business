@@ -1,5 +1,9 @@
 .thankyou-programs {
     padding-bottom: 70px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-bottom: k(70);
+    }
 }
 
 .thankyou-title {
@@ -13,6 +17,11 @@
     @include mediaMobile {
         font-size: 16px;
         text-align: left;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(32);
+        font-size: k(28);
     }
 }
 
