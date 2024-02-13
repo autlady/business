@@ -7,11 +7,21 @@
         padding-top: 24px;
         padding-bottom: 40px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(60);
+        padding-bottom: k(60);
+    }
 }
 
 .mediation-banner .program-banner-col {
     width: 1097px;
     padding-right: 30px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(1097);
+        padding-right: k(30);
+    }
 }
 
 .mediation-banner .border {

@@ -55,6 +55,10 @@
     @media (max-width: 432px) {
         left: 15px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        left: 71px;
+    }
 }
 
 .cases .btn-icon {

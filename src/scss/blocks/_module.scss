@@ -10,6 +10,11 @@
     @include mediaTablet {
         padding-right: 0;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(1182);
+        padding-right: k(15);
+    }
 }
 
 .module+.module {
@@ -17,6 +22,10 @@
 
     @include mediaLaptop {
         margin-top: 60px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(123);
     }
 }
 
@@ -33,6 +42,12 @@
     @media (max-width: 1650px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        top: k(-60);
+        left: k(-120);
+        font-size: k(305);
+    }
 }
 
 .module__title {
@@ -46,6 +61,11 @@
     @include mediaTablet {
         font-size: 20px;
         line-height: 1;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(16);
+        font-size: k(40);
     }
 }
 
@@ -63,6 +83,11 @@
         font-size: 16px;
         line-height: 1.75;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(32);
+        font-size: k(20);
+    }
 }
 
 .module__list {
@@ -71,6 +96,10 @@
 
     @include mediaTablet {
         margin-bottom: 16px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(24);
     }
 }
 
@@ -86,6 +115,10 @@
     @include mediaTablet {
         height: 86px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(151);
+    }
 }
 
 .module__list li {
@@ -95,6 +128,11 @@
 
     @include mediaTablet {
         padding: 12px 0;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(16);
+        padding-bottom: k(16);
     }
 }
 
@@ -110,6 +148,10 @@
 
     @include mediaTablet {
         font-size: 14px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
     }
 }
 
@@ -128,5 +170,10 @@
         font-size: 16px;
         font-weight: 700;
         letter-spacing: -0.16px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(18);
+        line-height: k(24);
     }
 }

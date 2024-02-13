@@ -7,7 +7,7 @@
 
     @media(min-width:1400px) and (max-width: 1919px) {
         padding-top: 2.98vw;
-      }
+    }
 }
 
 .articles-content {
@@ -16,7 +16,7 @@
 
     @media(min-width:1400px) and (max-width: 1919px) {
         gap: k(36);
-      }
+    }
 }
 
 .articles-form {
@@ -24,7 +24,7 @@
     flex-direction: column;
 
     @media (max-width: 899px) {
-		display: none;
+        display: none;
     }
 }
 
@@ -41,7 +41,7 @@
 
     @media(min-width:1400px) and (max-width: 1919px) {
         margin-bottom: k(30);
-      }
+    }
 }
 
 .articles-list {
@@ -49,25 +49,25 @@
     border-left: 1px solid #DEE1E7;
 
     @media (max-width: 899px) {
-		border: none;
+        border: none;
         padding-left: 0px;
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
         padding-left: k(35);
-      }
+    }
 }
 
 .articles-list .article-card:not(:last-child) {
     margin-bottom: 32px;
 
     @media (max-width: 390px) {
-       margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
         margin-bottom: k(32);
-      }
+    }
 }
 
 .articles .btn-icon-mob {
@@ -76,13 +76,14 @@
     @media (max-width: 899px) {
         display: inline-flex;
         margin-top: 35px;
-}
+    }
 }
 
 .articles .title-group {
     @media (max-width: 483px) {
         display: none;
     }
+
     @media (max-width: 432px) {
         padding-top: 58px;
     }
@@ -108,9 +109,27 @@
 }
 
 .article-cards-hide {
-    display: none!important;
-  }
+    display: none !important;
+}
 
-.article-cards-hide.active{
+.article-cards-hide.active {
     display: block !important;
+}
+
+.articles .dropdown__button {
+    @media (min-width: 1920px) {
+        width: 540px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(540);
+
+    }
+}
+
+.articles .back-title {
+    @media(min-width:1400px) and (max-width: 1919px) {
+        left: 71px;
+
+    }
+}

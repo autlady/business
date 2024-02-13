@@ -9,6 +9,11 @@
     @include mediaTablet {
         padding-bottom: 32px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(78);
+        padding-bottom: k(173);
+    }
 }
 
 .mediation-advantages .advantages-text {
@@ -18,5 +23,9 @@
     @include mediaTablet {
         font-size: 14px;
         display: block;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
     }
 }

@@ -14,4 +14,8 @@
     @include mediaTablet {
         margin-bottom: 32px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(121);
+    }
 }
