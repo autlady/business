@@ -10,6 +10,14 @@
         padding: 32px 20px;
         width: 390px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(680);
+        padding-bottom: k(52);
+        padding-top: k(52);
+        padding-left: k(95);
+        padding-right: k(95);
+    }
 }
 
 .service-form-title {
@@ -21,6 +29,11 @@
 
     @include mediaTablet {
         font-size: 26px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(20);
+        font-size: k(48);
     }
 }
 
@@ -40,6 +53,14 @@
         height: 50px;
         font-size: 17px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(56);
+        padding-left: k(22);
+        padding-right: k(19);
+        font-size: k(18);
+
+    }
 }
 
 .form-input::placeholder {
@@ -56,6 +77,7 @@
 
 .form-item+.form-item {
     margin-top: 20px;
+    
 }
 
 .form-item .btn {
@@ -65,15 +87,27 @@
     line-height: 56px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(43, 37, 37, 0.12);
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(56);
+        font-size: k(18);
+        line-height: k(56);
+    }
 }
 
 .service-form-privacy {
     margin-top: 20px;
     padding-right: 25px;
     color: #7C7F8A;
-    font-size: 12.697px;
+    font-size: 12.7px;
     line-height: 1.33;
     letter-spacing: -0.212px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(20);
+        padding-right: k(25);
+        font-size: k(12.7);
+    }
 }
 
 .service-form-privacy a {
@@ -95,10 +129,19 @@
         top: -40px;
         right: 20px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        right: k(-52);
+    }
 }
 
 .close-btn#btn-close-contact .svg-close {
     width: 32px;
     height: 32px;
     color: #fff;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(32);
+        height: k(32);
+    }
 }

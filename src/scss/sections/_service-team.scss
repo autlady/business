@@ -4,6 +4,14 @@
     @include mediaTablet {
         padding-bottom: 40px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-bottom: k(90);
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-bottom: k(90);
+    }
 }
 
 .service-team-wrapper {
