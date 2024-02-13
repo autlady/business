@@ -8,8 +8,8 @@
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    padding-top: k(60);
-    padding-bottom: k(104);
+        padding-top: k(60);
+        padding-bottom: k(104);
     }
 }
 
@@ -21,7 +21,7 @@
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    margin-top: k(40);
+        margin-top: k(40);
     }
 }
 
@@ -56,7 +56,7 @@
     margin-bottom: 37px;
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    margin-bottom: k(37);
+        margin-bottom: k(37);
     }
 }
 
@@ -80,8 +80,8 @@
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    margin-top: k(20);
-    font-size: k(17);
+        margin-top: k(20);
+        font-size: k(17);
     }
 }
 
@@ -94,7 +94,7 @@
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    gap: k(52);
+        gap: k(52);
     }
 }
 
@@ -102,7 +102,7 @@
     padding-top: 70px;
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    padding-top: k(70);
+        padding-top: k(70);
     }
 }
 
@@ -115,7 +115,7 @@
     gap: 10px;
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    gap: k(10);
+        gap: k(10);
     }
 }
 
@@ -128,7 +128,7 @@
     margin-bottom: 49px;
 
     @media(min-width:1400px) and (max-width: 1919px) {
-    margin-bottom: k(49);
+        margin-bottom: k(49);
     }
 }
 
@@ -170,11 +170,11 @@
 }
 
 .articles-inner-block-hide {
-    display: none!important;
-  }
+    display: none !important;
+}
 
 .articles-inner-block-hide.active {
-    display: block!important;
+    display: block !important;
 }
 
 .articles-inner .dropdown__button {
@@ -198,4 +198,3 @@
 
     }
 }
-
