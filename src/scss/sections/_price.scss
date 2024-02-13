@@ -4,6 +4,10 @@
     @media (max-width: 538px) {
         padding-bottom: 60px;
      }
+
+     @media(min-width:1400px) and (max-width: 1919px) {
+        padding-bottom: k(100);
+    }
 }
 
 .price .container-program {
@@ -27,5 +31,9 @@
 
     @media (max-width: 538px) {
         gap: 0px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(20);
     }
 }

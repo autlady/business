@@ -1,5 +1,9 @@
 .reviews-slider .swiper-wrapper {
     padding-bottom: 10px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-bottom: 30px;
+    }
 }
 
 .reviews-slider .cases-controls {
