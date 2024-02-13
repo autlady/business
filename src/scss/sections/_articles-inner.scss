@@ -6,6 +6,11 @@
         padding-top: 24px;
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    padding-top: k(60);
+    padding-bottom: k(104);
+    }
 }
 
 .articles-inner .title-group {
@@ -13,6 +18,10 @@
 
     @include mediaMobile {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    margin-top: k(40);
     }
 }
 
@@ -33,7 +42,6 @@
 .articles-inner .title-group-mob {
     display: none;
     position: relative;
-    padding-top: 75px;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 32px;
@@ -46,6 +54,10 @@
 
 .form-group--articles {
     margin-bottom: 37px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    margin-bottom: k(37);
+    }
 }
 
 .articles-inner-content .btn--reset {
@@ -66,6 +78,11 @@
     &:focus {
         color: var(--accent-color);
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    margin-top: k(20);
+    font-size: k(17);
+    }
 }
 
 .articles-inner-content {
@@ -75,10 +92,18 @@
     @media (max-width: 1199px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    gap: k(52);
+    }
 }
 
 .articles-inner-wrapper {
     padding-top: 70px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    padding-top: k(70);
+    }
 }
 
 .articles-inner-wrapper .current-filters {
@@ -88,6 +113,10 @@
 
 .articles-inner-wrapper .select-wrapper {
     gap: 10px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    gap: k(10);
+    }
 }
 
 .articles-inner-wrapper .filter {
@@ -97,6 +126,10 @@
 
 .form-group--articles-bottom {
     margin-bottom: 49px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+    margin-bottom: k(49);
+    }
 }
 
 .articles-inner .articles-list {
@@ -143,3 +176,26 @@
 .articles-inner-block-hide.active {
     display: block!important;
 }
+
+.articles-inner .dropdown__button {
+    @media (min-width: 1920px) {
+        width: 540px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(540);
+
+    }
+}
+
+.articles-inner .dropdown__list {
+    @media (min-width: 1920px) {
+        width: 540px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(540);
+
+    }
+}
+
