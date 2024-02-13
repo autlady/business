@@ -20,6 +20,13 @@
     @media (max-width: 538px) {
         width: 100%;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(52);
+        padding-bottom: k(142);
+        padding-left: k(95);
+        padding-right: k(95);
+    }
 }
 
 .price-form-title {
@@ -31,6 +38,11 @@
 
     @include mediaTablet {
         font-size: 26px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(20);
+        font-size: k(48); 
     }
 }
 
