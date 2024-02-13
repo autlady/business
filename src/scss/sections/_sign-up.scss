@@ -6,6 +6,11 @@
         padding-top: 24px;
         padding-bottom: 60px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(94);
+        padding-bottom: k(100);
+    }
 }
 
 .sign-up-title {
@@ -19,6 +24,12 @@
     @include mediaTablet {
         font-size: 26px;
         line-height: 1;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(24);
+        font-size: k(48);
+        line-height: k(66);
     }
 }
 
@@ -36,6 +47,11 @@
         padding-left: 0;
         gap: 0px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(160);
+        padding-left: k(140);
+    }
 }
 
 .sign-up-content {
@@ -43,6 +59,10 @@
 
     @media (max-width: 1199px) {
         width: 100%;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(820);
     }
 }
 
@@ -63,5 +83,11 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 28px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(24);
+        font-size: k(22);
+        line-height: k(28);
     }
 }

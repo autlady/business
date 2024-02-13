@@ -1,5 +1,9 @@
 .sign-up-contacts {
     margin-bottom: 50px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(50);
+    }
 }
 
 .signup-contact-form {
@@ -7,11 +11,20 @@
     flex-wrap: wrap;
     row-gap: 24px;
     column-gap: 20px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        row-gap: k(24);
+        column-gap: k(20);
+    }
 }
 
 .signup-contact-form .form-group {
     margin-bottom: 0;
     width: 400px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(400);
+    }
 }
 
 .form-input--contacts {
@@ -31,6 +44,11 @@
 
     @include mediaMobile {
         width: 100%;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(56);
+        font-size: k(18);
     }
 }
 

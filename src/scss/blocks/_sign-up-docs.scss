@@ -10,6 +10,10 @@
     @include mediaMobile {
         width: 100%;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(490);
+    }
 }
 
 .form-group--docs .dropdown__button--contacts {
@@ -18,6 +22,10 @@
 
     @include mediaMobile {
         width: 100%;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(490);
     }
 }
 
@@ -30,13 +38,23 @@
     justify-content: center;
     align-items: center;
     border: 0px;
-    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill: none; stroke: lightgrey; stroke-width: 2; stroke-dasharray: 16 10'/></svg>")
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill: none; stroke: lightgrey; stroke-width: 2; stroke-dasharray: 16 10'/></svg>");
+
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(30);
+        padding-bottom: k(30);
+    }
 }
 
 .form-fieldset__content {
     color: #7C7F8A;
     font-size: 14px;
     line-height: normal;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(14);
+    }
 }
 
 .form-fieldset__row {
@@ -48,6 +66,10 @@
 
     @include mediaMobile {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        column-gap: k(10);
     }
 }
 
@@ -79,6 +101,10 @@
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(14);
+    }
 }
 
 .inputfile:focus+label,
@@ -93,6 +119,12 @@
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(8);
+        margin-bottom: k(40);
+        font-size: k(14);
+    }
 }
 
 .btn--signup {
@@ -102,6 +134,10 @@
     @media (max-width: 550px) {
         width: 100%;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(54);
+    }
 }
 
 .signup-docs-form .service-form-privacy {
@@ -109,5 +145,9 @@
 
     @include mediaMobile {
         width: 100%;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(490);
     }
 }
