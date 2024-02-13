@@ -5,6 +5,9 @@
         padding-bottom: 40px;
     }
 
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-bottom: k(50);
+    }
 }
 
 .footer-thankyou__content {
@@ -14,6 +17,10 @@
     @include mediaMobile {
         border-top: none;
         padding-top: 0;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(15);
     }
 }
 
@@ -26,5 +33,9 @@
         color: #000;
         font-size: 12px;
         line-height: normal;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(14);
     }
 }

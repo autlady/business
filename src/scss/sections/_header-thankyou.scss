@@ -4,6 +4,10 @@
     @include mediaMobile {
         padding-top: 15px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+padding-top: k(20);
+    }
 }
 
 .header-thankyou-content {
@@ -19,6 +23,11 @@
     @include mediaMobile {
         gap: 14px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-left: k(-50);
+        gap: k(24);
+    }
 }
 
 .logo-img-thankyou {
@@ -28,6 +37,11 @@
     @include mediaMobile {
         width: 38px;
         height: 38.8px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(65);
+        height: k(66.5);
     }
 }
 
@@ -43,5 +57,9 @@
 
     @include mediaMobile {
         font-size: 14px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(24);
     }
 }
