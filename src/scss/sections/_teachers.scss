@@ -6,9 +6,18 @@
         padding-top: 0;
         padding-bottom: 30px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(100);
+        padding-bottom: k(100);
+    }
 }
 
 .title-program-inner {
     font-weight: 800;
     line-height: 66px; 
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        line-height: k(66);
+    }
 }

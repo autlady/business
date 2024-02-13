@@ -9,8 +9,17 @@
     @media (max-width: 860px) {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(100);
+        padding-bottom: k(100);
+    }
 }
 
 .reviews .title-program-inner {
     margin-bottom: 40px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(40);
+    }
 }

@@ -20,6 +20,10 @@
         width: 100%;
         height: 289px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(510);
+    }
 }
 
 .teacher-card__img img {
@@ -44,6 +48,13 @@
     @include mediaMobile {
         padding: 14px 19px 18px 12px;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(103);
+        padding-right: k(174);
+        padding-bottom: k(105);
+        padding-left: k(109);
+    } 
 }
 
 .teacher-card__name {
@@ -60,6 +71,11 @@
         font-size: 16px;
         line-height: 1.3;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(10);
+        font-size: k(28);
+    }
 }
 
 .teacher-card__position {
@@ -75,6 +91,12 @@
         font-size: 13px;
         line-height: 14.5px; 
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(18);
+        font-size: k(18);
+        line-height: k(24.7);
+    }
 }
 
 .teacher-card-experience {
@@ -83,6 +105,10 @@
 
     @include mediaTablet {
         padding-top: 13px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(25);
     }
 }
 
@@ -96,8 +122,17 @@
         font-size: 13px;
         line-height: normal;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
+        line-height: k(28);
+    }
 }
 
 .teacher-card__text+.teacher-card__text {
     margin-top: 12px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(12);
+    }
 }
