@@ -65,7 +65,6 @@
 
 .article-inner-card__text {
     margin-bottom: 16px;
-    width: 928px;
     color: #353F4B;
     font-size: 17px;
     line-height: 27px;
@@ -77,15 +76,12 @@
 
     overflow: hidden;
 
-    @media (max-width: 1430px) {
-        width: 400px;
-    }
 
     @media(min-width:1400px) and (max-width: 1919px) {
-        width: k(928);
         font-size: k(17);
         line-height: k(27);
         min-height: k(54);
+        padding-right: 160px;
       }
 
 
