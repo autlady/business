@@ -2,11 +2,22 @@
     padding: 44px 48px 31px 35px;
     border-radius: 8.8px 0 0 8.8px;
     background-color: #F3F4F7;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(44);
+        padding-right: k(48);
+        padding-bottom: k(31);
+        padding-left: k(35);
+    }
 }
 
 .review-card__text {
     margin-bottom: 44px;
     position: relative;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(44);
+    }
 }
 
 .scroll-wrapper {
@@ -16,6 +27,10 @@
 
     scrollbar-width: thin;
     scrollbar-color: #C4C4C4 #F3F4F7;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        max-height: k(390)
+    }
 }
 
 .review-card__text::after {
@@ -28,18 +43,32 @@
     background-color: rgba(238, 239, 244, 0.5);
     z-index: 2;
     display: block;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        height: k(36);
+    }
 }
 
 .review-card__text::-webkit-scrollbar {
     display: block;
     width: 6px;
     height: 30px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(6);
+        height: k(30);
+    }
 }
 
 .review-card__text::-webkit-scrollbar-thumb {
     background-color: #C4C4C4;
     width: 6px;
     border-radius: 12px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(6);
+        border-radius: k(12);
+    }
 }
 
 .review-card__text::-webkit-scrollbar-track {
@@ -51,16 +80,30 @@
     color: #2D2D2D;
     font-size: 18px;
     line-height: 35px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-right: k(40);
+        font-size: k(18);
+        line-height: k(35);
+    }
 }
 
 .review-card__text p + p {
     margin-top: 20px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(20);
+    }
 }
 
 .review-card-footer {
     display: flex;
     align-items: center;
     gap: 9px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        gap: k(9);
+    }
 }
 
 .review-card__img {
@@ -68,6 +111,11 @@
     height: 52px;
     background-color: #C4C4C4;
     border-radius: 8.8px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(53);
+        height: k(52);
+    }
 }
 
 .review-card__img img {
@@ -81,4 +129,9 @@
     color: #2D2D2D;
     font-size: 16px;
     line-height: 22px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(16);
+        line-height: k(22);
+    }
 }
