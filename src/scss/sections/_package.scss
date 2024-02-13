@@ -4,14 +4,26 @@
     @include mediaTablet {
         display: none;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(100);
+    }
 }
 
 .package .title-program-inner {
     margin-bottom: 40px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(40);
+    }
 }
 
 .package__list {
     padding-left: 30px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-left: k(30);
+    }
 }
 
 .package__list li {
@@ -20,6 +32,10 @@
 
 .package__list li:not(:last-child) {
     margin-bottom: 16px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(16);
+    }
 }
 
 .package__list li::before {
@@ -31,10 +47,22 @@
     border-radius: 50%;
     top: 4px;
     left: -28px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(20);
+        height: k(20);
+        top: k(4);
+        left: k(-28);
+    }
 }
 
 .package__list p {
     color: #353F4B;
     font-size: 22px;
     line-height: 28px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(22);
+        line-height: k(28);
+    }
 }

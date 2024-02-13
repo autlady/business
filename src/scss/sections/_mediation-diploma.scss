@@ -8,6 +8,11 @@
         padding-bottom: 60px;
         background-color: #fff;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(50);
+        padding-bottom: k(50);
+    }
 }
 
 .mediation-diploma .title-program {
@@ -40,6 +45,11 @@
     @include mediaTablet {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        font-size: k(20);
+        line-height: k(28);
     }
 }
 
