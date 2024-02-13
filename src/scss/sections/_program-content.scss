@@ -12,6 +12,11 @@
         padding-top: 0;
         background-color: #fff;
     }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(50);
+        padding-bottom: k(212);
+    }
 }
 
 .program-content .title-program {
@@ -19,6 +24,10 @@
 
     @include mediaTablet {
         display: none;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(40);
     }
 }
 
@@ -34,6 +43,10 @@
         display: none;
     }
 
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(1182);
+    }
+
 }
 
 .program-content-list li p {
@@ -41,6 +54,12 @@
     color: #353F4B;
     font-size: 20px;
     line-height: 27.3px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-right: k(210);
+        font-size: k(20);
+        line-height: k(27.3);
+    }
 }
 
 .program-content-list li {
@@ -48,11 +67,21 @@
     padding-bottom: 32px;
     border-radius: 2px;
     border-top: 1px solid rgba(53, 63, 75, 0.30);
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(32);
+        padding-bottom: k(32);
+    }
 }
 
 .program-content-list li:first-child {
     padding-top: 16px;
     padding-bottom: 16px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        padding-top: k(16);
+        padding-bottom: k(16);
+    }
 }
 
 .program-content .title-program-mob {
@@ -74,6 +103,12 @@
     @include mediaTablet {
         display: block;
 
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-bottom: k(24);
+        margin-top: k(24);
+        font-size: k(14);
     }
 }
 
