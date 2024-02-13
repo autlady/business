@@ -1,5 +1,9 @@
 .widget + .widget {
     margin-top: 40px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(40);
+    }
 }
 
 .widget__title {
@@ -7,15 +11,28 @@
     color: #4D4D4D;
     font-size: 20px;
     line-height: 1.2;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        margin-top: k(16);
+        font-size: k(20);
+    }
 }
 
 .widget.sphere .widget__title {
     margin-bottom: 41px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+      margin-bottom: k(41);
+    }
 }
 
 .widget__body .checkbox {
     display: flex;
     column-gap: 10px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+      column-gap: k(10);
+    }
 }
 
 .checkbox-desc {
@@ -23,6 +40,11 @@
     color: #4D4D4D;
     font-size: 16px;
     line-height: 1.5; 
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+      padding-top: k(3);
+      font-size: k(16);
+    }
 }
 
 .checkbox-num {
@@ -30,11 +52,20 @@
     color: #8E8E8E;
     font-size: 16px;
     line-height: 1.5; 
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+      padding-top: k(3);
+      font-size: k(16);
+    }
 }
 
 
 .checkbox + .checkbox {
     margin-top: 16px;
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+      margin-top: k(16);
+    }
 }
 
 .checkbox .custom-checkbox {
