@@ -28,6 +28,17 @@
     }
 }
 
+.articles .dropdown__list {
+    @media (min-width: 1920px) {
+        width: 540px;
+    }
+
+    @media(min-width:1400px) and (max-width: 1919px) {
+        width: k(540);
+
+    }
+}
+
 
 .articles-form.custom-form .form-group {
     position: static;
