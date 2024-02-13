@@ -39,14 +39,14 @@
     line-height: 1;
     z-index: -1;
 
-    // @media (max-width: 1650px) {
-    //     display: none;
-    // }
-
     @media(min-width:1400px) and (max-width: 1919px) {
         top: k(-60);
         left: -110px;
         font-size: k(305);
+    }
+
+    @media (max-width: 1399px) {
+        display: none;
     }
 }
 
