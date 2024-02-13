@@ -87,3 +87,9 @@
     background-color: var(--accent-color);
     z-index: -1;
 }
+
+.news .back-title {
+    @media(min-width:1400px) and (max-width: 1919px) {
+        left: 71px;
+    }
+}

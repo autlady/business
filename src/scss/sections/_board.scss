@@ -33,3 +33,9 @@
         margin-top: 35px;
 }
 }
+
+.board .back-title {
+  @media(min-width:1400px) and (max-width: 1919px) {
+    left: 71px;
+}
+}

@@ -1,31 +1,37 @@
 .team {
-    position: relative;
-    padding-top: 100px;
+  position: relative;
+  padding-top: 100px;
 
-    @include mediaTablet {
-        padding-top: 60px;
-      }
+  @include mediaTablet {
+    padding-top: 60px;
+  }
 
-    @media(max-width: 481px) {
-        overflow: hidden;
-      }
+  @media(max-width: 481px) {
+    overflow: hidden;
+  }
 
-      @media(min-width:1400px) and (max-width: 1919px) {
-        padding-top: k(100);
-      }
+  @media(min-width:1400px) and (max-width: 1919px) {
+    padding-top: k(100);
+  }
 }
 
 .team .btn-icon {
-    @media (max-width: 1388px) {
-        display: none;
-}
+  @media (max-width: 1388px) {
+    display: none;
+  }
 }
 
 .team .btn-icon-mob {
-    display: none;
+  display: none;
 
-    @media (max-width: 1388px) {
-        display: inline-flex;
-        margin-top: 35px;
+  @media (max-width: 1388px) {
+    display: inline-flex;
+    margin-top: 35px;
+  }
 }
+
+.team .back-title {
+  @media(min-width:1400px) and (max-width: 1919px) {
+    left: 71px;
+  }
 }
