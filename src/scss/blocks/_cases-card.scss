@@ -213,8 +213,10 @@
 
 .cases-card-tags {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 24px;
+    gap: 5px;
 
     @media (max-width: 1106px) {
         display: none;
@@ -239,14 +241,6 @@
        padding-left: k(20);
        line-height: k(20);
 
-    }
-}
-
-.cases-card-tags .cases-label:not(:first-child) {
-    margin-left: 5px;
-
-    @media(min-width:1400px) and (max-width: 1919px) {
-       margin-left: k(5);
     }
 }
 
