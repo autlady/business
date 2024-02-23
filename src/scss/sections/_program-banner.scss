@@ -1,7 +1,11 @@
 .program-banner {
-    padding-top: 60px;
+    padding-top: 173px;
     padding-bottom: 60px;
     background: linear-gradient(90deg, #686A6D 0%, #A8ADB8 100%);
+    background-image: url(".././img/program-bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     @include mediaTablet {
         padding-top: 24px;
@@ -9,8 +13,12 @@
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
-        padding-top: k(60);
+        padding-top: k(173);
         padding-bottom: k(60);
+    }
+
+    @media(max-width: 1240px) {
+        padding-top: 70px;
     }
 }
 
