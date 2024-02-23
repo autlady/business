@@ -64,9 +64,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-main {
+.main {
   margin-top: -113px;
-  
+
   @media(min-width:1400px) and (max-width: 1919px) {
     margin-top: k(-113);
   }
