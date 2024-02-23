@@ -1,7 +1,13 @@
 .header-banner {
-    padding-top: 154px;
+    padding-top: 252px;
     padding-bottom: 160px;
     background-color: #989898;
+    background-image: url(".././img/bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
 
     @include mediaTablet {
         padding-top: 108px;
@@ -9,9 +15,13 @@
     }
 
     @media(min-width:1400px) and (max-width: 1919px) {
-        padding-top: k(154);
+        padding-top: k(252);
         padding-bottom: k(160);
       }
+
+      @media(max-width: 1240px) {
+        padding-top: 152px;
+    }
 }
 
 .header-banner-content {
